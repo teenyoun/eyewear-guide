@@ -18,8 +18,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 ARTICLES_DIR = BASE_DIR / "articles"
 DEFAULT_CONFIG = {
-    "domain": "https://YOUR-DOMAIN.com",
-    "amazon_tag": "YOUR-TAG-20",
+    "domain": "https://teenyoun.github.io/eyewear-guide.com",
+    "amazon_tag": "eyewearguide-20",
     "amazon_affiliate_base": "https://www.amazon.com/dp/",
     "site_name": "EyewearGuide",
     "affiliate_disclosure": (
