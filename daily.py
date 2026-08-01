@@ -311,24 +311,24 @@ def main():
     log("=" * 50)
     log("Daily maintenance starting...")
 
-    # 1. Process content queue
+    # 1. Process content queue — publish 1 article per day max
     queue = load_queue()
     pending = [a for a in queue if a.get("status") == "pending"]
     new_articles = []
 
     if pending:
-        log(f"Found {len(pending)} pending article(s) in queue.")
-        for article in pending:
-            try:
-                filename = generate_article(article)
-                log(f"  Generated: {filename}")
-                new_articles.append(filename)
-                article["status"] = "published"
-                article["filename"] = filename
-                article["published_date"] = datetime.now().strftime("%Y-%m-%d")
-            except Exception as e:
-                log(f"  FAILED: {article.get('title', 'Unknown')} - {e}")
-                article["status"] = "failed"
+        log(f"Found {len(pending)} pending article(s) in queue. Publishing 1 today.")
+        article = pending[0]  # FIFO: first in, first out
+        try:
+            filename = generate_article(article)
+            log(f"  Published: {filename}")
+            new_articles.append(filename)
+            article["status"] = "published"
+            article["filename"] = filename
+            article["published_date"] = datetime.now().strftime("%Y-%m-%d")
+        except Exception as e:
+            log(f"  FAILED: {article.get('title', 'Unknown')} - {e}")
+            article["status"] = "failed"
         save_queue(queue)
     else:
         log("No pending articles in queue.")

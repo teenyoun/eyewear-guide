@@ -36,3 +36,15 @@
 [2026-08-01 08:00:00] No pending articles in queue.
 [2026-08-01 08:00:00] Sitemap rebuilt (22 URLs). Homepage refreshed (22 articles).
 [2026-08-01 08:00:00] SEO check: All internal links OK.
+[2026-08-01 08:00:05] Pushed to GitHub.
+[2026-08-01 08:00:05] Maintenance complete. 0 new articles published.
+[2026-08-01 08:00:05] ==================================================
+[2026-08-01 14:27:03] ==================================================
+[2026-08-01 14:27:03] Daily maintenance starting...
+[2026-08-01 14:27:03] Found 15 pending article(s) in queue. Publishing 1 today.
+[2026-08-01 14:27:03]   Published: best-blue-light-glasses-for-kids-screen-protection-for-young-eyes-2026.html
+[2026-08-01 14:27:03] Sitemap rebuilt (22 URLs). Homepage refreshed (22 articles).
+[2026-08-01 14:27:03] SEO check: All internal links OK.
+[2026-08-01 14:27:03] [DRY RUN] Would commit: New article(s): best-blue-light-glasses-for-kids-screen-protection-for-young-eyes-2026.html
+[2026-08-01 14:27:03] Maintenance complete. 1 new articles published.
+[2026-08-01 14:27:03] ==================================================
