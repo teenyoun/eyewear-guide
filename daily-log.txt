@@ -108,3 +108,12 @@
 [2026-08-08 08:00:01]   Published: best-clip-on-sunglasses-for-prescription-glasses-no-compromise-sun-protection.html
 [2026-08-08 08:00:01] Sitemap rebuilt (29 URLs). Homepage refreshed (29 articles).
 [2026-08-08 08:00:01] SEO check: All internal links OK.
+[2026-08-08 08:00:14] Git error: b"fatal: unable to access 'https://github.com/teenyoun/eyewear-guide.git/': Could not resolve host: github.com\n"
+[2026-08-08 08:00:14] Maintenance complete. 1 new articles published.
+[2026-08-08 08:00:14] ==================================================
+[2026-08-09 08:00:01] ==================================================
+[2026-08-09 08:00:01] Daily maintenance starting...
+[2026-08-09 08:00:01] Found 8 pending article(s) in queue. Publishing 1 today.
+[2026-08-09 08:00:01]   Published: progressive-lenses-vs-bifocals-vs-single-vision-which-do-you-need-.html
+[2026-08-09 08:00:01] Sitemap rebuilt (30 URLs). Homepage refreshed (30 articles).
+[2026-08-09 08:00:01] SEO check: All internal links OK.
