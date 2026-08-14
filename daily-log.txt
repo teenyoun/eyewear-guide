@@ -153,3 +153,12 @@
 [2026-08-13 08:00:01]   Published: how-to-adjust-glasses-at-home-bend-tighten-and-fix-without-breaking.html
 [2026-08-13 08:00:01] Sitemap rebuilt (34 URLs). Homepage refreshed (34 articles).
 [2026-08-13 08:00:01] SEO check: All internal links OK.
+[2026-08-13 08:00:09] Pushed to GitHub.
+[2026-08-13 08:00:09] Maintenance complete. 1 new articles published.
+[2026-08-13 08:00:09] ==================================================
+[2026-08-14 08:00:01] ==================================================
+[2026-08-14 08:00:01] Daily maintenance starting...
+[2026-08-14 08:00:01] Found 3 pending article(s) in queue. Publishing 1 today.
+[2026-08-14 08:00:01]   Published: anti-reflective-coating-vs-blue-light-filter-worth-paying-for-both-.html
+[2026-08-14 08:00:01] Sitemap rebuilt (35 URLs). Homepage refreshed (35 articles).
+[2026-08-14 08:00:01] SEO check: All internal links OK.
