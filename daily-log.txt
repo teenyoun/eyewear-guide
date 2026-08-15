@@ -162,3 +162,12 @@
 [2026-08-14 08:00:01]   Published: anti-reflective-coating-vs-blue-light-filter-worth-paying-for-both-.html
 [2026-08-14 08:00:01] Sitemap rebuilt (35 URLs). Homepage refreshed (35 articles).
 [2026-08-14 08:00:01] SEO check: All internal links OK.
+[2026-08-14 08:00:07] Pushed to GitHub.
+[2026-08-14 08:00:07] Maintenance complete. 1 new articles published.
+[2026-08-14 08:00:07] ==================================================
+[2026-08-15 08:00:01] ==================================================
+[2026-08-15 08:00:01] Daily maintenance starting...
+[2026-08-15 08:00:01] Found 2 pending article(s) in queue. Publishing 1 today.
+[2026-08-15 08:00:01]   Published: how-to-choose-glasses-for-your-face-shape-the-complete-guide-2026.html
+[2026-08-15 08:00:01] Sitemap rebuilt (36 URLs). Homepage refreshed (36 articles).
+[2026-08-15 08:00:01] SEO check: All internal links OK.
