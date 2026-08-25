@@ -18,9 +18,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 ARTICLES_DIR = BASE_DIR / "articles"
 DEFAULT_CONFIG = {
-    "domain": "https://teenyoun.github.io/eyewear-guide.com",
+    "domain": "https://glasses.teenyoun.com",
     "amazon_tag": "eyewearguide-20",
-    "amazon_affiliate_base": "https://www.amazon.com/dp/",
+    "amazon_affiliate_base": "https://www.amazon.com/s?k=",
     "site_name": "EyewearGuide",
     "affiliate_disclosure": (
         "As an Amazon Associate, we earn from qualifying purchases. "
@@ -36,6 +36,13 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} | {site_name}</title>
 <meta name="description" content="{meta_description}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{url}">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{meta_description}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{url}">
+{json_ld}
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -67,7 +74,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
-AFFILIATE_LINK_TEMPLATE = '<a href="{base}{asin}?tag={tag}" class="btn btn-cta" rel="nofollow sponsored" target="_blank">{label}</a>'
+AFFILIATE_LINK_TEMPLATE = '<a href="{base}{asin}&tag={tag}" class="btn btn-cta" rel="nofollow sponsored" target="_blank">{label}</a>'
 
 
 def load_config(config_path=None):
@@ -121,10 +128,32 @@ def generate_article(article_data, cfg):
         body_html
     )
 
-    # Add affiliate CTA section if not already present
+    # Add affiliate CTA section if not already present (search-based link, ASIN-safe)
     affiliate_section = ""
     if "<!--NO_AFFILIATE_SECTION-->" not in body_html:
-        affiliate_section = f'\n<p style="margin-top:32px;"><a href="#" class="btn btn-cta" rel="nofollow">Browse Related Products on Amazon</a></p>\n'
+        kw = re.sub(r'[^a-z0-9]+', '+', article_data["title"].lower()).strip("+")[:60]
+        affiliate_section = (f'\n<p style="margin-top:32px;"><a href="{cfg["amazon_affiliate_base"]}{kw}&tag={cfg["amazon_tag"]}" '
+                             f'class="btn btn-cta" rel="nofollow sponsored" target="_blank">Browse Related Products on Amazon</a></p>\n')
+
+    filename = slugify(article_data["title"]) + ".html"
+    url = f'{cfg["domain"]}/articles/{filename}'
+    date_iso = article_data.get("date_iso") or now.strftime("%Y-%m-%d")
+    json_ld = (
+        '<script type="application/ld+json">\n'
+        + json.dumps({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article_data["title"],
+            "description": article_data["meta_description"],
+            "mainEntityOfPage": url,
+            "datePublished": date_iso,
+            "dateModified": date_iso,
+            "author": {"@type": "Organization", "name": cfg["site_name"]},
+            "publisher": {"@type": "Organization", "name": cfg["site_name"],
+                          "logo": {"@type": "ImageObject", "url": f'{cfg["domain"]}/logo.png'}},
+        }, ensure_ascii=False, indent=2)
+        + '\n</script>'
+    )
 
     html = ARTICLE_TEMPLATE.format(
         title=article_data["title"],
@@ -138,9 +167,10 @@ def generate_article(article_data, cfg):
         affiliate_section=affiliate_section,
         year=now.year,
         affiliate_disclosure=cfg["affiliate_disclosure"],
+        url=url,
+        json_ld=json_ld,
     )
 
-    filename = slugify(article_data["title"]) + ".html"
     filepath = ARTICLES_DIR / filename
 
     with open(filepath, "w", encoding="utf-8") as f:
