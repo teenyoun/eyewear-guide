@@ -264,3 +264,9 @@
 [2026-08-25 08:01:06] Pushed to GitHub.
 [2026-08-25 08:01:06] Maintenance complete. 1 new articles published.
 [2026-08-25 08:01:06] ==================================================
+[2026-08-26 08:01:00] ==================================================
+[2026-08-26 08:01:00] Daily maintenance starting...
+[2026-08-26 08:01:00] Found 12 pending article(s) in queue. Publishing 1 today.
+[2026-08-26 08:01:00]   Published: best-glasses-for-oval-faces-the-most-versatile-face-shape.html
+[2026-08-26 08:01:00] Sitemap rebuilt (47 URLs). Homepage refreshed (47 articles).
+[2026-08-26 08:01:00] SEO check: All internal links OK.
