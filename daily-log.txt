@@ -282,3 +282,9 @@
 [2026-08-27 08:01:05] Pushed to GitHub.
 [2026-08-27 08:01:05] Maintenance complete. 1 new articles published.
 [2026-08-27 08:01:05] ==================================================
+[2026-08-28 08:01:00] ==================================================
+[2026-08-28 08:01:00] Daily maintenance starting...
+[2026-08-28 08:01:00] Found 10 pending article(s) in queue. Publishing 1 today.
+[2026-08-28 08:01:00]   Published: are-transition-lenses-worth-it-for-kids-2026-guide.html
+[2026-08-28 08:01:00] Sitemap rebuilt (49 URLs). Homepage refreshed (49 articles).
+[2026-08-28 08:01:00] SEO check: All internal links OK.
