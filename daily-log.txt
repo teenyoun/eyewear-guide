@@ -309,3 +309,9 @@
 [2026-08-30 08:01:04] Pushed to GitHub.
 [2026-08-30 08:01:04] Maintenance complete. 1 new articles published.
 [2026-08-30 08:01:04] ==================================================
+[2026-08-31 08:01:01] ==================================================
+[2026-08-31 08:01:01] Daily maintenance starting...
+[2026-08-31 08:01:01] Found 7 pending article(s) in queue. Publishing 1 today.
+[2026-08-31 08:01:01]   Published: best-stylish-glasses-for-women-over-50-elegant-age-appropriate.html
+[2026-08-31 08:01:01] Sitemap rebuilt (52 URLs). Homepage refreshed (52 articles).
+[2026-08-31 08:01:01] SEO check: All internal links OK.
