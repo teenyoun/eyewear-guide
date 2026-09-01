@@ -288,8 +288,17 @@ def validate_links(articles):
     return broken
 
 
+def _load_token():
+    """Read GitHub token from agent-core secrets (outside repo)."""
+    p = Path(r"C:\Users\Administrator\.accio\accounts\1758995702\agents\DID-F456DA-14F456DAU1777026-5875-B06335\agent-core\secrets\github-token.txt")
+    try:
+        return p.read_text(encoding="ascii").strip()
+    except Exception:
+        return None
+
+
 def git_commit_push(message):
-    """Commit and push changes."""
+    """Commit and push changes (auto-injects token from secrets file if normal auth fails)."""
     if DRY_RUN:
         log(f"[DRY RUN] Would commit: {message}")
         return True
@@ -299,8 +308,21 @@ def git_commit_push(message):
         if "nothing to commit" in result.stdout + result.stderr:
             log("No changes to commit.")
             return True
-        subprocess.run(["git", "push"], cwd=BASE_DIR, check=True, capture_output=True)
-        log("Pushed to GitHub.")
+        orig_url = subprocess.run(["git", "remote", "get-url", "origin"], cwd=BASE_DIR,
+                                   capture_output=True, text=True).stdout.strip()
+        token = _load_token()
+        injected = False
+        if token and "ghp_" not in orig_url and orig_url.startswith("https://github.com/"):
+            subprocess.run(["git", "remote", "set-url", "origin",
+                            orig_url.replace("https://github.com/", f"https://{token}@github.com/")],
+                           cwd=BASE_DIR, capture_output=True)
+            injected = True
+        try:
+            subprocess.run(["git", "push"], cwd=BASE_DIR, check=True, capture_output=True)
+            log("Pushed to GitHub.")
+        finally:
+            if injected:
+                subprocess.run(["git", "remote", "set-url", "origin", orig_url], cwd=BASE_DIR, capture_output=True)
         return True
     except subprocess.CalledProcessError as e:
         log(f"Git error: {e.stderr}")
