@@ -324,3 +324,6 @@
 [2026-09-01 08:01:01]   Published: how-to-measure-your-face-for-glasses-at-home-3-easy-methods.html
 [2026-09-01 08:01:01] Sitemap rebuilt (53 URLs). Homepage refreshed (53 articles).
 [2026-09-01 08:01:01] SEO check: All internal links OK.
+[2026-09-01 08:03:00] Git error: b"bash: line 1: /dev/tty: No such device or address\nerror: failed to execute prompt script (exit code 1)\nfatal: could not read Username for 'https://github.com': No such file or directory\n"
+[2026-09-01 08:03:00] Maintenance complete. 1 new articles published.
+[2026-09-01 08:03:00] ==================================================
