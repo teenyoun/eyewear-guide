@@ -318,3 +318,9 @@
 [2026-08-31 08:01:05] Pushed to GitHub.
 [2026-08-31 08:01:05] Maintenance complete. 1 new articles published.
 [2026-08-31 08:01:05] ==================================================
+[2026-09-01 08:01:00] ==================================================
+[2026-09-01 08:01:00] Daily maintenance starting...
+[2026-09-01 08:01:01] Found 17 pending article(s) in queue. Publishing 1 today.
+[2026-09-01 08:01:01]   Published: how-to-measure-your-face-for-glasses-at-home-3-easy-methods.html
+[2026-09-01 08:01:01] Sitemap rebuilt (53 URLs). Homepage refreshed (53 articles).
+[2026-09-01 08:01:01] SEO check: All internal links OK.
