@@ -100,6 +100,46 @@ def save_queue(queue):
             json.dump(queue, f, indent=2, ensure_ascii=False)
 
 
+def load_picks():
+    """Load Editor's Picks from picks.json."""
+    picks_file = BASE_DIR / "picks.json"
+    if not picks_file.exists():
+        return []
+    try:
+        data = json.loads(picks_file.read_text(encoding="utf-8"))
+        return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+
+def picks_section_html(category=None, limit=4, heading="Editor's Picks"):
+    """Build HTML for editor picks. If category given, filter to it (max 2)."""
+    picks = [p for p in load_picks() if p.get("img_url") and p.get("link_url")]
+    if category:
+        picks = [p for p in picks if p.get("category", "").lower() == category.lower()][:2]
+    else:
+        picks = picks[:limit]
+    if not picks:
+        return ""
+    cards = []
+    for p in picks:
+        price = f'<span class="pick-price">${p.get("price", "")} &middot; Check Price on Amazon</span>' if p.get("price") else '<span class="pick-price">Check Price on Amazon</span>'
+        cards.append(
+            f'<a class="pick-card" href="{p["link_url"]}" rel="nofollow sponsored" target="_blank">\n'
+            f'  <img src="{p["img_url"]}" alt="{p.get("name", "Eyewear pick").replace(chr(34), "")}" loading="lazy">\n'
+            f'  <h3>{p.get("name", "")}</h3>\n'
+            f'  <p>{p.get("blurb", "")}</p>\n'
+            f'  {price}\n'
+            f'</a>'
+        )
+    html = (
+        f'<section class="editor-picks">\n<h2>{heading}</h2>\n'
+        f'<div class="picks-grid">\n{chr(10).join(cards)}\n</div>\n'
+        f'<p class="picks-note">As an Amazon Associate we earn from qualifying purchases.</p>\n</section>\n'
+    )
+    return html
+
+
 def generate_article(article):
     """Generate a single article HTML file."""
     now = datetime.now()
@@ -119,6 +159,8 @@ def generate_article(article):
 
     # Add internal links section based on category
     internal_links = get_internal_links(article.get("category", ""), article.get("title", ""))
+    # Add category editor picks (if any products exist for this category)
+    category_picks = picks_section_html(article.get("category", ""))
 
     html = ARTICLE_HTML.format(
         title=article["title"],
@@ -127,7 +169,7 @@ def generate_article(article):
         category=article.get("category", "Eyewear"),
         date_str=now.strftime("%B %d, %Y"),
         read_time=article.get("read_time", "6 min read"),
-        body_html=body + internal_links,
+        body_html=body + category_picks + internal_links,
         year=now.year,
     )
 
@@ -214,6 +256,7 @@ def rebuild_homepage(articles):
         )
 
     now = datetime.now()
+    picks_html = picks_section_html(limit=6, heading="Editor's Picks - Eyewear We Actually Recommend")
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -238,9 +281,10 @@ def rebuild_homepage(articles):
 <main>
   <section class="hero">
     <h1>Find the Perfect Pair of Glasses</h1>
-    <p>Expert reviews and honest buying guides to help you choose the best eyewear — updated {now.strftime('%B %Y')}.</p>
+    <p>Expert reviews and honest buying guides to help you choose the best eyewear &mdash; updated {now.strftime('%B %Y')}.</p>
   </section>
-  <h2 style="margin-bottom:16px;">Latest Guides & Reviews</h2>
+{picks_html}
+  <h2 style="margin-bottom:16px; text-align:center;">Latest Guides &amp; Reviews</h2>
   <div class="article-list">
 {chr(10).join(cards)}
   </div>
