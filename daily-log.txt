@@ -396,3 +396,12 @@
 [2026-09-08 08:01:01]   Published: best-eyeglass-frames-for-men-2026-style-guide.html
 [2026-09-08 08:01:01] Sitemap rebuilt (60 URLs). Homepage refreshed (60 articles).
 [2026-09-08 08:01:01] SEO check: All internal links OK.
+[2026-09-08 08:01:05] Pushed to GitHub.
+[2026-09-08 08:01:05] Maintenance complete. 1 new articles published.
+[2026-09-08 08:01:05] ==================================================
+[2026-09-09 08:57:15] ==================================================
+[2026-09-09 08:57:15] Daily maintenance starting...
+[2026-09-09 08:57:15] Found 9 pending article(s) in queue. Publishing 1 today.
+[2026-09-09 08:57:15]   Published: best-sunglasses-for-kids-uv-protection-they-ll-actually-wear.html
+[2026-09-09 08:57:15] Sitemap rebuilt (61 URLs). Homepage refreshed (61 articles).
+[2026-09-09 08:57:15] SEO check: All internal links OK.
