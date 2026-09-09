@@ -423,3 +423,6 @@
 [2026-09-09 12:44:04]   SKIPPED (content not written yet, 0 words < 150): Glasses vs Contacts for Sports — What Athletes Actually Wear - stays pending
 [2026-09-09 12:44:04] Sitemap rebuilt (64 URLs). Homepage refreshed (61 articles).
 [2026-09-09 12:44:04] SEO check: All internal links OK.
+[2026-09-09 12:44:08] Pushed to GitHub.
+[2026-09-09 12:44:08] Maintenance complete. 0 new articles published.
+[2026-09-09 12:44:08] ==================================================
