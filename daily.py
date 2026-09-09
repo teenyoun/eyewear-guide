@@ -112,8 +112,45 @@ def load_picks():
         return []
 
 
+CATEGORY_BLURBS = {
+    "Blue Light": "Filter-tested glasses for screen days and better sleep.",
+    "Reading": "Multi-packs and comfort-first readers at every strength.",
+    "Sunglasses": "UV400 and polarized shades tested for glare and fit.",
+    "Prescription": "Online stores and lenses worth your prescription.",
+    "Kids Eyewear": "Durable frames and real UV protection for young eyes.",
+}
+
+
+def picks_categories_nav_html():
+    """Homepage category entry cards linking to category pick pages."""
+    picks = load_picks()
+    cats = []
+    for p in picks:
+        c = p.get("category", "")
+        if c and c not in cats:
+            cats.append(c)
+    if not cats:
+        return ""
+    cards = []
+    for c in cats:
+        slug = re.sub(r"[^a-z0-9]+", "-", c.lower()).strip("-")
+        blurb = CATEGORY_BLURBS.get(c, f"Hand-picked {c.lower()} tested for quality and value.")
+        count = sum(1 for p in picks if p.get("category") == c)
+        cards.append(
+            f'<a class="pick-card cat-entry" href="picks-{slug}.html">\n'
+            f'  <h3>{c} Picks</h3>\n'
+            f'  <p>{blurb} {count} editor-tested product{"" if count == 1 else "s"} &rarr;</p>\n'
+            f'</a>'
+        )
+    html = (
+        f'<section class="editor-picks">\n<h2>Editor&rsquo;s Picks - Shop by Category</h2>\n'
+        f'<div class="picks-grid">\n{chr(10).join(cards)}\n</div>\n'
+        f'<p class="picks-note">Every product is editor-selected. As an Amazon Associate we earn from qualifying purchases.</p>\n</section>\n'
+    )
+    return html
+
+
 def picks_section_html(category=None, limit=4, heading="Editor's Picks"):
-    """Build HTML for editor picks. If category given, filter to it (max 2)."""
     picks = [p for p in load_picks() if p.get("img_url") and p.get("link_url")]
     if category:
         picks = [p for p in picks if p.get("category", "").lower() == category.lower()][:2]
@@ -236,6 +273,12 @@ def rebuild_sitemap(articles):
             f'<url><loc>{SITE_URL}/articles/{art["filename"]}</loc>'
             f'<changefreq>monthly</changefreq><priority>{priority}</priority></url>'
         )
+    # include category pick pages (if generated)
+    for pf in sorted(BASE_DIR.glob("picks-*.html")):
+        urls.append(
+            f'<url><loc>{SITE_URL}/{pf.name}</loc>'
+            f'<changefreq>weekly</changefreq><priority>0.8</priority></url>'
+        )
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     xml += "\n".join(urls) + "\n</urlset>\n"
     if not DRY_RUN:
@@ -256,7 +299,7 @@ def rebuild_homepage(articles):
         )
 
     now = datetime.now()
-    picks_html = picks_section_html(limit=6, heading="Editor's Picks - Eyewear We Actually Recommend")
+    picks_html = picks_categories_nav_html()
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -412,6 +455,12 @@ def main():
     all_articles = scan_articles()
     sitemap_count = rebuild_sitemap(all_articles)
     rebuild_homepage(all_articles)
+    # 2b. Refresh category pick pages from picks.json (keeps product cards current)
+    try:
+        import gen_picks_pages
+        gen_picks_pages.main()
+    except Exception as e:
+        log(f"  picks pages: {e}")
     log(f"Sitemap rebuilt ({sitemap_count} URLs). Homepage refreshed ({len(all_articles)} articles).")
 
     # 3. SEO health check

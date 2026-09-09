@@ -168,3 +168,21 @@ article li { margin-bottom: 6px; }
 .pick-card p { font-size: 12px; color: #666; margin: 0 0 8px; line-height: 1.4; }
 .pick-price { font-size: 12px; font-weight: 600; color: var(--accent); }
 .picks-note { font-size: 11px; color: #999; margin-top: 10px; text-align: center; }
+
+/* Category pick pages */
+.pick-intro { max-width: 800px; margin: 24px auto 0; padding: 0 20px; line-height: 1.7; }
+.pick-intro a { color: var(--accent); }
+.pick-page-list { display: flex; flex-direction: column; gap: 20px; }
+.pick-page-card { display: flex; gap: 24px; background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 16px; align-items: flex-start; }
+.pick-page-card img { width: 240px; max-width: 38%; height: auto; border-radius: 8px; flex-shrink: 0; }
+.pick-page-info h3 { margin: 0 0 8px; font-size: 17px; }
+.pick-page-info p { color: #555; line-height: 1.6; margin: 0 0 10px; }
+.pick-meta { font-size: 14px; font-weight: 600; }
+.pick-meta a { color: var(--accent); text-decoration: none; }
+.related-list { max-width: 800px; margin: 8px auto 0; padding-left: 24px; line-height: 2; }
+.related-list a { color: var(--accent); }
+@media (max-width: 600px) {
+  .pick-page-card { flex-direction: column; align-items: center; text-align: center; }
+  .pick-page-card img { width: 70%; max-width: 70%; }
+}
+
