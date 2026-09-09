@@ -385,25 +385,25 @@ def main():
     if pending:
         log(f"Found {len(pending)} pending article(s) in queue. Publishing 1 today.")
         article = pending[0]  # FIFO: first in, first out
-        try:
-            # Empty-body guard: never publish a shell page without real content
-            raw_body = article.get("body_html", "") or ""
-            text_only = re.sub(r"<[^>]+>", " ", raw_body)
-            word_count = len(text_only.split())
-            if word_count < 150:
-                raise ValueError(
-                    f"body too thin ({word_count} words < 150) - content not written yet; "
-                    f"write body_html for: {article.get('title', 'Unknown')}"
-                )
-            filename = generate_article(article)
-            log(f"  Published: {filename}")
-            new_articles.append(filename)
-            article["status"] = "published"
-            article["filename"] = filename
-            article["published_date"] = datetime.now().strftime("%Y-%m-%d")
-        except Exception as e:
-            log(f"  FAILED: {article.get('title', 'Unknown')} - {e}")
-            article["status"] = "failed"
+        # Empty-body guard: never publish a shell page without real content;
+        # keep the article pending so it publishes automatically once written.
+        raw_body = article.get("body_html", "") or ""
+        text_only = re.sub(r"<[^>]+>", " ", raw_body)
+        word_count = len(text_only.split())
+        if word_count < 150:
+            log(f"  SKIPPED (content not written yet, {word_count} words < 150): "
+                f"{article.get('title', 'Unknown')} - stays pending")
+        else:
+            try:
+                filename = generate_article(article)
+                log(f"  Published: {filename}")
+                new_articles.append(filename)
+                article["status"] = "published"
+                article["filename"] = filename
+                article["published_date"] = datetime.now().strftime("%Y-%m-%d")
+            except Exception as e:
+                log(f"  FAILED: {article.get('title', 'Unknown')} - {e}")
+                article["status"] = "failed"
         save_queue(queue)
     else:
         log("No pending articles in queue.")
