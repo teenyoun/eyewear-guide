@@ -41,8 +41,9 @@ try:
     else:
         locs = re.findall(r"<loc>(.*?)</loc>", sm)
         sitemap_count = len(locs)
-        if sitemap_count != a_count + 1:  # sitemap includes homepage
-            warn("sitemap 一致性", f"sitemap {sitemap_count} 条 vs 文章 {a_count} 篇+首页")
+        extra_pages = len(list(BASE.glob("picks-*.html")))  # category pick pages included in sitemap
+        if sitemap_count != a_count + 1 + extra_pages:
+            warn("sitemap 一致性", f"sitemap {sitemap_count} 条 vs 文章 {a_count} 篇+首页+{extra_pages} 分类页")
         else:
             ok("sitemap", f"{sitemap_count} 条, 与文章数一致")
         bad = [l for l in locs if "glasses.teenyoun.com" not in l]
