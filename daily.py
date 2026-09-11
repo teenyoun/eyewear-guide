@@ -121,6 +121,18 @@ CATEGORY_BLURBS = {
 }
 
 
+def normalize_pick_category(cat):
+    """Map article category variants to canonical pick categories."""
+    c = (cat or "").lower()
+    if "blue" in c and "light" in c:
+        return "Blue Light"
+    if "reading" in c:
+        return "Reading"
+    if "sunglas" in c or "sport" in c or "safety" in c or "kids" in c:
+        return "Sunglasses"
+    return ""
+
+
 def picks_categories_nav_html():
     """Homepage category entry cards linking to category pick pages."""
     picks = load_picks()
@@ -153,7 +165,8 @@ def picks_categories_nav_html():
 def picks_section_html(category=None, limit=4, heading="Editor's Picks"):
     picks = [p for p in load_picks() if p.get("img_url") and p.get("link_url")]
     if category:
-        picks = [p for p in picks if p.get("category", "").lower() == category.lower()][:2]
+        canon = normalize_pick_category(category)
+        picks = [p for p in picks if canon and p.get("category", "") == canon][:2]
     else:
         picks = picks[:limit]
     if not picks:
