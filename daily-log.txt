@@ -444,3 +444,9 @@
 [2026-09-11 08:01:05] Pushed to GitHub.
 [2026-09-11 08:01:05] Maintenance complete. 1 new articles published.
 [2026-09-11 08:01:05] ==================================================
+[2026-09-12 08:01:01] ==================================================
+[2026-09-12 08:01:01] Daily maintenance starting...
+[2026-09-12 08:01:01] Found 7 pending article(s) in queue. Publishing 1 today.
+[2026-09-12 08:01:01]   Published: best-women-s-sunglasses-2026-classic-to-trendy.html
+[2026-09-12 08:01:01] Sitemap rebuilt (66 URLs). Homepage refreshed (63 articles).
+[2026-09-12 08:01:01] SEO check: All internal links OK.
