@@ -453,3 +453,14 @@
 [2026-09-12 08:01:05] Pushed to GitHub.
 [2026-09-12 08:01:05] Maintenance complete. 1 new articles published.
 [2026-09-12 08:01:05] ==================================================
+[2026-09-13 06:03:12] ==================================================
+[2026-09-13 06:03:12] Daily maintenance starting...
+[2026-09-13 06:03:12] Found 6 pending article(s) in queue. Publishing 1 today.
+[2026-09-13 06:03:12]   SKIPPED (content not written yet, 0 words < 150): Best Sunglasses Under $50 on Amazon — 2026 Deals Edition - stays pending
+[2026-09-13 06:03:13] Sitemap rebuilt (65 URLs). Homepage refreshed (62 articles).
+[2026-09-13 06:03:13] WARNING: 5 broken internal link(s) found:
+[2026-09-13 06:03:13]   BROKEN: best-blue-light-glasses-for-kids-screen-protection-for-young-eyes-2026.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 06:03:13]   BROKEN: do-blue-light-glasses-work.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 06:03:13]   BROKEN: best-blue-light-glasses.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 06:03:13]   BROKEN: best-anti-fog-glasses-for-mask-wearers-2026.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 06:03:13]   BROKEN: blue-light-glasses-for-gaming-2026-do-gamers-actually-need-them-.html → blue-light-glasses-vs-anti-glare.html

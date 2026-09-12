@@ -363,6 +363,8 @@ def scan_articles():
     if ARTICLES_DIR.exists():
         for f in sorted(ARTICLES_DIR.glob("*.html"), key=lambda x: x.stat().st_mtime, reverse=True):
             content = f.read_text(encoding="utf-8")
+            if 'name="robots" content="noindex' in content:
+                continue  # alias/redirect pages stay out of listings and sitemap
             title_m = re.search(r'<title>(.*?)(?:\s*\|\s*EyewearGuide)?</title>', content)
             desc_m = re.search(r'<meta name="description" content="(.*?)"', content)
             articles.append({

@@ -24,7 +24,8 @@ def err(item, detail): results.append(("ERROR", item, detail))
 
 # 1. Local article count vs queue pending
 try:
-    articles = sorted((BASE / "articles").glob("*.html"))
+    articles = [f for f in sorted((BASE / "articles").glob("*.html"))
+                if 'name="robots" content="noindex' not in f.read_text(encoding="utf-8", errors="ignore")]
     a_count = len(articles)
     queue = json.loads((BASE / "content-queue.json").read_text(encoding="utf-8"))
     pending = sum(1 for q in queue if q.get("status") == "pending")
