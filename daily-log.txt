@@ -481,3 +481,26 @@
 [2026-09-13 08:01:04] Pushed to GitHub.
 [2026-09-13 08:01:04] Maintenance complete. 0 new articles published.
 [2026-09-13 08:01:04] ==================================================
+[2026-09-13 13:14:06] ==================================================
+[2026-09-13 13:14:06] Daily maintenance starting...
+[2026-09-13 13:14:06] Found 6 pending article(s) in queue. Publishing 1 today.
+[2026-09-13 13:14:06]   Published: best-sunglasses-under-50-on-amazon-2026-deals-edition.html
+[2026-09-13 13:14:06] Sitemap rebuilt (65 URLs). Homepage refreshed (62 articles).
+[2026-09-13 13:14:06] WARNING: 5 broken internal link(s) found:
+[2026-09-13 13:14:06]   BROKEN: best-blue-light-glasses-for-kids-screen-protection-for-young-eyes-2026.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 13:14:06]   BROKEN: do-blue-light-glasses-work.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 13:14:06]   BROKEN: best-blue-light-glasses.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 13:14:06]   BROKEN: best-anti-fog-glasses-for-mask-wearers-2026.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 13:14:06]   BROKEN: blue-light-glasses-for-gaming-2026-do-gamers-actually-need-them-.html → blue-light-glasses-vs-anti-glare.html
+[2026-09-13 13:14:06] [DRY RUN] Would commit: New article(s): best-sunglasses-under-50-on-amazon-2026-deals-edition.html
+[2026-09-13 13:14:06] Maintenance complete. 1 new articles published.
+[2026-09-13 13:14:06] ==================================================
+[2026-09-13 13:14:22] ==================================================
+[2026-09-13 13:14:22] Daily maintenance starting...
+[2026-09-13 13:14:22] Found 6 pending article(s) in queue. Publishing 1 today.
+[2026-09-13 13:14:22]   Published: best-sunglasses-under-50-on-amazon-2026-deals-edition.html
+[2026-09-13 13:14:22] Sitemap rebuilt (65 URLs). Homepage refreshed (62 articles).
+[2026-09-13 13:14:22] SEO check: All internal links OK.
+[2026-09-13 13:14:22] [DRY RUN] Would commit: New article(s): best-sunglasses-under-50-on-amazon-2026-deals-edition.html
+[2026-09-13 13:14:22] Maintenance complete. 1 new articles published.
+[2026-09-13 13:14:22] ==================================================

@@ -376,8 +376,11 @@ def scan_articles():
 
 
 def validate_links(articles):
-    """Check for broken internal links."""
+    """Check for broken internal links. Any .html file on disk counts as valid,
+    including noindex alias/redirect pages (they are excluded from listings only)."""
     valid_files = {a["filename"] for a in articles}
+    if ARTICLES_DIR.exists():
+        valid_files |= {f.name for f in ARTICLES_DIR.glob("*.html")}
     broken = []
     for art in articles:
         filepath = ARTICLES_DIR / art["filename"]
