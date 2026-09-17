@@ -537,3 +537,14 @@
 [2026-09-17 08:01:00]   Published: black-friday-glasses-deals-2026-what-to-expect-and-how-to-prepare.html
 [2026-09-17 08:01:00] Sitemap rebuilt (69 URLs). Homepage refreshed (66 articles).
 [2026-09-17 08:01:00] SEO check: All internal links OK.
+[2026-09-17 08:01:04] Pushed to GitHub.
+[2026-09-17 08:01:05] Maintenance complete. 1 new articles published.
+[2026-09-17 08:01:05] ==================================================
+[2026-09-17 08:32:19] ==================================================
+[2026-09-17 08:32:19] Daily maintenance starting...
+[2026-09-17 08:32:19] Found 2 pending article(s) in queue. Publishing 1 today.
+[2026-09-17 08:32:19]   SKIPPED (content not written yet, 0 words < 150): Best Gifts for Glasses Wearers — 2026 Holiday Gift Guide - stays pending
+[2026-09-17 08:32:19] Sitemap rebuilt (69 URLs). Homepage refreshed (66 articles).
+[2026-09-17 08:32:19] SEO check: All internal links OK.
+[2026-09-17 08:32:19] Maintenance complete. 0 new articles published.
+[2026-09-17 08:32:19] ==================================================

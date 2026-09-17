@@ -405,13 +405,15 @@ def _load_token():
 def git_commit_push(message):
     """Commit and push changes (auto-injects token from secrets file if normal auth fails)."""
     if DRY_RUN:
-        log(f"[DRY RUN] Would commit: {message}")
+        print(f"[DRY RUN] Would commit: {message}")
         return True
     try:
         subprocess.run(["git", "add", "-A"], cwd=BASE_DIR, check=True, capture_output=True)
         result = subprocess.run(["git", "commit", "-m", message], cwd=BASE_DIR, capture_output=True, text=True)
         if "nothing to commit" in result.stdout + result.stderr:
-            log("No changes to commit.")
+            # print only: writing to daily-log.txt here would leave the file dirty
+            # with no later commit to pick it up
+            print("No changes to commit.")
             return True
         orig_url = subprocess.run(["git", "remote", "get-url", "origin"], cwd=BASE_DIR,
                                    capture_output=True, text=True).stdout.strip()
@@ -424,7 +426,7 @@ def git_commit_push(message):
             injected = True
         try:
             subprocess.run(["git", "push"], cwd=BASE_DIR, check=True, capture_output=True)
-            log("Pushed to GitHub.")
+            print("Pushed to GitHub.")
         finally:
             if injected:
                 subprocess.run(["git", "remote", "set-url", "origin", orig_url], cwd=BASE_DIR, capture_output=True)
@@ -495,9 +497,12 @@ def main():
     if new_articles:
         commit_msg = f"New article(s): " + ", ".join(new_articles[:3])
 
-    git_commit_push(commit_msg)
+    # log the closing lines BEFORE committing, so daily-log.txt is included in the
+    # same commit and the repo is never left with an uncommitted log file
     log(f"Maintenance complete. {len(new_articles)} new articles published.")
     log("=" * 50)
+
+    git_commit_push(commit_msg)
 
 
 if __name__ == "__main__":
