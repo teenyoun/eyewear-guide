@@ -548,3 +548,11 @@
 [2026-09-17 08:32:19] SEO check: All internal links OK.
 [2026-09-17 08:32:19] Maintenance complete. 0 new articles published.
 [2026-09-17 08:32:19] ==================================================
+[2026-09-18 08:01:01] ==================================================
+[2026-09-18 08:01:01] Daily maintenance starting...
+[2026-09-18 08:01:01] Found 2 pending article(s) in queue. Publishing 1 today.
+[2026-09-18 08:01:01]   Published: best-gifts-for-glasses-wearers-2026-holiday-gift-guide.html
+[2026-09-18 08:01:01] Sitemap rebuilt (70 URLs). Homepage refreshed (67 articles).
+[2026-09-18 08:01:01] SEO check: All internal links OK.
+[2026-09-18 08:01:01] Maintenance complete. 1 new articles published.
+[2026-09-18 08:01:01] ==================================================
