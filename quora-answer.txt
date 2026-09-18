@@ -1,9 +1,0 @@
-PD is the distance between your pupils in millimetres, and it exists for one reason: the optical centre of each lens should sit directly in front of the pupil it serves. Get it wrong and you are looking through the edge of the lens, which is where the optical errors live — it shows up as eye strain and headaches rather than obvious blur, which is why it is easy to miss.
-
-You can measure it yourself with a mirror and a ruler. Stand about 20 cm from the mirror, rest the ruler flat against your brow with the zero mark over one pupil, keep your head still, then close your right eye and read the millimetre mark that lines up with the centre of your left pupil. Repeat it twice. If the two readings differ by more than a millimetre, take a third and use that.
-
-Two things people get wrong. First, the number your optician measures at your exam is usually not printed on the prescription you are handed — ask for it explicitly, because online shops require it. Second, a single ruler measurement is fine for most single-vision orders, but if you wear a high prescription, prism, or progressives, the tolerance is much tighter and a professional measurement is worth it.
-
-Most adults land between about 58 and 70 mm. If your measurement comes out far outside that, you have almost certainly read the ruler from the wrong mark.
-
-Full method, including the accuracy checks and the dual-PD case: https://glasses.teenyoun.com/articles/how-to-measure-pupillary-distance-at-home-3-easy-methods.html
