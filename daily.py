@@ -297,7 +297,9 @@ def rebuild_sitemap(articles):
     if not DRY_RUN:
         with open(SITEMAP_FILE, "w", encoding="utf-8") as f:
             f.write(xml)
-    return len(urls) - 1
+    # urls already contains the homepage plus every article and picks page; the
+    # old "- 1" made the daily log under-report by one URL and invited false alarms
+    return len(urls)
 
 
 def rebuild_homepage(articles):
