@@ -102,8 +102,13 @@ try:
     age_days = (__import__("datetime").date.today() - __import__("datetime").date.fromtimestamp(newest.stat().st_mtime)).days
     if age_days <= 1:
         ok("最新文章", f"{newest.name} ({age_days}天前)")
+    elif pending > 0:
+        # content is queued but nothing was published -> the pipeline really is stuck
+        err("最新文章", f"{newest.name} 已 {age_days} 天未更新, 但队列仍有 {pending} 篇待发!")
     else:
-        err("最新文章", f"{newest.name} 已 {age_days} 天未更新!")
+        # queue is empty by design, so there is nothing to publish; this is a
+        # deliberate content pause, not a failure (kept visible as WARN)
+        warn("最新文章", f"{newest.name} ({age_days}天前), 队列空故无新文可发")
 except Exception as e:
     err("新鲜度检查", str(e))
 
