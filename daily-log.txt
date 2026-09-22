@@ -578,3 +578,10 @@
 [2026-09-21 08:01:01] SEO check: All internal links OK.
 [2026-09-21 08:01:01] Maintenance complete. 0 new articles published.
 [2026-09-21 08:01:01] ==================================================
+[2026-09-22 08:01:01] ==================================================
+[2026-09-22 08:01:01] Daily maintenance starting...
+[2026-09-22 08:01:01] No pending articles in queue.
+[2026-09-22 08:01:01] Sitemap rebuilt (72 URLs). Homepage refreshed (68 articles).
+[2026-09-22 08:01:01] SEO check: All internal links OK.
+[2026-09-22 08:01:01] Maintenance complete. 0 new articles published.
+[2026-09-22 08:01:01] ==================================================
