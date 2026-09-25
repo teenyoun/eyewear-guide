@@ -1,19 +1,5 @@
 [
  {
-  "category": "Reading",
-  "name": "5 Pack Reading Glasses for Women- Blue Light Readers (2.0)",
-  "asin": "B0FJWNXXKR",
-  "price": 9.99,
-  "img_url": "https://m.media-amazon.com/images/I/81fa+5ZglXL._AC_SL1500_.jpg",
-  "link_url": "https://www.amazon.com/dp/B0FJWNXXKR?tag=eyewearguide-20",
-  "source": "landingImage-hires",
-  "blurb": "A five-pack of women's readers that pairs 2.0 magnification with blue-light filtering and anti-reflective lenses - two dollars a pair, each with its own PU case and cleaning cloth.",
-  "added_date": "2026-09-13",
-  "last_checked": "2026-09-23 09:34",
-  "img_ok": true,
-  "link_ok": true
- },
- {
   "category": "Sunglasses",
   "name": "CARFIA Acetate Polarized Sunglasses for Men UV400 Protection Classic Retro Square Shades Driving Glasses",
   "asin": "B0BZS2FXMH",
@@ -23,7 +9,7 @@
   "source": "landingImage-hires",
   "blurb": "Retro square frames cut from Italian acetate with polarized UV400 lenses - each pair ships with a hard case, leather pouch, polarized test card and cleaning cloth.",
   "added_date": "2026-09-15",
-  "last_checked": "2026-09-23 09:34",
+  "last_checked": "2026-09-25 09:37",
   "img_ok": true,
   "link_ok": true
  },
@@ -37,21 +23,7 @@
   "source": "landingImage-hires",
   "blurb": "Just under eight dollars for anti-reflective HD lenses in a lightweight 140mm frame with a swappable-lens design - 10,000-plus ratings average 4.5 stars.",
   "added_date": "2026-09-17",
-  "last_checked": "2026-09-23 09:34",
-  "img_ok": true,
-  "link_ok": true
- },
- {
-  "category": "Reading",
-  "name": "6 Pack Reading Glasses by BOOST EYEWEAR, Traditional Frames in Assorted Colors, for Men and Women, with Spring Loaded Hinges",
-  "asin": "B07S52DMY1",
-  "price": 14.99,
-  "img_url": "https://m.media-amazon.com/images/I/71z4YZSe3pL._AC_SL1500_.jpg",
-  "link_url": "https://www.amazon.com/dp/B07S52DMY1?tag=eyewearguide-20",
-  "source": "landingImage-hires",
-  "blurb": "Six pairs for $14.99 - about $2.50 each - in black, tortoise shell, blue and red with spring-loaded hinges and two cleaning cloths, so one can live in every room.",
-  "added_date": "2026-09-19",
-  "last_checked": "2026-09-23 09:34",
+  "last_checked": "2026-09-25 09:37",
   "img_ok": true,
   "link_ok": true
  },
@@ -65,7 +37,7 @@
   "source": "landingImage-hires",
   "blurb": "Five 2.0-magnification pairs in clear frames for $14.99 - under three dollars a pair in a look that reads less like drugstore readers than most.",
   "added_date": "2026-09-19",
-  "last_checked": "2026-09-23 09:34",
+  "last_checked": "2026-09-25 09:37",
   "img_ok": true,
   "link_ok": true
  },
@@ -81,7 +53,7 @@
   "added_date": "2026-09-21",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-09-23 09:34"
+  "last_checked": "2026-09-25 09:37"
  },
  {
   "category": "Sunglasses",
@@ -95,7 +67,7 @@
   "added_date": "2026-09-21",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-09-23 09:34"
+  "last_checked": "2026-09-25 09:37"
  },
  {
   "category": "Blue Light",
@@ -109,7 +81,7 @@
   "added_date": "2026-09-23",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-09-23 09:34"
+  "last_checked": "2026-09-25 09:37"
  },
  {
   "category": "Blue Light",
@@ -123,6 +95,34 @@
   "added_date": "2026-09-23",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-09-23 09:34"
+  "last_checked": "2026-09-25 09:37"
+ },
+ {
+  "category": "Reading",
+  "name": "SIGVAN Ladies Reading Glasses Blue Light Blocking Spring Hinge Fashion Pattern Print Eyeglasses for Women",
+  "asin": "B08TLRM5BV",
+  "price": 14.99,
+  "img_url": "https://m.media-amazon.com/images/I/71LDIDUb9QL._AC_SL1500_.jpg",
+  "link_url": "https://www.amazon.com/dp/B08TLRM5BV?tag=eyewearguide-20",
+  "source": "landingImage-hires",
+  "blurb": "Five pairs of women's readers for $14.99 - about three dollars a pair - with blue-light-filtering lenses and spring-hinge temples that flex to the width of the face; the set arrives with a soft pouch and a microfiber cloth.",
+  "added_date": "2026-09-25",
+  "img_ok": true,
+  "link_ok": true,
+  "last_checked": "2026-09-25 09:37"
+ },
+ {
+  "category": "Reading",
+  "name": "Reading Glasses for Women Men - Blue Light Blocking Magnifying Readers, Square Anti-Glare Computer Eyeglasses",
+  "asin": "B0DHH289R6",
+  "price": 11.99,
+  "img_url": "https://m.media-amazon.com/images/I/71m2Dfj4MxL._AC_SL1500_.jpg",
+  "link_url": "https://www.amazon.com/dp/B0DHH289R6?tag=eyewearguide-20",
+  "source": "landingImage-hires",
+  "blurb": "A square anti-glare reader for under $12, sold in multiple magnification strengths with blue-light filtering built into the clear lenses - 2,400-plus ratings average 4.4 stars.",
+  "added_date": "2026-09-25",
+  "img_ok": true,
+  "link_ok": true,
+  "last_checked": "2026-09-25 09:37"
  }
 ]

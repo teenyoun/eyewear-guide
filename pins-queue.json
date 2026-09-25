@@ -467,5 +467,46 @@
   "status": "published",
   "date": "2026-09-23",
   "pin_url": "https://www.pinterest.com/pin/1055812706414393176/"
+ },
+ {
+  "title": "Contact Lenses or Glasses? An Honest Comparison",
+  "image": "pins-batch/pin-61-contact-lenses.png",
+  "link": "https://glasses.teenyoun.com/articles/contact-lenses-vs-glasses-honest-comparison-for-2026.html",
+  "status": "published",
+  "date": "2026-09-24",
+  "pin_url": "https://www.pinterest.com/pin/1055812706414424199/"
+ },
+ {
+  "title": "How to Clean Glasses Properly Without Scratching the Coating",
+  "image": "pins-batch/pin-62-cleaning.png",
+  "link": "https://glasses.teenyoun.com/articles/how-to-clean-glasses-properly-avoid-scratches-and-damage.html",
+  "status": "published",
+  "date": "2026-09-24",
+  "pin_url": "https://www.pinterest.com/pin/1055812706414424228/"
+ },
+ {
+  "title": "Women's Sunglasses: Classic to Trendy Styles That Still Work",
+  "image": "pins-batch/pin-57-womens-sunglasses.png",
+  "link": "https://glasses.teenyoun.com/articles/best-women-s-sunglasses-2026-classic-to-trendy.html",
+  "status": "duplicate-recheck",
+  "date": "2026-09-24",
+  "pin_url": "https://www.pinterest.com/pin/1055812706414395821/",
+  "note": "duplicate of 1055812706414363361 (published 09-22); both live, identical description + same destination. Reported, not deleted per policy."
+ },
+ {
+  "title": "Safety Glasses: What to Check Before You Buy",
+  "image": "pins-batch/pin-63-safety-glasses.png",
+  "link": "https://glasses.teenyoun.com/articles/safety-glasses-buying-guide-ansi-ratings-and-lens-materials.html",
+  "status": "published",
+  "date": "2026-09-25",
+  "pin_url": "https://www.pinterest.com/pin/1055812706414452667/"
+ },
+ {
+  "title": "Reading Glasses for Men: Styles, Strength and Fit",
+  "image": "pins-batch/pin-64-reading-men.png",
+  "link": "https://glasses.teenyoun.com/articles/best-reading-glasses-men.html",
+  "status": "published",
+  "date": "2026-09-25",
+  "pin_url": "https://www.pinterest.com/pin/1055812706414452695/"
  }
 ]
