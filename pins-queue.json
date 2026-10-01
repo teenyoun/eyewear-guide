@@ -580,5 +580,29 @@
   "status": "published",
   "date": "2026-09-30",
   "pin_url": "https://www.pinterest.com/pin/1055812706414606111/"
- }
+ },
+  {
+    "title": "Lens Index and Abbe Number: Why Thinner Isn't Always Better",
+    "image": "pins-batch/pin-74-lens-index.png",
+    "link": "https://teenyoun.com/articles/lens-index-and-abbe-number-why-thinner-glasses-aren-t-always-better.html",
+    "status": "published",
+    "date": "2026-10-02",
+    "pin_url": "https://www.pinterest.com/pin/1055812706414664368/"
+  },
+  {
+    "title": "Prism in Glasses: What It Does and Why It Feels Strange",
+    "image": "pins-batch/pin-75-prism.png",
+    "link": "https://teenyoun.com/articles/prism-in-glasses-what-prism-correction-does-and-why-it-can-feel-strange.html",
+    "status": "published",
+    "date": "2026-10-02",
+    "pin_url": "https://www.pinterest.com/pin/1055812706414664407/"
+  },
+  {
+    "title": "Vertex Distance, Pantoscopic Tilt and Optical Centre Height",
+    "image": "pins-batch/pin-76-vertex-distance.png",
+    "link": "https://teenyoun.com/articles/vertex-distance-pantoscopic-tilt-and-optical-centre-height-three-measurements-that-change-your-prescription.html",
+    "status": "published",
+    "date": "2026-10-02",
+    "pin_url": "https://www.pinterest.com/pin/1055812706414664445/"
+  }
 ]
