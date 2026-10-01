@@ -29,6 +29,10 @@ DRY_RUN = "--dry-run" in sys.argv
 TAG = "eyewearguide-20"
 SITE_URL = "https://teenyoun.com"
 
+# How many queued articles to publish per daily run.
+# The auto-refill job keeps the pending queue at least ARTICLES_PER_DAY * 3 deep.
+ARTICLES_PER_DAY = 3
+
 # HTML article template with SEO best practices
 ARTICLE_HTML = """<!DOCTYPE html>
 <html lang="en">
@@ -238,7 +242,7 @@ def get_internal_links(category, current_title):
         "Blue Light Glasses": [
             ("best-blue-light-glasses.html", "Best Blue Light Glasses of 2026"),
             ("do-blue-light-glasses-work.html", "Do Blue Light Glasses Really Work?"),
-            ("blue-light-glasses-vs-anti-glare.html", "Blue Light vs Anti-Glare"),
+            ("anti-reflective-coating-vs-blue-light-filter-worth-paying-for-both-.html", "Blue Light vs Anti-Glare"),
         ],
         "Reading Glasses": [
             ("best-reading-glasses-men.html", "Best Reading Glasses for Men"),
@@ -275,6 +279,8 @@ def get_internal_links(category, current_title):
     html = '\n<div class="info-box">\n<strong>Related Guides:</strong>\n<ul>\n'
     for url, label in cat_links[:3]:
         html += f'  <li><a href="{url}">{label}</a></li>\n'
+    # always surface the free tool as the last related item
+    html += '  <li><a href="../lens-thickness-calculator.html">Lens Thickness Calculator</a></li>\n'
     html += '</ul>\n</div>\n'
     return html
 
@@ -482,23 +488,27 @@ def main():
     log("=" * 50)
     log("Daily maintenance starting...")
 
-    # 1. Process content queue — publish 1 article per day max
+    # 1. Process content queue — publish up to ARTICLES_PER_DAY articles (FIFO)
     queue = load_queue()
     pending = [a for a in queue if a.get("status") == "pending"]
     new_articles = []
 
     if pending:
-        log(f"Found {len(pending)} pending article(s) in queue. Publishing 1 today.")
-        article = pending[0]  # FIFO: first in, first out
-        # Empty-body guard: never publish a shell page without real content;
-        # keep the article pending so it publishes automatically once written.
-        raw_body = article.get("body_html", "") or ""
-        text_only = re.sub(r"<[^>]+>", " ", raw_body)
-        word_count = len(text_only.split())
-        if word_count < 150:
-            log(f"  SKIPPED (content not written yet, {word_count} words < 150): "
-                f"{article.get('title', 'Unknown')} - stays pending")
-        else:
+        log(f"Found {len(pending)} pending article(s) in queue. Publishing up to "
+            f"{ARTICLES_PER_DAY} today.")
+        published = 0
+        for article in pending:
+            if published >= ARTICLES_PER_DAY:
+                break
+            # Empty-body guard: never publish a shell page without real content;
+            # keep the article pending so it publishes automatically once written.
+            raw_body = article.get("body_html", "") or ""
+            text_only = re.sub(r"<[^>]+>", " ", raw_body)
+            word_count = len(text_only.split())
+            if word_count < 150:
+                log(f"  SKIPPED (content not written yet, {word_count} words < 150): "
+                    f"{article.get('title', 'Unknown')} - stays pending")
+                continue
             try:
                 filename = generate_article(article)
                 log(f"  Published: {filename}")
@@ -506,6 +516,7 @@ def main():
                 article["status"] = "published"
                 article["filename"] = filename
                 article["published_date"] = datetime.now().strftime("%Y-%m-%d")
+                published += 1
             except Exception as e:
                 log(f"  FAILED: {article.get('title', 'Unknown')} - {e}")
                 article["status"] = "failed"
