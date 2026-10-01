@@ -221,3 +221,68 @@ article li { margin-bottom: 6px; }
   white-space: nowrap;
 }
 .brand-band .brand-cta:hover { background: var(--cta-hover); }
+
+
+/* Lens thickness calculator */
+.tool-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+  margin: 22px 0 6px;
+}
+.tool-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+}
+.tool-form input,
+.tool-form select {
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--card-bg);
+}
+.tool-form input:focus,
+.tool-form select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.tool-actions { display: flex; align-items: flex-end; }
+.tool-btn {
+  background: var(--cta);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+.tool-btn:hover { background: var(--cta-hover); }
+.tool-out { margin-top: 22px; }
+.tool-result {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 22px;
+}
+.tool-result .big {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 2px 0 6px;
+  line-height: 1.1;
+}
+.tool-table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 14px; }
+.tool-table th, .tool-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+.tool-note { font-size: 13px; color: var(--text-light); margin: 0 0 4px; }
+
+/* homepage tool band (accent variant of the brand band) */
+.brand-band.tool-band { background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%); }

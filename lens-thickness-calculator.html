@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lens Thickness Calculator — Estimate Edge and Centre Thickness | EyewearGuide</title>
+<meta name="description" content="Free calculator: estimate how thick your spectacle lenses will be at the edge or centre from your sphere power, lens width, decentration and material index.">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+<link rel="canonical" href="https://teenyoun.com/lens-thickness-calculator.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Lens Thickness Calculator", "url": "https://teenyoun.com/lens-thickness-calculator.html", "applicationCategory": "HealthApplication", "operatingSystem": "Any", "description": "Free calculator that estimates spectacle lens edge or centre thickness from sphere power, lens width, decentration and lens material index.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How accurate is this estimate?", "acceptedAnswer": {"@type": "Answer", "text": "It is a first-order estimate, typically within about half a millimetre of what a lab produces. It ignores the base curve, aspheric design, and the exact minimum thickness the lab chooses, all of which shift the real number."}}, {"@type": "Question", "name": "What is the minimum thickness a lens can be made?", "acceptedAnswer": {"@type": "Answer", "text": "Labs normally hold a minimum of roughly 1.0 to 1.5 mm at the thinnest point so the lens keeps its structural integrity. You cannot make a lens arbitrarily thin by choosing a higher index — the floor is a safety limit, not an optical one."}}, {"@type": "Question", "name": "Does a higher index always make my glasses thinner?", "acceptedAnswer": {"@type": "Answer", "text": "It reduces edge thickness for minus powers and centre thickness for plus powers, but the gain shrinks as the lens gets larger and disappears at low powers. Frame size and centring often change thickness more than one step of index does."}}, {"@type": "Question", "name": "Why does decentration matter?", "acceptedAnswer": {"@type": "Answer", "text": "The thickness you see is measured at the far edge of the frame, not at the optical centre. The further the optical centre sits from that edge — larger frame, more decentration — the greater the sagitta the lens has to accommodate, so the thicker it gets."}}, {"@type": "Question", "name": "Does this work for progressive lenses?", "acceptedAnswer": {"@type": "Answer", "text": "Approximately. A progressive with a reading addition adds thickness in the lower portion for plus powers, so treat the number here as a lower bound for a progressive lens."}}, {"@type": "Question", "name": "Why is one lens thicker than the other?", "acceptedAnswer": {"@type": "Answer", "text": "Usually asymmetric powers or asymmetric decentration. If the two eyes need very different powers, the two lenses genuinely have different thicknesses, and a prism correction makes one edge of each lens thicker again."}}]}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-title">Eyewear<span>Guide</span></a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="articles/best-blue-light-glasses.html">Blue Light</a>
+      <a href="articles/best-reading-glasses-men.html">Reading</a>
+      <a href="articles/best-online-glasses-stores.html">Prescription</a>
+      <a href="articles/best-prescription-sports-glasses-on-amazon-tested-picks.html">Sports</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <h1>Lens Thickness Calculator</h1>
+    <p>Estimate edge or centre thickness from your prescription, lens size and material index &mdash; and see how much a higher index really saves.</p>
+  </section>
+
+  <form class="tool-form" id="calc" onsubmit="return false">
+    <label>Sphere power (D)
+      <input type="number" id="sph" value="-6.00" step="0.25" min="-20" max="20">
+    </label>
+    <label>Lens width (mm)
+      <input type="number" id="width" value="50" step="1" min="30" max="75">
+    </label>
+    <label>Decentration (mm)
+      <input type="number" id="decent" value="0" step="0.5" min="0" max="12">
+    </label>
+    <label>Material index
+      <select id="idx">
+        <option value="1.498">1.50 &mdash; CR-39</option>
+        <option value="1.53">1.53 &mdash; Trivex</option>
+        <option value="1.586">1.59 &mdash; Polycarbonate</option>
+        <option value="1.60" selected>1.60 &mdash; mid-index</option>
+        <option value="1.67">1.67 &mdash; high-index</option>
+        <option value="1.74">1.74 &mdash; high-index</option>
+      </select>
+    </label>
+    <div class="tool-actions">
+      <button type="button" class="tool-btn" id="go">Calculate</button>
+    </div>
+  </form>
+
+  <div class="tool-out" id="out" aria-live="polite"></div>
+
+  <h2>How the estimate is calculated</h2>
+  <p>The thickness of a lens is governed by how much the surface has to curve. For a circular zone of radius <em>r</em>, that curve has a depth &mdash; the sagitta &mdash; given by:</p>
+  <p><strong>sagitta &asymp; r&sup2; &times; F / (2 &times; (n &minus; 1))</strong></p>
+  <p>where <em>F</em> is the power in dioptres and <em>n</em> is the refractive index of the material. For a minus lens the centre is at the minimum thickness and the edge is that plus the sagitta; for a plus lens it is the reverse, with the centre carrying the extra depth.</p>
+  <p>Two things follow from the formula, and they are the useful part. First, thickness grows with the <strong>square</strong> of the semi-diameter &mdash; so a lens that is 10% wider is about 20% thicker at the edge. Second, going up in index reduces the curve in proportion to <strong>1/(n &minus; 1)</strong>, which is why the saving from 1.67 to 1.74 is much smaller than the saving from 1.50 to 1.60.</p>
+
+  <h2>What this calculator does not account for</h2>
+  <ul>
+    <li><strong>Base curve and asphericity.</strong> Real lenses are not simple meniscus shapes; aspheric and free-form designs redistribute thickness.</li>
+    <li><strong>The lab's minimum thickness policy.</strong> Defaults here are 1.3 mm centre for minus and 1.0 mm edge for plus, and labs differ.</li>
+    <li><strong>Reading additions.</strong> Progressive and bifocal adds thicken the lower portion of plus-power lenses.</li>
+    <li><strong>Prism.</strong> A prism correction deliberately makes one edge thicker.</li>
+  </ul>
+  <p>Treat the output as a realistic estimate and a way to compare options, not as the figure a dispensary will quote you. For an exact number, ask a dispenser to calculate it for the specific frame and lens you are considering.</p>
+
+  <h2>Why the index matters less than the frame</h2>
+  <p>Because thickness scales with the square of the semi-diameter, a slightly smaller frame usually beats a step up in index. If your goal is thinner glasses rather than the thinnest possible material, choose the frame first and the index second &mdash; the arithmetic in the calculator will show you the difference.</p>
+
+  <h2>Questions people ask</h2>
+<h3>How accurate is this estimate?</h3>
+<p>It is a first-order estimate, typically within about half a millimetre of what a lab produces. It ignores the base curve, aspheric design, and the exact minimum thickness the lab chooses, all of which shift the real number.</p>
+<h3>What is the minimum thickness a lens can be made?</h3>
+<p>Labs normally hold a minimum of roughly 1.0 to 1.5 mm at the thinnest point so the lens keeps its structural integrity. You cannot make a lens arbitrarily thin by choosing a higher index — the floor is a safety limit, not an optical one.</p>
+<h3>Does a higher index always make my glasses thinner?</h3>
+<p>It reduces edge thickness for minus powers and centre thickness for plus powers, but the gain shrinks as the lens gets larger and disappears at low powers. Frame size and centring often change thickness more than one step of index does.</p>
+<h3>Why does decentration matter?</h3>
+<p>The thickness you see is measured at the far edge of the frame, not at the optical centre. The further the optical centre sits from that edge — larger frame, more decentration — the greater the sagitta the lens has to accommodate, so the thicker it gets.</p>
+<h3>Does this work for progressive lenses?</h3>
+<p>Approximately. A progressive with a reading addition adds thickness in the lower portion for plus powers, so treat the number here as a lower bound for a progressive lens.</p>
+<h3>Why is one lens thicker than the other?</h3>
+<p>Usually asymmetric powers or asymmetric decentration. If the two eyes need very different powers, the two lenses genuinely have different thicknesses, and a prism correction makes one edge of each lens thicker again.</p>
+
+</main>
+<footer class="site-footer">
+  <p>&copy; 2026 EyewearGuide. All rights reserved.</p>
+  <p class="disclaimer">This calculator is an estimate for information only and is not a dispensing or medical service. As an Amazon Associate we earn from qualifying purchases.</p>
+  <p><a href="sitemap.xml">Sitemap</a></p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
+</footer>
+<script>
+(function () {
+  var idxList = [["1.498","1.50 CR-39"],["1.53","1.53 Trivex"],["1.586","1.59 Polycarbonate"],
+                 ["1.60","1.60 mid-index"],["1.67","1.67 high-index"],["1.74","1.74 high-index"]];
+  function sagitta(sph, width, decent, n) {
+    var F = Math.abs(parseFloat(sph) || 0);
+    var r = ((parseFloat(width) || 50) / 2 + (parseFloat(decent) || 0)) / 1000;
+    if (!(n > 1)) return 0;
+    return (r * r * F) / (2 * (n - 1)) * 1000;  // mm
+  }
+  function run() {
+    var sph = parseFloat(document.getElementById('sph').value) || 0;
+    var width = parseFloat(document.getElementById('width').value) || 50;
+    var decent = parseFloat(document.getElementById('decent').value) || 0;
+    var n = parseFloat(document.getElementById('idx').value);
+    var minus = sph < 0;
+    var MINC = 1.3, MINE = 1.0;
+    function result(nn) {
+      var s = sagitta(sph, width, decent, nn);
+      return minus ? (MINC + s) : (MINE + s);
+    }
+    var s = sagitta(sph, width, decent, n);
+    var value = result(n);
+    var rows = idxList.map(function (pair) {
+      var v = result(parseFloat(pair[0]));
+      return '<tr><td>' + pair[1] + '</td><td>' + v.toFixed(2) + ' mm</td></tr>';
+    }).join('');
+    var eff = (sph / (1 - 0.012 * sph));
+    document.getElementById('out').innerHTML =
+      '<div class="tool-result">' +
+      '<p class="tool-note">Estimated ' + (minus ? 'edge' : 'centre') + ' thickness</p>' +
+      '<p class="big">' + value.toFixed(2) + ' mm</p>' +
+      '<p class="tool-note">Sagitta (centre-to-edge depth) for this index: ' + s.toFixed(2) + ' mm. ' +
+      'Reading of ' + sph.toFixed(2) + ' D at a 12 mm vertex distance is about ' + eff.toFixed(2) + ' D at the eye.</p>' +
+      '<table class="tool-table"><thead><tr><th>Material</th><th>Estimated ' +
+      (minus ? 'edge' : 'centre') + ' thickness</th></tr></thead><tbody>' + rows + '</tbody></table>' +
+      '<p class="tool-note">Estimate only &mdash; base curve, asphericity, prism and the lab\'s minimum thickness all shift the real figure.</p>' +
+      '</div>';
+  }
+  document.getElementById('go').addEventListener('click', run);
+  ['sph', 'width', 'decent', 'idx'].forEach(function (id) {
+    document.getElementById(id).addEventListener('change', run);
+  });
+  run();
+})();
+</script>
+</body>
+</html>

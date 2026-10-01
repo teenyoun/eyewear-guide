@@ -289,7 +289,13 @@ def rebuild_sitemap(articles):
             f'<changefreq>monthly</changefreq><priority>{priority}</priority></url>'
         )
     # include category pick pages (if generated)
-    for pf in sorted(BASE_DIR.glob("picks-*.html")):
+    # extra root pages: picks pages plus standalone tools. Excludes index.html and the
+    # Google verification file, and skips noindexed pages.
+    for pf in sorted(BASE_DIR.glob("*.html")):
+        if pf.name == "index.html" or pf.name.startswith("google"):
+            continue
+        if 'name="robots" content="noindex' in pf.read_text(encoding="utf-8", errors="ignore"):
+            continue
         urls.append(
             f'<url><loc>{SITE_URL}/{pf.name}</loc>'
             f'<changefreq>weekly</changefreq><priority>0.8</priority></url>'
@@ -349,6 +355,14 @@ def rebuild_homepage(articles):
   <div class="article-list">
 {chr(10).join(cards)}
   </div>
+  <section class="brand-band tool-band">
+    <div>
+      <p class="brand-kicker">Free Tool</p>
+      <h2>Lens Thickness Calculator</h2>
+      <p class="brand-copy">See how thick your lenses will really be &mdash; and how much a higher index actually saves.</p>
+    </div>
+    <a class="brand-cta" href="lens-thickness-calculator.html">Open the calculator &rarr;</a>
+  </section>
   <section class="brand-band">
     <div>
       <p class="brand-kicker">Our Own Brand</p>

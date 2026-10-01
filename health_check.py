@@ -42,7 +42,10 @@ try:
     else:
         locs = re.findall(r"<loc>(.*?)</loc>", sm)
         sitemap_count = len(locs)
-        extra_pages = len(list(BASE.glob("picks-*.html")))  # category pick pages included in sitemap
+        # every extra root page the sitemap carries: picks pages + standalone tools
+        extra_pages = len([p for p in BASE.glob("*.html")
+                           if p.name != "index.html" and not p.name.startswith("google")
+                           and 'name="robots" content="noindex' not in p.read_text(encoding="utf-8", errors="ignore")])
         if sitemap_count != a_count + 1 + extra_pages:
             warn("sitemap 一致性", f"sitemap {sitemap_count} 条 vs 文章 {a_count} 篇+首页+{extra_pages} 分类页")
         else:
