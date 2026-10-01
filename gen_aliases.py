@@ -10,6 +10,8 @@ aliases = {
     'night-driving-glasses-do-yellow-lenses-actually-help': 'night-driving-glasses-do-yellow-lenses-actually-help-',
     'best-sunglasses-for-kids-uv-protection-theyll-actually-wear': 'best-sunglasses-for-kids-uv-protection-they-ll-actually-wear',
     'best-womens-sunglasses-2026-classic-to-trendy': 'best-women-s-sunglasses-2026-classic-to-trendy',
+    'how-to-read-your-glasses-prescription-sph-cyl-axis-explained': 'how-to-read-your-glasses-prescription-od-os-sph-cyl-explained',
+    'progressive-lens-adaptation-how-to-get-used-to-them-fast': 'progressive-lens-adaptation-week-by-week-adjustment-guide',
 }
 
 TPL = '''<!DOCTYPE html>
