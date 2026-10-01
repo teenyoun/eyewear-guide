@@ -634,3 +634,13 @@
 [2026-10-01 08:00:01] SEO check: All internal links OK.
 [2026-10-01 08:00:01] Maintenance complete. 0 new articles published.
 [2026-10-01 08:00:01] ==================================================
+[2026-10-01 20:31:41] ==================================================
+[2026-10-01 20:31:41] Daily maintenance starting...
+[2026-10-01 20:31:41] Found 7 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-01 20:31:41]   Published: lens-index-and-abbe-number-why-thinner-glasses-aren-t-always-better.html
+[2026-10-01 20:31:41]   Published: vertex-distance-pantoscopic-tilt-and-optical-centre-height-three-measurements-that-change-your-prescription.html
+[2026-10-01 20:31:41]   Published: prism-in-glasses-what-prism-correction-does-and-why-it-can-feel-strange.html
+[2026-10-01 20:31:41] Sitemap rebuilt (74 URLs). Homepage refreshed (69 articles).
+[2026-10-01 20:31:41] SEO check: All internal links OK.
+[2026-10-01 20:31:41] Maintenance complete. 3 new articles published.
+[2026-10-01 20:31:41] ==================================================
