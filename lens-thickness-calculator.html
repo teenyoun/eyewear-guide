@@ -106,7 +106,13 @@
     return (r * r * F) / (2 * (n - 1)) * 1000;  // mm
   }
   function run() {
-    var sph = parseFloat(document.getElementById('sph').value) || 0;
+    var raw = document.getElementById('sph').value.trim();
+    if (raw === '' || isNaN(parseFloat(raw))) {
+      document.getElementById('out').innerHTML =
+        '<div class="tool-result"><p class="big">&mdash;</p><p class="tool-note">Enter a sphere power (for example -6.00) to see an estimate. Use a minus sign for short-sighted prescriptions.</p></div>';
+      return;
+    }
+    var sph = parseFloat(raw);
     var width = parseFloat(document.getElementById('width').value) || 50;
     var decent = parseFloat(document.getElementById('decent').value) || 0;
     var n = parseFloat(document.getElementById('idx').value);
