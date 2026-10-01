@@ -345,19 +345,19 @@ def rebuild_homepage(articles):
     <p>Expert reviews and honest buying guides to help you choose the best eyewear &mdash; updated {now.strftime('%B %Y')}.</p>
   </section>
 {picks_html}
-<section class="brand-band">
-  <div>
-    <p class="brand-kicker">Our Own Brand</p>
-    <h2>BOYARN</h2>
-    <p class="brand-copy">Frames and lenses direct from our own factory in Yiwu, China.</p>
-  </div>
-  <a class="brand-cta" href="https://teenyoun.github.io/boyarn-eyewear-showcase/">Visit the showcase &rarr;</a>
-</section>
-<p class="picks-note">BOYARN is our own brand &mdash; a direct link, not an Amazon affiliate link.</p>
   <h2 style="margin-bottom:16px; text-align:center;">Latest Guides &amp; Reviews</h2>
   <div class="article-list">
 {chr(10).join(cards)}
   </div>
+  <section class="brand-band">
+    <div>
+      <p class="brand-kicker">Our Own Brand</p>
+      <h2>BOYARN</h2>
+      <p class="brand-copy">Frames and lenses direct from our own factory in Yiwu, China.</p>
+    </div>
+    <a class="brand-cta" href="https://teenyoun.github.io/boyarn-eyewear-showcase/">Visit the showcase &rarr;</a>
+  </section>
+  <p class="picks-note">BOYARN is our own brand &mdash; a direct link, not an Amazon affiliate link.</p>
 </main>
 <footer class="site-footer">
   <p>&copy; {now.year} EyewearGuide. All rights reserved.</p>
