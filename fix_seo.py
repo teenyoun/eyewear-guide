@@ -5,7 +5,7 @@ from pathlib import Path
 
 BASE = Path(__file__).parent
 ART = BASE / "articles"
-DOMAIN = "https://glasses.teenyoun.com"
+DOMAIN = "https://teenyoun.com"
 
 STOPWORDS = {
     "the","a","an","for","and","or","of","to","in","on","with","best","your","you","how",

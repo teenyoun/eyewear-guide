@@ -8,7 +8,7 @@ import json, re, subprocess, sys, urllib.request
 from pathlib import Path
 
 BASE = Path(__file__).parent
-DOMAIN = "https://glasses.teenyoun.com"
+DOMAIN = "https://teenyoun.com"
 SITEMAP_URL = DOMAIN + "/sitemap.xml"
 CHECK_HTTP_N = 3  # how many articles to HTTP-check
 
@@ -47,7 +47,7 @@ try:
             warn("sitemap 一致性", f"sitemap {sitemap_count} 条 vs 文章 {a_count} 篇+首页+{extra_pages} 分类页")
         else:
             ok("sitemap", f"{sitemap_count} 条, 与文章数一致")
-        bad = [l for l in locs if "glasses.teenyoun.com" not in l]
+        bad = [l for l in locs if "teenyoun.com" not in l]
         if bad:
             err("sitemap 域名", f"{len(bad)} 条非新域名: {bad[:2]}")
 except Exception as e:

@@ -2,11 +2,11 @@ import re
 from pathlib import Path
 
 ART = Path("articles")
-DOMAIN = "https://glasses.teenyoun.com"
+DOMAIN = "https://teenyoun.com"
 fixed = 0
 for f in ART.glob("*.html"):
     html = f.read_text(encoding="utf-8", errors="replace")
-    if 'rel="canonical" href="https://glasses.teenyoun.com' in html:
+    if 'rel="canonical" href="https://teenyoun.com' in html:
         continue
     url = f"{DOMAIN}/articles/{f.name}"
     html = re.sub(r'<link rel="canonical"[^>]*>\s*', "", html)

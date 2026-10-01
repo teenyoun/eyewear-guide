@@ -27,7 +27,7 @@ HOMEPAGE_FILE = BASE_DIR / "index.html"
 
 DRY_RUN = "--dry-run" in sys.argv
 TAG = "eyewearguide-20"
-SITE_URL = "https://glasses.teenyoun.com"
+SITE_URL = "https://teenyoun.com"
 
 # HTML article template with SEO best practices
 ARTICLE_HTML = """<!DOCTYPE html>

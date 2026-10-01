@@ -1,7 +1,7 @@
 import pathlib
 
 base = pathlib.Path(__file__).parent
-SITE = 'https://glasses.teenyoun.com'
+SITE = 'https://teenyoun.com'
 
 # alias slug -> real article slug (verified existing)
 aliases = {

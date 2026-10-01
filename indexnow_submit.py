@@ -3,7 +3,7 @@
 import json, sys, pathlib, os, subprocess, urllib.request, datetime
 
 ROOT = pathlib.Path(__file__).parent
-HOST = 'glasses.teenyoun.com'
+HOST = 'teenyoun.com'
 API = 'https://api.indexnow.org/indexnow'
 
 def load_key():
