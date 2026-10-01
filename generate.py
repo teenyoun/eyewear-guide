@@ -54,6 +54,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
       <a href="best-blue-light-glasses.html">Blue Light</a>
       <a href="best-reading-glasses-men.html">Reading</a>
       <a href="best-online-glasses-stores.html">Prescription</a>
+      <a href="best-prescription-sports-glasses-on-amazon-tested-picks.html">Sports</a>
     </nav>
   </div>
 </header>
@@ -230,6 +231,7 @@ def rebuild_homepage(articles, cfg):
       <a href="articles/best-blue-light-glasses.html">Blue Light</a>
       <a href="articles/best-reading-glasses-men.html">Reading</a>
       <a href="articles/best-online-glasses-stores.html">Prescription</a>
+      <a href="articles/best-prescription-sports-glasses-on-amazon-tested-picks.html">Sports</a>
     </nav>
   </div>
 </header>
