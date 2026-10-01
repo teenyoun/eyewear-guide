@@ -102,6 +102,7 @@ def page_shell(title, h1, nav_links, body_inner, year):
   <p>&copy; {year} EyewearGuide. All rights reserved.</p>
   <p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. We only recommend products we have tested and believe in.</p>
   <p><a href="sitemap.xml">Sitemap</a></p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
 </footer>
 </body>
 </html>

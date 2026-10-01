@@ -70,6 +70,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <footer class="site-footer">
   <p>&copy; {year} {site_name}. All rights reserved.</p>
   <p class="disclaimer">{affiliate_disclosure}</p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
 </footer>
 </body>
 </html>
@@ -249,6 +250,7 @@ def rebuild_homepage(articles, cfg):
   <p>&copy; {now.year} EyewearGuide. All rights reserved.</p>
   <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases.</p>
   <p><a href="sitemap.xml">Sitemap</a></p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
 </footer>
 </body>
 </html>"""

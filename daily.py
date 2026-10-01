@@ -69,6 +69,7 @@ ARTICLE_HTML = """<!DOCTYPE html>
 <footer class="site-footer">
   <p>&copy; {year} EyewearGuide. All rights reserved.</p>
   <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases. We only recommend products we have tested and believe in.</p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
 </footer>
 </body>
 </html>
@@ -344,6 +345,16 @@ def rebuild_homepage(articles):
     <p>Expert reviews and honest buying guides to help you choose the best eyewear &mdash; updated {now.strftime('%B %Y')}.</p>
   </section>
 {picks_html}
+<section class="editor-picks">
+<h2>Our Own Brand</h2>
+<div class="picks-grid">
+<a class="pick-card cat-entry" href="https://teenyoun.github.io/boyarn-eyewear-showcase/">
+  <h3>BOYARN</h3>
+  <p>Our own eyewear brand &mdash; frames and lenses direct from our factory &rarr;</p>
+</a>
+</div>
+<p class="picks-note">BOYARN is our own brand. This is a direct link to our own showcase, not an Amazon affiliate link.</p>
+</section>
   <h2 style="margin-bottom:16px; text-align:center;">Latest Guides &amp; Reviews</h2>
   <div class="article-list">
 {chr(10).join(cards)}
@@ -353,6 +364,7 @@ def rebuild_homepage(articles):
   <p>&copy; {now.year} EyewearGuide. All rights reserved.</p>
   <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases. This site is reader-supported.</p>
   <p><a href="sitemap.xml">Sitemap</a></p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
 </footer>
 </body>
 </html>"""
@@ -362,10 +374,23 @@ def rebuild_homepage(articles):
 
 
 def scan_articles():
-    """Scan for all existing article HTML files."""
+    """Scan for all existing article HTML files, newest first.
+
+    Ordering is driven by the queue's published_date (stable, content-derived) with
+    file mtime only as a tiebreaker: editing any article resets its mtime, which used
+    to scramble the homepage "Latest Guides & Reviews" list. Articles with no queue
+    date (hand-written hubs, the original batch) sort last.
+    """
     articles = []
     if ARTICLES_DIR.exists():
-        for f in sorted(ARTICLES_DIR.glob("*.html"), key=lambda x: x.stat().st_mtime, reverse=True):
+        try:
+            _pd = {a.get("filename"): (a.get("published_date") or "")
+                   for a in json.loads(QUEUE_FILE.read_text(encoding="utf-8"))}
+        except Exception:
+            _pd = {}
+        for f in sorted(ARTICLES_DIR.glob("*.html"),
+                        key=lambda x: (_pd.get(x.name, ""), x.stat().st_mtime),
+                        reverse=True):
             content = f.read_text(encoding="utf-8")
             if 'name="robots" content="noindex' in content:
                 continue  # alias/redirect pages stay out of listings and sitemap
