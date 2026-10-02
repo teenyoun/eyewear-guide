@@ -644,3 +644,13 @@
 [2026-10-01 20:31:41] SEO check: All internal links OK.
 [2026-10-01 20:31:41] Maintenance complete. 3 new articles published.
 [2026-10-01 20:31:41] ==================================================
+[2026-10-02 08:00:01] ==================================================
+[2026-10-02 08:00:01] Daily maintenance starting...
+[2026-10-02 08:00:01] Found 4 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-02 08:00:01]   Published: what-uv400-actually-means-and-why-a-dark-tint-is-not-uv-protection.html
+[2026-10-02 08:00:01]   Published: how-to-get-scratches-out-of-glasses-what-works-and-what-makes-it-worse.html
+[2026-10-02 08:00:01]   Published: digital-eye-strain-the-20-20-20-rule-and-what-else-actually-helps.html
+[2026-10-02 08:00:01] Sitemap rebuilt (77 URLs). Homepage refreshed (72 articles).
+[2026-10-02 08:00:01] SEO check: All internal links OK.
+[2026-10-02 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-02 08:00:01] ==================================================
