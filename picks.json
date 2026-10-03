@@ -1,19 +1,5 @@
 [
  {
-  "category": "Sunglasses",
-  "name": "SOJOS Retro Polarized Aviator Sunglasses Womens Mens SJ2385",
-  "asin": "B0FGPCPY7P",
-  "price": 13.98,
-  "img_url": "https://m.media-amazon.com/images/I/61BXflCD+tL._AC_SL1500_.jpg",
-  "link_url": "https://www.amazon.com/dp/B0FGPCPY7P?tag=eyewearguide-20",
-  "source": "landingImage-hires",
-  "blurb": "A retro aviator for under $14 - polycarbonate frames with UV400 TAC polarized lenses and metal hinges, though SOJOS notes the light-tint colourways cut less glare than the dark ones.",
-  "added_date": "2026-09-21",
-  "img_ok": true,
-  "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
- },
- {
   "category": "Blue Light",
   "name": "Gaoye Round Blue Light Blocking Glasses",
   "asin": "B07XL9MFZQ",
@@ -25,7 +11,7 @@
   "added_date": "2026-09-23",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
  },
  {
   "category": "Reading",
@@ -39,21 +25,7 @@
   "added_date": "2026-09-25",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
- },
- {
-  "category": "Sunglasses",
-  "name": "KALIYADI Polarized Sunglasses for Men and Women, Mens Sun Glasses with UV Protection for Driving Fishing Golf (3 Packs)",
-  "asin": "B0C4Y32M4S",
-  "price": 20.79,
-  "img_url": "https://m.media-amazon.com/images/I/61ijUBufLNL._AC_SL1500_.jpg",
-  "link_url": "https://www.amazon.com/dp/B0C4Y32M4S?tag=eyewearguide-20",
-  "source": "landingImage-hires",
-  "blurb": "A three-pack for $20.79 - under seven dollars a pair - with HD polarized lenses the listing credits with cutting glare and blocking UV; 2,768 ratings average 4.5 stars and it ranks #6 in Men's Sunglasses.",
-  "added_date": "2026-09-27",
-  "img_ok": true,
-  "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
  },
  {
   "category": "Sunglasses",
@@ -67,7 +39,7 @@
   "added_date": "2026-09-27",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
  },
  {
   "category": "Blue Light",
@@ -81,7 +53,7 @@
   "added_date": "2026-09-29",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
  },
  {
   "category": "Blue Light",
@@ -95,7 +67,7 @@
   "added_date": "2026-09-29",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
  },
  {
   "category": "Reading",
@@ -109,7 +81,7 @@
   "added_date": "2026-10-01",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
  },
  {
   "category": "Reading",
@@ -123,6 +95,34 @@
   "added_date": "2026-10-01",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-02 08:45"
+  "last_checked": "2026-10-03 09:41"
+ },
+ {
+  "category": "Sunglasses",
+  "name": "KastKing Huzzah Polarized Sport Sunglasses for Men and Women, Wrap Design",
+  "asin": "B09NVX1CK3",
+  "price": 26.99,
+  "img_url": "https://m.media-amazon.com/images/I/51pI0oYO9YL._AC_SL1500_.jpg",
+  "link_url": "https://www.amazon.com/dp/B09NVX1CK3?tag=eyewearguide-20",
+  "source": "landingImage-hires",
+  "blurb": "An Amazon's Choice wrap frame at $26.99 that ranks #3 in Sunglasses: impact-resistant TAC lenses the listing says block 100% of UVA/UVB, a scratch-resistant PuriVex coating that repels saltwater and oil, and lightweight Grilamid frames; 3,886 ratings average 4.4 stars.",
+  "added_date": "2026-10-03",
+  "img_ok": true,
+  "link_ok": true,
+  "last_checked": "2026-10-03 09:41"
+ },
+ {
+  "category": "Sunglasses",
+  "name": "mxnx Aviator Sunglasses for Men Polarized Women Mens Outdoor Sun Glasses",
+  "asin": "B07PBLGCGZ",
+  "price": 15.55,
+  "img_url": "https://m.media-amazon.com/images/I/71J7GMmT-yL._AC_SL1500_.jpg",
+  "link_url": "https://www.amazon.com/dp/B07PBLGCGZ?tag=eyewearguide-20",
+  "source": "landingImage-hires",
+  "blurb": "A classic aviator for $15.55, Amazon's Choice and rated 4.5 stars from 14,245 ratings with 1K+ bought in the past month; an ultra-light aluminium-magnesium alloy frame with spring-hinged arms, adjustable silicone nose pads and UV400 polarized lenses.",
+  "added_date": "2026-10-03",
+  "img_ok": true,
+  "link_ok": true,
+  "last_checked": "2026-10-03 09:41"
  }
 ]
