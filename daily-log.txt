@@ -654,3 +654,13 @@
 [2026-10-02 08:00:01] SEO check: All internal links OK.
 [2026-10-02 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-02 08:00:01] ==================================================
+[2026-10-03 08:00:01] ==================================================
+[2026-10-03 08:00:01] Daily maintenance starting...
+[2026-10-03 08:00:01] Found 5 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-03 08:00:01]   Published: contact-lens-hygiene-how-to-wear-contacts-safely.html
+[2026-10-03 08:00:01]   Published: cylinder-axis-and-astigmatism-what-the-correction-actually-does.html
+[2026-10-03 08:00:01]   Published: sunglass-lens-categories-0-to-4-what-the-number-means-and-when-each-is-legal-to-drive-in.html
+[2026-10-03 08:00:01] Sitemap rebuilt (80 URLs). Homepage refreshed (75 articles).
+[2026-10-03 08:00:01] SEO check: All internal links OK.
+[2026-10-03 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-03 08:00:01] ==================================================
