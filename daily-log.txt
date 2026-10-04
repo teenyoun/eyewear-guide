@@ -664,3 +664,13 @@
 [2026-10-03 08:00:01] SEO check: All internal links OK.
 [2026-10-03 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-03 08:00:01] ==================================================
+[2026-10-04 08:00:01] ==================================================
+[2026-10-04 08:00:01] Daily maintenance starting...
+[2026-10-04 08:00:01] Found 6 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-04 08:00:01]   Published: aspheric-vs-spherical-lenses-why-a-flatter-curve-changes-what-you-see.html
+[2026-10-04 08:00:01]   Published: what-is-actually-on-the-front-of-your-lens-hard-coats-and-scratch-resistance.html
+[2026-10-04 08:00:01]   Published: how-photochromic-lenses-work-why-they-darken-in-uv-and-stay-clear-in-a-car.html
+[2026-10-04 08:00:01] Sitemap rebuilt (83 URLs). Homepage refreshed (78 articles).
+[2026-10-04 08:00:01] SEO check: All internal links OK.
+[2026-10-04 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-04 08:00:01] ==================================================
