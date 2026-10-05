@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/why-lenses-fog-and-how-anti-fog-coatings-actually-work.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/office-progressive-lenses-why-standard-progressives-fail-at-a-desk.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/how-polarized-lenses-cut-glare-the-physics-of-reflected-light.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/how-photochromic-lenses-work-why-they-darken-in-uv-and-stay-clear-in-a-car.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/what-is-actually-on-the-front-of-your-lens-hard-coats-and-scratch-resistance.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/aspheric-vs-spherical-lenses-why-a-flatter-curve-changes-what-you-see.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>

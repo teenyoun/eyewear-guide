@@ -674,3 +674,13 @@
 [2026-10-04 08:00:01] SEO check: All internal links OK.
 [2026-10-04 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-04 08:00:01] ==================================================
+[2026-10-05 08:00:01] ==================================================
+[2026-10-05 08:00:01] Daily maintenance starting...
+[2026-10-05 08:00:01] Found 7 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-05 08:00:01]   Published: how-polarized-lenses-cut-glare-the-physics-of-reflected-light.html
+[2026-10-05 08:00:01]   Published: office-progressive-lenses-why-standard-progressives-fail-at-a-desk.html
+[2026-10-05 08:00:01]   Published: why-lenses-fog-and-how-anti-fog-coatings-actually-work.html
+[2026-10-05 08:00:01] Sitemap rebuilt (86 URLs). Homepage refreshed (81 articles).
+[2026-10-05 08:00:01] SEO check: All internal links OK.
+[2026-10-05 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-05 08:00:01] ==================================================
