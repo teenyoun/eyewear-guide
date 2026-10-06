@@ -684,3 +684,13 @@
 [2026-10-05 08:00:01] SEO check: All internal links OK.
 [2026-10-05 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-05 08:00:01] ==================================================
+[2026-10-06 08:00:01] ==================================================
+[2026-10-06 08:00:01] Daily maintenance starting...
+[2026-10-06 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-06 08:00:01]   Published: the-three-numbers-inside-your-glasses-arm-explained.html
+[2026-10-06 08:00:01]   Published: how-anti-reflective-coatings-work-the-physics-behind-the-purple-green-sheen.html
+[2026-10-06 08:00:01]   Published: how-to-read-the-markings-on-safety-eyewear-en-166-en-170-and-en-172.html
+[2026-10-06 08:00:01] Sitemap rebuilt (89 URLs). Homepage refreshed (84 articles).
+[2026-10-06 08:00:01] SEO check: All internal links OK.
+[2026-10-06 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-06 08:00:01] ==================================================
