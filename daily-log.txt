@@ -704,3 +704,13 @@
 [2026-10-07 08:00:01] SEO check: All internal links OK.
 [2026-10-07 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-07 08:00:01] ==================================================
+[2026-10-08 08:00:01] ==================================================
+[2026-10-08 08:00:01] Daily maintenance starting...
+[2026-10-08 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-08 08:00:01]   Published: bifocal-segment-designs-explained-flat-top-round-and-executive.html
+[2026-10-08 08:00:01]   Published: decentration-and-minimum-blank-size-how-a-lens-is-fitted-to-your-frame.html
+[2026-10-08 08:00:01]   Published: free-form-lenses-how-digital-surfacing-makes-a-lens-to-your-exact-prescription.html
+[2026-10-08 08:00:01] Sitemap rebuilt (95 URLs). Homepage refreshed (90 articles).
+[2026-10-08 08:00:01] SEO check: All internal links OK.
+[2026-10-08 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-08 08:00:01] ==================================================
