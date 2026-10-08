@@ -12,5 +12,14 @@
     "answer_url": "https://www.quora.com/Do-the-cheap-sunglasses-have-good-UV-protection/answer/Taylor-Aurora-3",
     "question_answer_count": 20,
     "posted_date": "2026-10-03"
+  },
+  {
+    "question": "Are high index lenses worth it, or are they merely cosmetic?",
+    "answer_text": "Not cosmetic, but not automatically worth it either. The honest answer depends on your prescription power.\n\nIndex describes how strongly a material bends light, so for the same power a higher-index lens can be made thinner. That part is real optics, not marketing.\n\nThe cost is dispersion, and the Abbe number measures it. CR-39 sits near 1.50 with an Abbe number around 58; polycarbonate is about 1.586 with an Abbe number near 30; the 1.67 and 1.74 materials land in the low 30s as well. A lower Abbe number means more chromatic aberration, which shows up as colour fringing toward the edge of the lens and reduced contrast away from the optical centre. Higher-index surfaces also reflect more light, which is why these lenses benefit so much from a good anti-reflective coating.\n\nTwo things people usually miss. First, higher-index materials are generally denser, so a thinner lens is not automatically a lighter one. Second, the thickness you actually save scales with your prescription: at a mild power the millimetres saved are small enough that the better optical quality of a lower-index material may serve you better, while at a strong minus power the saving is the difference between a comfortable lens and a heavy one. In practice, many opticians start steering people toward higher index from roughly plus or minus 3 dioptres and up.\n\nI wrote a longer breakdown of index, Abbe number and dispersion here: https://teenyoun.com/articles/lens-index-and-abbe-number-why-thinner-glasses-aren-t-always-better.html",
+    "linked_article": "lens-index-and-abbe-number-why-thinner-glasses-aren-t-always-better.html",
+    "status": "posted",
+    "answer_url": "https://www.quora.com/Are-high-index-lenses-worth-it-or-are-they-merely-cosmetic/answer/Taylor-Aurora-3",
+    "question_answer_count": 9,
+    "posted_date": "2026-10-09"
   }
 ]
