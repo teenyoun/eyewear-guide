@@ -48,6 +48,7 @@ ARTICLE_HTML = """<!DOCTYPE html>
 <meta property="og:type" content="article">
 <meta property="og:url" content="{canonical}">
 <link rel="stylesheet" href="../css/style.css">
+{json_ld}
 </head>
 <body>
 <header class="site-header">
@@ -218,7 +219,25 @@ def generate_article(article):
     # Add category editor picks (if any products exist for this category)
     category_picks = picks_section_html(article.get("category", ""))
 
+    json_ld = (
+        '<script type="application/ld+json">\n'
+        + json.dumps({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article["title"],
+            "description": article.get("meta_description", article["title"]),
+            "mainEntityOfPage": f"{SITE_URL}/articles/{filename}",
+            "datePublished": now.strftime("%Y-%m-%d"),
+            "dateModified": now.strftime("%Y-%m-%d"),
+            "author": {"@type": "Organization", "name": "EyewearGuide"},
+            "publisher": {"@type": "Organization", "name": "EyewearGuide",
+                          "logo": {"@type": "ImageObject", "url": f"{SITE_URL}/logo.png"}},
+        }, ensure_ascii=False, indent=2)
+        + '\n</script>'
+    )
+
     html = ARTICLE_HTML.format(
+        json_ld=json_ld,
         title=article["title"],
         meta_desc=article.get("meta_description", article["title"]),
         canonical=f"{SITE_URL}/articles/{filename}",
