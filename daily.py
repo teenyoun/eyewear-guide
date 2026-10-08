@@ -249,8 +249,8 @@ def generate_article(article):
     )
 
     if not DRY_RUN:
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(html)
+        with open(filepath, "w", encoding="utf-8", newline="") as f:
+            f.write(html.replace("\r\n", "\n").replace("\r", "").replace("\n", "\r\n"))
 
     return filename
 
@@ -407,8 +407,8 @@ def rebuild_homepage(articles):
 </body>
 </html>"""
     if not DRY_RUN:
-        with open(HOMEPAGE_FILE, "w", encoding="utf-8") as f:
-            f.write(html)
+        with open(HOMEPAGE_FILE, "w", encoding="utf-8", newline="") as f:
+            f.write(html.replace("\r\n", "\n").replace("\r", "").replace("\n", "\r\n"))
 
 
 def scan_articles():
