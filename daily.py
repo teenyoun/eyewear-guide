@@ -180,7 +180,15 @@ def picks_section_html(category=None, limit=4, heading="Editor's Picks"):
         return ""
     cards = []
     for p in picks:
-        price = f'<span class="pick-price">${p.get("price", "")} &middot; Check Price on Amazon</span>' if p.get("price") else '<span class="pick-price">Check Price on Amazon</span>'
+        # 价格统一保留两位小数（整数价格如 49.0 需显示为 $49.00）
+        pv = p.get("price")
+        if isinstance(pv, (int, float)) and not isinstance(pv, bool):
+            pv_txt = f'{pv:.2f}'
+        elif pv:
+            pv_txt = str(pv)
+        else:
+            pv_txt = ''
+        price = f'<span class="pick-price">${pv_txt} &middot; Check Price on Amazon</span>' if pv_txt else '<span class="pick-price">Check Price on Amazon</span>'
         cards.append(
             f'<a class="pick-card" href="{p["link_url"]}" rel="nofollow sponsored" target="_blank">\n'
             f'  <img src="{p["img_url"]}" alt="{p.get("name", "Eyewear pick").replace(chr(34), "")}" loading="lazy">\n'

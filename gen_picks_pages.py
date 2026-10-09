@@ -119,7 +119,15 @@ def slug(cat):
     return re.sub(r'[^a-z0-9]+', '-', cat.lower()).strip('-')
 
 def render_pick_card(p):
-    price = f'<span class="pick-price">${p.get("price", "")}</span>' if p.get('price') else ''
+    # 价格统一保留两位小数（整数价格如 49.0 需显示为 $49.00）
+    pv = p.get('price')
+    if isinstance(pv, (int, float)) and not isinstance(pv, bool):
+        pv_txt = f'{pv:.2f}'
+    elif pv:
+        pv_txt = str(pv)
+    else:
+        pv_txt = ''
+    price = f'<span class="pick-price">${pv_txt}</span>' if pv_txt else ''
     return f"""      <div class="pick-page-card">
         <img src="{escape(p.get('img_url', ''))}" alt="{escape(p.get('name', ''))}" loading="lazy">
         <div class="pick-page-info">
