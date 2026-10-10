@@ -1,0 +1,51 @@
+{
+  "task": "Publish 3 pins to existing board 'Eyewear Guide' via Pinterest pin-creation-tool",
+  "entry": "https://www.pinterest.com/pin-creation-tool/",
+  "account": "aurorataylor323 (Monica)",
+  "board": "Eyewear Guide (https://www.pinterest.com/aurorataylor323/eyewear-guide/)",
+  "initialLoadWaitSeconds": 135,
+  "pins": [
+    {
+      "seq": 1,
+      "title": "Gradient and Mirror Sunglass Tints: What They Actually Do",
+      "permalink": "https://www.pinterest.com/pin/1055812706414935262/",
+      "descReadbackChars": 704,
+      "link": "https://teenyoun.com/articles/gradient-and-mirror-sunglass-tints-what-they-actually-do.html",
+      "boardVerified": true,
+      "titleVerified": true,
+      "descVerified": true,
+      "linkVerified": true,
+      "status": "success"
+    },
+    {
+      "seq": 2,
+      "title": "Hydrophobic and Oleophobic Coatings: The Outermost Layer on Your Lens",
+      "permalink": "https://www.pinterest.com/pin/1055812706414935334/",
+      "descReadbackChars": 717,
+      "link": "https://teenyoun.com/articles/hydrophobic-and-oleophobic-coatings-the-outermost-layer-on-your-lens.html",
+      "boardVerified": true,
+      "titleVerified": true,
+      "descVerified": true,
+      "linkVerified": true,
+      "status": "success"
+    },
+    {
+      "seq": 3,
+      "title": "Presbyopia: Why Your Near Point Moves Away After 40",
+      "permalink": "https://www.pinterest.com/pin/1055812706414935376/",
+      "descReadbackChars": 716,
+      "link": "https://teenyoun.com/articles/presbyopia-why-your-near-point-moves-away-after-40.html",
+      "boardVerified": true,
+      "titleVerified": true,
+      "descVerified": true,
+      "linkVerified": true,
+      "status": "success"
+    }
+  ],
+  "tabs": {
+    "creationTool": "tab-vtab-465918756 (https://www.pinterest.com/pin-creation-tool/)",
+    "verification": "tab-vtab-465918757 (https://www.pinterest.com/pin/1055812706414935376/)"
+  },
+  "remaining": 0,
+  "blockers": null
+}
