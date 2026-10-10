@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/amblyopia-why-one-eye-never-learned-to-see-and-what-glasses-can-fix.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/base-curve-and-sagitta-why-a-lens-s-curvature-is-a-design-choice.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/myopia-progression-in-children-what-actually-slows-it-down.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/gradient-and-mirror-sunglass-tints-what-they-actually-do.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/hydrophobic-and-oleophobic-coatings-the-outermost-layer-on-your-lens.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/presbyopia-why-your-near-point-moves-away-after-40.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
