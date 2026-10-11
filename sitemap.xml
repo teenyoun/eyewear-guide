@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/optical-transposition-why-the-same-lens-can-be-written-two-ways.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/blue-light-and-your-body-clock-the-spectrum-behind-evening-screen-use.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/photophobia-what-light-sensitivity-is-and-what-tinted-lenses-can-do.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/amblyopia-why-one-eye-never-learned-to-see-and-what-glasses-can-fix.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/base-curve-and-sagitta-why-a-lens-s-curvature-is-a-design-choice.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/myopia-progression-in-children-what-actually-slows-it-down.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
