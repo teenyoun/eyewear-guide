@@ -21,5 +21,14 @@
     "answer_url": "https://www.quora.com/Are-high-index-lenses-worth-it-or-are-they-merely-cosmetic/answer/Taylor-Aurora-3",
     "question_answer_count": 9,
     "posted_date": "2026-10-09"
+  },
+  {
+    "question": "How do you see in the dark?",
+    "answer_text": "You do not see in the dark with the same system you use in daylight. There are two, and they take turns.\r\n\r\nThe cones give you colour and fine detail, and they need reasonable light. The rods carry vision in near darkness. They contain rhodopsin, a pigment that is bleached by light and has to be rebuilt, and that rebuilding is what dark adaptation actually is. Roughly speaking, the cone system has done most of its adjusting within five to ten minutes, while full rod adaptation takes twenty to thirty minutes or more. The two-phase feel of walking into a cinema, first grey shapes and then detail, is that difference.\r\n\r\nTwo details explain most of the practical experience. First, the rod system is not simply a more sensitive copy of the cone system. Rod sensitivity peaks at around 507 nanometres, in the blue-green, while cone sensitivity peaks nearer 555 nanometres, which is why colour drains towards grey in dim light. Second, adaptation is partly mechanical: the pupil opens in darkness and admits more light, and that part reverses quickly.\r\n\r\nBecause of this, a bright light resets much of the work, since a single exposure bleaches a meaningful amount of rhodopsin. It is also why yellow night-driving lenses do not help. They cut the blue-green wavelengths the rod system is most sensitive to, removing light exactly where your eye is using it.\r\n\r\nIf your dark adaptation has become noticeably slower than it used to be, that is worth having assessed rather than accepted.\r\n\r\nI wrote about what does and does not help night vision here: https://teenyoun.com/articles/night-driving-glasses-do-yellow-lenses-actually-help-.html",
+    "linked_article": "night-driving-glasses-do-yellow-lenses-actually-help-.html",
+    "status": "posted",
+    "answer_url": "https://www.quora.com/How-do-you-see-in-the-dark/answer/Taylor-Aurora-3",
+    "question_answer_count": 20,
+    "posted_date": "2026-10-12"
   }
 ]
