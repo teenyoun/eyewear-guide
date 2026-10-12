@@ -744,3 +744,13 @@
 [2026-10-11 08:00:01] SEO check: All internal links OK.
 [2026-10-11 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-11 08:00:01] ==================================================
+[2026-10-12 08:00:01] ==================================================
+[2026-10-12 08:00:01] Daily maintenance starting...
+[2026-10-12 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-12 08:00:01]   Published: the-tear-film-the-optical-surface-you-never-chose.html
+[2026-10-12 08:00:01]   Published: multifocal-fitting-height-why-the-reading-zone-has-to-match-your-gaze.html
+[2026-10-12 08:00:01]   Published: wavefront-aberrations-why-two-people-with-the-same-prescription-see-differently.html
+[2026-10-12 08:00:01] Sitemap rebuilt (107 URLs). Homepage refreshed (102 articles).
+[2026-10-12 08:00:01] SEO check: All internal links OK.
+[2026-10-12 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-12 08:00:01] ==================================================
