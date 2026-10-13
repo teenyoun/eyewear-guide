@@ -39,5 +39,14 @@
     "answer_url": "https://www.quora.com/Eyewear-What-is-the-minimum-lens-height-for-progressive-bifocals/answer/Taylor-Aurora-3",
     "question_answer_count": 4,
     "posted_date": "2026-10-13"
+  },
+  {
+    "question": "Why does everything look so small through my eye glasses?",
+    "answer_text": "Because a spectacle lens does not just bend light to a focus. It also scales the image, and for a short-sighted prescription the scaling is downward.\r\nThe useful way to think about it is the power factor of spectacle magnification. It is written as 1 / (1 - dF), where d is the distance from the back of the lens to your eye in metres and F is the lens power in dioptres.\r\nTake a -5.00 D lens sitting 14 mm in front of the eye, so d = 0.014. The denominator becomes 1 - (0.014 x -5.00) = 1 + 0.07 = 1.07, and the factor is about 0.935. Everything you see through that lens arrives roughly 6.5 per cent smaller than it would with no lens in the way. Push the same lens further from the eye and d grows and the image shrinks further, with no change to the prescription at all.\r\nTwo consequences follow that surprise people.\r\nThe first is why contact lenses change how the world looks. A contact lens sits essentially on the eye, so d is close to zero and the minification largely disappears. Somebody who has worn -5.00 glasses for years and switches to contacts does not just see more clearly; the world gets bigger, and doorways, stairs and the distance between the car and the kerb all need a few days of recalibration.\r\nThe second is that a plus prescription does the opposite. For a positive F the denominator drops below 1 and the factor rises above 1, so a long-sighted prescription enlarges rather than shrinks.\r\nThere is a second contributor, sometimes called the shape factor, which comes from the curvature of the lens itself rather than its distance from the eye, and in real glasses the two are multiplied together. That is why two people with the same power can still disagree about how much smaller things look: their lenses differ in thickness and base curve.\r\nIf your two eyes need very different powers, the images also differ in size from each other, which is a separate problem the visual system has to fuse.\r\nI wrote about this in more detail, including the shape factor, here:\r\nhttps://teenyoun.com/articles/why-your-glasses-change-the-size-of-the-world-spectacle-magnification-explained.html",
+    "linked_article": "why-your-glasses-change-the-size-of-the-world-spectacle-magnification-explained.html",
+    "status": "posted",
+    "answer_url": "https://www.quora.com/Why-does-everything-look-so-small-through-my-eye-glasses/answer/Taylor-Aurora-3",
+    "question_answer_count": 10,
+    "posted_date": "2026-10-14"
   }
 ]
