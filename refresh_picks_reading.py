@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Reading 分类轮换（2026-10-07）：新增 2 款，替换该分类 added_date 最早的条目
+# Reading 分类轮换（2026-10-13）：新增 2 款，替换该分类 added_date 最早的条目
 # Usage: python refresh_picks_reading.py
 import json, pathlib
 
@@ -7,21 +7,22 @@ ROOT = pathlib.Path(__file__).parent
 PICKS = ROOT / 'picks.json'
 CAT = 'Reading'
 TARGET = 3          # 每分类保持 3 款
-TODAY = '2026-10-07'
-# added_date 并列时的处置规则：本集合中的 ASIN 并列时后置（优先保留）。
-# B08CR9GRM1 (CCVOO) = Reading 类目 #2 畅销、4,045 评分、单品装；若删它，本分类将只剩三款多件套。
-RETAIN_ON_TIE = {'B08CR9GRM1'}
+TODAY = '2026-10-13'
+# 并列处置：Reading 中 B08TLRM5BV(SIGVAN) 与 B0D1XT2LW1(XVXV) 同为 10-07。
+# 保留 SIGVAN —— 新入的 B0DHH289R6 与 XVXV 高度同质（均为 $9.99 三件装方形抗眩光），
+# SIGVAN 为 5 件装花色女款，页面多样性更强。
+RETAIN_ON_TIE = {'B08TLRM5BV'}
 
 NEW = [
     {
         "category": CAT,
-        "name": "XVXV Reading Glasses for Women Men - Blue Light Blocking Readers Oversize Square Anti Glare with Spring Hinge",
-        "asin": "B0D1XT2LW1",
-        "price": 9.99,
-        "img_url": "https://m.media-amazon.com/images/I/61bHtdJzl0L._AC_SL1500_.jpg",
-        "link_url": "https://www.amazon.com/dp/B0D1XT2LW1?tag=eyewearguide-20",
+        "name": "Reading Glasses 5 Pairs Quality Readers Spring Hinge Glasses for Reading for Men and Women (5BLACK, 2.00)",
+        "asin": "B0FQNK79XP",
+        "price": 10.19,
+        "img_url": "https://m.media-amazon.com/images/I/61tDbKnD7UL._AC_SL1500_.jpg",
+        "link_url": "https://www.amazon.com/dp/B0FQNK79XP?tag=eyewearguide-20",
         "source": "landingImage-hires",
-        "blurb": "An Amazon's Choice three-pack of oversize square readers at $9.99 - about $3.33 a pair - rated 4.5 stars from 2,622 ratings and ranked #31 in Reading Glasses, with spring-hinge temples and lenses the listing says filter blue light as well as UV; sold in strengths from 0.0X to 4.0X.",
+        "blurb": "Five pairs for $10.19 while the current deal runs (list $13.99) - about $2.04 a pair - an Amazon's Choice pick rated 4.6 stars from 1,677 ratings with 1K+ bought in the past month; the listing includes five soft pouches and a cleaning cloth, with spring-hinge temples and powers from 0.5X to 6.0X.",
         "added_date": TODAY,
         "img_ok": None,
         "link_ok": None,
@@ -29,13 +30,13 @@ NEW = [
     },
     {
         "category": CAT,
-        "name": "SIGVAN Ladies Reading Glasses Blue Light Blocking Spring Hinge Fashion Pattern Print Eyeglasses for Women",
-        "asin": "B08TLRM5BV",
-        "price": 14.99,
-        "img_url": "https://m.media-amazon.com/images/I/71LDIDUb9QL._AC_SL1500_.jpg",
-        "link_url": "https://www.amazon.com/dp/B08TLRM5BV?tag=eyewearguide-20",
+        "name": "Reading Glasses for Women Men - Blue Light Blocking Magnifying Readers,Square Anti-Glare Computer Eyeglasses",
+        "asin": "B0DHH289R6",
+        "price": 9.99,
+        "img_url": "https://m.media-amazon.com/images/I/71m2Dfj4MxL._AC_SL1500_.jpg",
+        "link_url": "https://www.amazon.com/dp/B0DHH289R6?tag=eyewearguide-20",
         "source": "landingImage-hires",
-        "blurb": "Five patterned pairs for $14.99 - about $3.00 each - rated 4.6 stars from 1,573 ratings with 700-plus bought in the past month and a #14 rank in Reading Glasses; the listing describes spring-hinge temples, blue-light-filtering lenses to ease screen strain, and a soft pouch plus microfiber cloth in the box, in strengths from 0.0X to 4.0X.",
+        "blurb": "Three anti-glare readers for $9.99 (list $11.99) - about $3.33 each - rated 4.4 stars from 2,451 ratings and ranked #8 in Amazon's Reading Glasses chart; the listing describes square lenses the brand says filter blue light for close-up screen work, a 49 mm lens width, a 16 mm bridge and a unisex fit, sold across a range of powers.",
         "added_date": TODAY,
         "img_ok": None,
         "link_ok": None,
