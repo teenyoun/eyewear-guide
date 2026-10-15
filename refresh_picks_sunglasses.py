@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Sunglasses 分类轮换（2026-10-09）：新增 2 款，替换该分类 added_date 最早的条目
+# Sunglasses 分类轮换（2026-10-15）：新增 2 款，替换该分类 added_date 最早的条目
 # Usage: python refresh_picks_sunglasses.py
 import json, pathlib
 
@@ -7,23 +7,23 @@ ROOT = pathlib.Path(__file__).parent
 PICKS = ROOT / 'picks.json'
 CAT = 'Sunglasses'
 TARGET = 3          # 每分类保持 3 款
-TODAY = '2026-10-09'
+TODAY = '2026-10-15'
 # added_date 并列时的处置规则：本集合中的 ASIN 并列时后置（优先保留）。
-# 现有两条 10-03：B09NVX1CK3(KastKing Huzzah) 与 B07PBLGCGZ(mxnx aviator) 并列。
-# 保留 KastKing：类目 #3 畅销 + Amazon's Choice + 运动包裹款式；
-# 且本轮新增的 Luenx 已是男式方框飞行员款，保留 mxnx 会使两副款式重叠。
-RETAIN_ON_TIE = {'B09NVX1CK3'}
+# 本轮入选后集合为 B09NVX1CK3(10-03) 与并列的两条 10-09：
+#   B07Z8Q3GV9(Luenx aviator) / B07JKG6QB6(CARFIA CA5354)。
+# 保留 B07Z8Q3GV9：类目 #4 畅销、8,471 评分、5K+/月购买量，强于 #88 / 1K+ 的 CARFIA。
+RETAIN_ON_TIE = {'B07Z8Q3GV9'}
 
 NEW = [
     {
         "category": CAT,
-        "name": "Luenx Aviator Polarized Sunglasses for Men: Square UV400 Driving",
-        "asin": "B07Z8Q3GV9",
-        "price": 16.99,
-        "img_url": "https://m.media-amazon.com/images/I/71E5WD1ok9L._AC_SL1500_.jpg",
-        "link_url": "https://www.amazon.com/dp/B07Z8Q3GV9?tag=eyewearguide-20",
+        "name": "FEIDUSUN Sunglasses Men Polarized Sunglasses for Mens and Womens,Black Retro Sun Glasses Driving Fishing UV Protection",
+        "asin": "B0BKSKCYX7",
+        "price": 9.99,
+        "img_url": "https://m.media-amazon.com/images/I/51ABDkq99LL._AC_SL1500_.jpg",
+        "link_url": "https://www.amazon.com/dp/B0BKSKCYX7?tag=eyewearguide-20",
         "source": "landingImage-hires",
-        "blurb": "A square-aviator frame at $16.99 that ranks #4 in Amazon's Men's Sunglasses chart - 4.5 stars from 8,471 ratings with 5K+ bought in the past month; the listing specifies a 61 mm metal frame with polarized TAC (tri-acetate cellulose) lenses and UV400 protection, and the box adds a soft pouch, cloth, gift carton and a polarized test card.",
+        "blurb": "A $9.99 deal pick (list $15.99) holding the #1 Best Seller slot in Amazon's Men's Sunglasses chart - 4.4 stars from 5,024 ratings with 10K-plus bought in the past month; the listing credits TAC lenses with UVA/UVB protection plus an anti-glare HD polarized coating it says cuts glare off roads, water and snow, in a retro square matte-black frame it describes as lightweight, flexible and durable.",
         "added_date": TODAY,
         "img_ok": None,
         "link_ok": None,
@@ -31,13 +31,13 @@ NEW = [
     },
     {
         "category": CAT,
-        "name": "CARFIA Polarized Men's Sunglasses UV400 Protection Cool Man Shades CA5354",
-        "asin": "B07JKG6QB6",
-        "price": 49.0,
-        "img_url": "https://m.media-amazon.com/images/I/51OXExfjMRS._AC_SL1500_.jpg",
-        "link_url": "https://www.amazon.com/dp/B07JKG6QB6?tag=eyewearguide-20",
+        "name": "KALIYADI Polarized Sunglasses for Men and Women Semi-Rimless Frame Driving Sun glasses UV Blocking",
+        "asin": "B07MW4R1X3",
+        "price": 16.99,
+        "img_url": "https://m.media-amazon.com/images/I/61KQXq71FJL._AC_SL1500_.jpg",
+        "link_url": "https://www.amazon.com/dp/B07MW4R1X3?tag=eyewearguide-20",
         "source": "landingImage-hires",
-        "blurb": "The premium pick at $49.00: 4.6 stars from 4,812 ratings with 1K+ bought in the past month, ranked #88 in Amazon's Men's Sunglasses chart; the listing describes handcrafted hypoallergenic acetate frames it says never fade, shatterproof polarized lenses with UV400 protection, anti-glare coating and a leather case in the box.",
+        "blurb": "A two-pack for $16.99 (list $17.99) - about $8.50 a pair - rated 4.5 stars from 43,301 ratings with 4K-plus bought in the past month and a #4 rank in Amazon's Men's Sunglasses chart; the listing describes a semi-rimless frame built from ultra-light materials with shatterproof HD polarized lenses for truer colour and less reflected glare, and each pair ships with its own microfiber pouch and cleaning cloth.",
         "added_date": TODAY,
         "img_ok": None,
         "link_ok": None,
