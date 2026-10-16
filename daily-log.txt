@@ -784,3 +784,13 @@
 [2026-10-15 08:00:01] SEO check: All internal links OK.
 [2026-10-15 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-15 08:00:01] ==================================================
+[2026-10-16 08:00:01] ==================================================
+[2026-10-16 08:00:01] Daily maintenance starting...
+[2026-10-16 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-16 08:00:01]   Published: lens-density-why-the-thinnest-lens-is-not-always-the-lightest.html
+[2026-10-16 08:00:01]   Published: from-blank-to-frame-how-a-prescription-lens-is-actually-made.html
+[2026-10-16 08:00:01]   Published: aniseikonia-when-the-two-eyes-see-different-sizes.html
+[2026-10-16 08:00:02] Sitemap rebuilt (119 URLs). Homepage refreshed (114 articles).
+[2026-10-16 08:00:02] SEO check: All internal links OK.
+[2026-10-16 08:00:02] Maintenance complete. 3 new articles published.
+[2026-10-16 08:00:02] ==================================================
