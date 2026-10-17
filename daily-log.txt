@@ -794,3 +794,13 @@
 [2026-10-16 08:00:02] SEO check: All internal links OK.
 [2026-10-16 08:00:02] Maintenance complete. 3 new articles published.
 [2026-10-16 08:00:02] ==================================================
+[2026-10-17 08:00:00] ==================================================
+[2026-10-17 08:00:00] Daily maintenance starting...
+[2026-10-17 08:00:00] Found 5 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-17 08:00:00]   Published: ocular-dominance-why-one-eye-leads-and-what-it-changes.html
+[2026-10-17 08:00:00]   Published: polarised-lenses-and-screens-why-a-filter-can-turn-a-display-black.html
+[2026-10-17 08:00:00]   Published: emmetropization-how-a-child-s-eye-learns-its-own-focus.html
+[2026-10-17 08:00:00] Sitemap rebuilt (122 URLs). Homepage refreshed (117 articles).
+[2026-10-17 08:00:01] SEO check: All internal links OK.
+[2026-10-17 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-17 08:00:01] ==================================================
