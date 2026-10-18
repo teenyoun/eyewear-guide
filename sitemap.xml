@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/minkwitz-s-theorem-why-the-sides-of-a-progressive-lens-never-come-into-focus.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/fresnel-press-on-prisms-when-the-prism-is-a-thin-sheet.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/stereopsis-why-depth-perception-needs-two-eyes-working-together.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/emmetropization-how-a-child-s-eye-learns-its-own-focus.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/polarised-lenses-and-screens-why-a-filter-can-turn-a-display-black.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/ocular-dominance-why-one-eye-leads-and-what-it-changes.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
