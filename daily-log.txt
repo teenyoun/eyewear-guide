@@ -814,3 +814,13 @@
 [2026-10-18 08:00:01] SEO check: All internal links OK.
 [2026-10-18 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-18 08:00:01] ==================================================
+[2026-10-19 08:00:01] ==================================================
+[2026-10-19 08:00:01] Daily maintenance starting...
+[2026-10-19 08:00:01] Found 7 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-19 08:00:01]   Published: lenticular-lenses-why-a-14-00-d-lens-is-not-just-a-thicker-4-00.html
+[2026-10-19 08:00:01]   Published: straight-lines-that-bend-why-new-glasses-make-the-world-curve.html
+[2026-10-19 08:00:01]   Published: toric-lenses-why-a-rotating-contact-lens-still-holds-your-axis.html
+[2026-10-19 08:00:01] Sitemap rebuilt (128 URLs). Homepage refreshed (123 articles).
+[2026-10-19 08:00:01] SEO check: All internal links OK.
+[2026-10-19 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-19 08:00:01] ==================================================
