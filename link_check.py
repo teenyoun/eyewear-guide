@@ -1,9 +1,21 @@
 # 每日精选链接检查：检查 picks.json 中所有图片/详情页链接有效性
 # Usage: python link_check.py [--verbose]
-import json, pathlib, urllib.request, datetime, sys
+import json, pathlib, urllib.request, datetime, sys, subprocess, shutil
 
 ROOT = pathlib.Path(__file__).parent
 PICKS = ROOT / 'picks.json'
+
+# GitHub Desktop's bundled git is the only one that works offline here.
+_GIT_CANDIDATES = [
+    r'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-3.6.3\resources\app\git\cmd\git.exe',
+]
+
+
+def git_bin():
+    for c in _GIT_CANDIDATES:
+        if pathlib.Path(c).exists():
+            return c
+    return shutil.which('git')
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/126.0 Safari/537.36')
 
@@ -22,6 +34,29 @@ def check(url, timeout=15):
             return r.status in (200, 206)
     except Exception:
         return False
+
+def commit_picks():
+    """Commit picks.json on its own so the daily timestamp refresh never rides
+    along in an unrelated article/pin commit. Push is left to the next push."""
+    g = git_bin()
+    if not g:
+        print('picks commit: skipped (no git)')
+        return
+    def run(*a):
+        return subprocess.run([g, '-C', str(ROOT)] + list(a),
+                              capture_output=True, text=True)
+    try:
+        dirty = run('status', '--porcelain', '--', 'picks.json').stdout.strip()
+        if not dirty:
+            print('picks commit: clean')
+            return
+        run('add', '--', 'picks.json')
+        c = run('commit', '-q', '-m', 'chore(picks): refresh link status',
+                '--', 'picks.json')
+        print('picks commit rc=%d' % c.returncode)
+    except Exception as e:
+        print('picks commit: failed (%s)' % e)
+
 
 def main():
     verbose = '--verbose' in sys.argv
@@ -45,6 +80,7 @@ def main():
         if verbose:
             print(f"{item.get('name','?')[:40]:42s} img={'OK' if img_ok else 'DEAD'} link={'OK' if link_ok else 'DEAD'}")
     PICKS.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
+    commit_picks()
     print(f"[{now}] checked={len(data)} dead={len(dead)}")
     for d in dead:
         print('  DEAD:', d.get('name', '?'), '|', d.get('link_url', ''))
