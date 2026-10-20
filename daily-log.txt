@@ -824,3 +824,13 @@
 [2026-10-19 08:00:01] SEO check: All internal links OK.
 [2026-10-19 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-19 08:00:01] ==================================================
+[2026-10-20 08:00:02] ==================================================
+[2026-10-20 08:00:02] Daily maintenance starting...
+[2026-10-20 08:00:02] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-20 08:00:02]   Published: accommodative-amplitude-why-close-work-tires-some-eyes-and-not-others.html
+[2026-10-20 08:00:02]   Published: why-squinting-sharpens-your-vision-depth-of-field-and-the-pinhole-effect.html
+[2026-10-20 08:00:02]   Published: abrasion-resistance-what-your-lens-coating-is-actually-tested-against.html
+[2026-10-20 08:00:02] Sitemap rebuilt (131 URLs). Homepage refreshed (126 articles).
+[2026-10-20 08:00:02] SEO check: All internal links OK.
+[2026-10-20 08:00:02] Maintenance complete. 3 new articles published.
+[2026-10-20 08:00:02] ==================================================
