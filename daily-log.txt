@@ -834,3 +834,13 @@
 [2026-10-20 08:00:02] SEO check: All internal links OK.
 [2026-10-20 08:00:02] Maintenance complete. 3 new articles published.
 [2026-10-20 08:00:02] ==================================================
+[2026-10-21 08:00:01] ==================================================
+[2026-10-21 08:00:01] Daily maintenance starting...
+[2026-10-21 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-21 08:00:01]   Published: sports-eye-protection-why-astm-f803-is-not-ansi-z87-1.html
+[2026-10-21 08:00:01]   Published: the-jackson-cross-cylinder-how-your-axis-is-refined-one-degree-at-a-time.html
+[2026-10-21 08:00:01]   Published: phoria-and-tropia-when-the-eyes-drift-but-nothing-looks-double.html
+[2026-10-21 08:00:02] Sitemap rebuilt (134 URLs). Homepage refreshed (129 articles).
+[2026-10-21 08:00:02] SEO check: All internal links OK.
+[2026-10-21 08:00:02] Maintenance complete. 3 new articles published.
+[2026-10-21 08:00:02] ==================================================
