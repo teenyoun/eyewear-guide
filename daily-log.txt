@@ -864,3 +864,13 @@
 [2026-10-23 08:00:02] SEO check: All internal links OK.
 [2026-10-23 08:00:02] Maintenance complete. 3 new articles published.
 [2026-10-23 08:00:02] ==================================================
+[2026-10-24 08:00:01] ==================================================
+[2026-10-24 08:00:01] Daily maintenance starting...
+[2026-10-24 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-24 08:00:01]   Published: pantoscopic-tilt-the-prism-and-cylinder-a-tilted-lens-adds.html
+[2026-10-24 08:00:01]   Published: contact-lens-deposits-protein-lipid-and-what-actually-removes-them.html
+[2026-10-24 08:00:01]   Published: rigid-lenses-the-tear-film-does-half-the-correcting.html
+[2026-10-24 08:00:01] Sitemap rebuilt (143 URLs). Homepage refreshed (138 articles).
+[2026-10-24 08:00:01] SEO check: All internal links OK.
+[2026-10-24 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-24 08:00:01] ==================================================
