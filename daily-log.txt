@@ -874,3 +874,13 @@
 [2026-10-24 08:00:01] SEO check: All internal links OK.
 [2026-10-24 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-24 08:00:01] ==================================================
+[2026-10-25 08:00:01] ==================================================
+[2026-10-25 08:00:01] Daily maintenance starting...
+[2026-10-25 08:00:01] Found 8 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-25 08:00:01]   Published: why-heavy-glasses-hurt-mass-lever-arm-and-nose-load.html
+[2026-10-25 08:00:01]   Published: why-coatings-craze-thermal-stress-and-the-hot-car.html
+[2026-10-25 08:00:01]   Published: what-a-dioptre-actually-measures-focal-length-vergence-and-why-two-lenses-do-not-simply-add.html
+[2026-10-25 08:00:01] Sitemap rebuilt (146 URLs). Homepage refreshed (141 articles).
+[2026-10-25 08:00:01] SEO check: All internal links OK.
+[2026-10-25 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-25 08:00:01] ==================================================
