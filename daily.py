@@ -85,6 +85,8 @@ def log(msg):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{timestamp}] {msg}"
     print(line)
+    if DRY_RUN:
+        return  # dry runs must not consume today's publish budget
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(line + "\n")
 
@@ -468,9 +470,26 @@ def validate_links(articles):
     return broken
 
 
+def _published_today():
+    """Count articles already published today, so re-running the script cannot
+    exceed the daily cap (idempotent across multiple invocations per day)."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    n = 0
+    try:
+        for line in LOG_FILE.read_text(encoding="utf-8", errors="replace").splitlines():
+            if line.startswith("[" + today) and "  Published: " in line:
+                n += 1
+    except Exception:
+        pass
+    return n
+
+
 def _load_token():
     """Read GitHub token from agent-core secrets (outside repo)."""
-    p = Path(r"C:\Users\Administrator\.accio\accounts\1758995702\agents\DID-F456DA-14F456DAU1777026-5875-B06335\agent-core\secrets\github-token.txt")
+    _cands = [os.environ.get("GH_TOKEN_FILE", ""),
+              os.path.join(os.path.expanduser("~"), ".github-token"),
+              r"C:\Users\Administrator\.accio\accounts\1758995702\agents\DID-F456DA-14F456DAU1777026-5875-B06335\agent-core\secrets\github-token.txt"]
+    p = next((Path(c) for c in _cands if c and Path(c).exists()), Path(_cands[-1]))
     try:
         return p.read_text(encoding="ascii").strip()
     except Exception:
@@ -523,9 +542,18 @@ def main():
     if pending:
         log(f"Found {len(pending)} pending article(s) in queue. Publishing up to "
             f"{ARTICLES_PER_DAY} today.")
+        already_today = _published_today()
+        budget = max(0, ARTICLES_PER_DAY - already_today)
+        if budget == 0:
+            log(f"Daily cap already reached ({already_today}/{ARTICLES_PER_DAY} published today). "
+                f"Skipping publishing.")
+            pending = []
+        else:
+            if already_today:
+                log(f"Already published {already_today} today; remaining budget {budget}.")
         published = 0
         for article in pending:
-            if published >= ARTICLES_PER_DAY:
+            if published >= budget:
                 break
             # Empty-body guard: never publish a shell page without real content;
             # keep the article pending so it publishes automatically once written.
