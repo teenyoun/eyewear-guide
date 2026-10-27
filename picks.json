@@ -10,8 +10,8 @@
   "blurb": "A $9.99 deal pick (list $15.99) holding the #1 Best Seller slot in Amazon's Men's Sunglasses chart - 4.4 stars from 5,024 ratings with 10K-plus bought in the past month; the listing credits TAC lenses with UVA/UVB protection plus an anti-glare HD polarized coating it says cuts glare off roads, water and snow, in a retro square matte-black frame it describes as lightweight, flexible and durable.",
   "added_date": "2026-10-15",
   "img_ok": true,
-  "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "link_ok": false,
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Blue Light",
@@ -25,7 +25,7 @@
   "added_date": "2026-10-17",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Reading",
@@ -39,7 +39,7 @@
   "added_date": "2026-10-19",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Sunglasses",
@@ -53,7 +53,7 @@
   "added_date": "2026-10-21",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Sunglasses",
@@ -67,7 +67,7 @@
   "added_date": "2026-10-21",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Blue Light",
@@ -81,7 +81,7 @@
   "added_date": "2026-10-23",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Blue Light",
@@ -95,7 +95,7 @@
   "added_date": "2026-10-23",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Reading",
@@ -109,7 +109,7 @@
   "added_date": "2026-10-25",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  },
  {
   "category": "Reading",
@@ -123,6 +123,6 @@
   "added_date": "2026-10-25",
   "img_ok": true,
   "link_ok": true,
-  "last_checked": "2026-10-26 08:45"
+  "last_checked": "2026-10-27 08:45"
  }
 ]
