@@ -470,6 +470,18 @@ def validate_links(articles):
     return broken
 
 
+def _adaptive_cap(pending_count):
+    """Throttle publishing when the queue is thin, so a stalled refill job cannot
+    drain the queue overnight. Full speed only with a healthy buffer."""
+    if pending_count >= 8:
+        return ARTICLES_PER_DAY
+    if pending_count >= 4:
+        return 2
+    if pending_count >= 1:
+        return 1
+    return 0
+
+
 def _published_today():
     """Count articles already published today, so re-running the script cannot
     exceed the daily cap (idempotent across multiple invocations per day)."""
@@ -543,10 +555,19 @@ def main():
         log(f"Found {len(pending)} pending article(s) in queue. Publishing up to "
             f"{ARTICLES_PER_DAY} today.")
         already_today = _published_today()
-        budget = max(0, ARTICLES_PER_DAY - already_today)
+        remaining_today = max(0, ARTICLES_PER_DAY - already_today)
+        queue_pending = len(pending)
+        budget = min(remaining_today, _adaptive_cap(queue_pending))
+        if budget < remaining_today:
+            log(f"Queue is thin ({queue_pending} pending). Throttling to {budget} article(s) "
+                f"today instead of {remaining_today} to avoid running dry.")
+        if budget == 0 and remaining_today > 0:
+            log(f"Queue empty or exhausted ({queue_pending} pending). Nothing to publish; "
+                f"content refill is needed from the main machine.")
         if budget == 0:
-            log(f"Daily cap already reached ({already_today}/{ARTICLES_PER_DAY} published today). "
-                f"Skipping publishing.")
+            if already_today >= ARTICLES_PER_DAY:
+                log(f"Daily cap already reached ({already_today}/{ARTICLES_PER_DAY} published today). "
+                    f"Skipping publishing.")
             pending = []
         else:
             if already_today:
