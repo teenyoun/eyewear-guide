@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/the-lens-clock-measuring-curvature-without-measuring-power.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/corneal-topography-why-a-map-answers-a-different-question-from-a-k-reading.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/modulus-and-water-content-the-two-numbers-that-decide-how-a-soft-lens-feels.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/four-point-touch-the-frame-alignment-checks-that-decide-whether-glasses-feel-right.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/how-to-check-new-glasses-at-home-optical-centre-lens-height-and-tilt.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/how-a-lensmeter-reads-your-glasses-back-vertex-power-and-the-neutralisation-trick.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>

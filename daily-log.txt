@@ -894,3 +894,13 @@
 [2026-10-26 08:00:01] SEO check: All internal links OK.
 [2026-10-26 08:00:01] Maintenance complete. 3 new articles published.
 [2026-10-26 08:00:01] ==================================================
+[2026-10-27 08:00:01] ==================================================
+[2026-10-27 08:00:01] Daily maintenance starting...
+[2026-10-27 08:00:01] Found 5 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-27 08:00:01]   Published: modulus-and-water-content-the-two-numbers-that-decide-how-a-soft-lens-feels.html
+[2026-10-27 08:00:01]   Published: corneal-topography-why-a-map-answers-a-different-question-from-a-k-reading.html
+[2026-10-27 08:00:01]   Published: the-lens-clock-measuring-curvature-without-measuring-power.html
+[2026-10-27 08:00:01] Sitemap rebuilt (152 URLs). Homepage refreshed (147 articles).
+[2026-10-27 08:00:01] SEO check: All internal links OK.
+[2026-10-27 08:00:01] Maintenance complete. 3 new articles published.
+[2026-10-27 08:00:01] ==================================================

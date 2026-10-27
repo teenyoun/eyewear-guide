@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Lens Clock: Measuring Curvature Without Measuring Power | EyewearGuide</title>
+<meta name="description" content="A lens clock measures surface curvature, not power. Why its dial is calibrated for one refractive index, and how far wrong it reads on a 1.74 lens.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teenyoun.com/articles/the-lens-clock-measuring-curvature-without-measuring-power.html">
+<meta property="og:title" content="The Lens Clock: Measuring Curvature Without Measuring Power">
+<meta property="og:description" content="A lens clock measures surface curvature, not power. Why its dial is calibrated for one refractive index, and how far wrong it reads on a 1.74 lens.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://teenyoun.com/articles/the-lens-clock-measuring-curvature-without-measuring-power.html">
+<link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Lens Clock: Measuring Curvature Without Measuring Power",
+  "description": "A lens clock measures surface curvature, not power. Why its dial is calibrated for one refractive index, and how far wrong it reads on a 1.74 lens.",
+  "mainEntityOfPage": "https://teenyoun.com/articles/the-lens-clock-measuring-curvature-without-measuring-power.html",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "author": {
+    "@type": "Organization",
+    "name": "EyewearGuide"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EyewearGuide",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://teenyoun.com/logo.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="site-title">Eyewear<span>Guide</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="best-blue-light-glasses.html">Blue Light</a>
+      <a href="best-reading-glasses-men.html">Reading</a>
+      <a href="best-online-glasses-stores.html">Prescription</a>
+      <a href="best-prescription-sports-glasses-on-amazon-tested-picks.html">Sports</a>
+    </nav>
+  </div>
+</header>
+<main>
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <strong>Prescription Glasses</strong></nav>
+<article>
+<h1>The Lens Clock: Measuring Curvature Without Measuring Power</h1>
+<p class="byline">October 27, 2026 &middot; 8 min read</p>
+<h2>What the instrument actually measures</h2>
+<p>A lens clock, also called a lens measure or spherometer, has three contact pins. Two are fixed at a known separation; the third sits on a sprung plunger at the centre, and its movement drives a dial. Rest the three pins on a lens surface and the centre pin is pushed in or out by the height of the curve between the outer two. That height is the sagitta, and it is the only thing the instrument physically measures.</p>
+<p>This distinction matters because a lens clock is routinely described as if it read lens power. It does not. It reads the curvature of one surface, and the dial has been calibrated so that curvature can be expressed in dioptres. The conversion assumes an index, and that assumption is where most of the confusion in optical workshops begins.</p>
+<h2>From sagitta to dioptres</h2>
+<p>The geometry linking a chord to a sphere is exact. For a surface of radius r, a chord of half-width y and a sagitta s, the relation is r = y squared divided by 2s, plus s divided by 2. Once you have r in metres, the surface power follows from the refractive index: F = (n - 1) / r.</p>
+<p>A typical gauge uses a 20 mm chord, so y is 10 mm. Take a 5.00 D surface on a material with index 1.53: the radius is 0.53 / 5.00 = 0.106 m, or 106 mm. The sagitta is then about 0.47 mm. The dial is simply graduated so that this displacement reads 5.00 D. Nothing about the dial is electrical or optical; it is a mechanical conversion of one millimetre-scale distance into a dioptre scale.</p>
+<h2>The index trap</h2>
+<p>Mechanical lens clocks are calibrated for a single index, most often 1.53 and sometimes 1.523. That was the standard crown glass of the era the instrument was designed in. Put the same gauge on a modern high-index lens and the dial lies, because the surface curvature that produces a given sagitta produces a different power in a different material.</p>
+<p>The correction is a single ratio. True surface power equals the reading multiplied by (n true - 1) divided by (n calibration - 1). On a 1.74 lens the factor is 0.74 / 0.53, which is 1.396. A dial reading of 5.00 D is therefore about 6.98 D of actual surface power. That is not a small error; it is a 40 percent overstatement of curvature. On a 1.60 lens the factor is 0.60 / 0.53 = 1.132, so a 5.00 D reading is about 5.66 D.</p>
+<p>Digital gauges do not escape this. They still measure sagitta with pins or a probe; the difference is that you type the index in. Type the wrong one and the error is identical, only better formatted.</p>
+<h2>What it is genuinely useful for</h2>
+<p>Three jobs, all of them about surfaces rather than prescriptions.</p>
+<ul>
+<li><strong>Verifying a base curve.</strong> When a replacement lens feels different from the pair it is replacing, the first suspect is the front curve. A clock settles that question in seconds, and it is the fastest way to prove that a "same lens" is not the same lens.</li>
+<li><strong>Estimating power from two surfaces.</strong> Read the front and the back, then add them: a thin lens is approximately the sum of its surface powers, with the concave back surface contributing a negative value. This is an estimate, not a measurement of the finished lens.</li>
+<li><strong>Checking a blank before surfacing.</strong> A semi-finished blank arrives with a known front curve; measuring it confirms the order was picked correctly before any grinding happens.</li>
+</ul>
+<h2>Why it cannot replace a lensmeter</h2>
+<p>The two instruments answer different questions at different points in the lens. A clock measures each surface separately, at the surface; a lensmeter measures the finished lens as a whole, at the back vertex. Between them sit centre thickness and refractive index, and both of those change the answer. Add the two surface readings of a thick lens and you will not get its back vertex power; the difference is small at low powers and no longer small in a strong positive lens.</p>
+<p>So a clock tells you what the surfaces are. A lensmeter tells you what the wearer will experience. Neither replaces the other, and an optician who only owns one of them is working half-blind.</p>
+<h2>The chord is part of the measurement</h2>
+<p>A sagitta reading means nothing without the chord it was taken across, which is why gauges are built with a fixed pin separation and why two clocks with different chords do not agree. On a spherical surface that disagreement is arithmetic and can be corrected. On an aspheric surface it cannot, because the curvature genuinely changes as you move away from the centre: a 20 mm chord and a 25 mm chord sample different parts of the same surface and report different dioptres for the same lens. This is also why a clock placed off-centre on a progressive lens returns a drifting number as you slide it around. The instrument is telling the truth about a local region; the mistake is treating that number as a property of the whole lens.</p>
+<h2>Three misconceptions worth clearing</h2>
+<ul>
+<li><strong>"The dial reads my prescription."</strong> It reads one surface. A -4.00 D lens has a front curve of roughly +5 to +6 D and a back curve of roughly -9 to -10 D; neither number appears on the order.</li>
+<li><strong>"The number works on any lens."</strong> Only on a material with the calibration index. On 1.67 and 1.74 the reading understates curvature by a third to 40 percent, and on a 1.50 CR-39 lens it overstates it slightly.</li>
+<li><strong>"A lens clock is an old tool superseded by digital instruments."</strong> The pins and the sagitta are still how curvature is measured. Digital versions changed the display, not the physics.</li>
+</ul>
+<h2>When the surface question is the one that matters</h2>
+<p>If a new pair is sharp in the centre but wrong in the periphery, if a replacement lens looks visibly flatter or steeper than the one beside it, or if a lens ordered as identical behaves differently, the useful question is what the surfaces are, not what the prescription says. That is a workshop question, and it is answered with a clock rather than an argument. Anything involving comfort, adaptation or symptoms belongs with the optician instead; a surface measurement cannot explain those.</p>
+<div class="info-box">
+<strong>Related Guides:</strong>
+<ul>
+  <li><a href="best-online-glasses-stores.html">Best Online Glasses Stores</a></li>
+  <li><a href="cheap-prescription-glasses-online.html">Cheap Prescription Glasses Online</a></li>
+  <li><a href="../lens-thickness-calculator.html">Lens Thickness Calculator</a></li>
+</ul>
+</div>
+
+</article>
+</main>
+<footer class="site-footer">
+  <p>&copy; 2026 EyewearGuide. All rights reserved.</p>
+  <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases. We only recommend products we have tested and believe in.</p>
+  <p class="brand-line">Our own brand &mdash; direct link, not an affiliate link: <a href="https://teenyoun.github.io/boyarn-eyewear-showcase/">BOYARN, professional eyewear manufacturer</a>.</p>
+</footer>
+</body>
+</html>
