@@ -42,14 +42,49 @@ def load_queue():
     return json.loads(raw.decode("utf-8")), raw.count(b"\n") == raw.count(b"\r\n")
 
 
-def save_queue(data, crlf_ok):
-    text = json.dumps(data, indent=2, ensure_ascii=False)
-    if crlf_ok:
-        text = text.replace("\n", "\r\n")
+def mark_published(rec, pin_url):
+    """Update one record in place.
+
+    Never re-serialises the whole file: a full json.dumps rewrites every line's
+    layout, so a single publish showed up as a 500-line diff. The record is
+    located by its unique image path and only its status and pin_url lines are
+    touched, then the result is re-parsed to prove nothing else moved.
+    """
+    raw = open(QUEUE, "rb").read()
+    crlf = raw.count(b"\n") == raw.count(b"\r\n")
+    text = raw.decode("utf-8")
+    anchor = '"image": %s' % json.dumps(rec["image"], ensure_ascii=False)
+    idx = text.find(anchor)
+    assert idx != -1, "record not found by image anchor: " + rec["image"]
+    start = text.rfind("{", 0, idx)
+    end = text.find("}", idx)
+    block = text[start:end]
+
+    assert block.count('"status": "pending"') == 1, "unexpected status lines in record"
+    new_block = block.replace('"status": "pending"', '"status": "published"', 1)
+    if '"pin_url": ""' in new_block:
+        new_block = new_block.replace('"pin_url": ""', '"pin_url": %s' % json.dumps(pin_url), 1)
+    elif '"pin_url":' in new_block:
+        import re as _re
+        new_block = _re.sub(r'"pin_url":\s*"[^"]*"', '"pin_url": %s' % json.dumps(pin_url), new_block, count=1)
+    else:
+        raise AssertionError("no pin_url field in record")
+
+    out = text[:start] + new_block + text[end:]
+    before = json.loads(text)
+    after = json.loads(out)
+    assert len(before) == len(after)
+    changed = [i for i in range(len(before)) if before[i] != after[i]]
+    assert len(changed) == 1, "expected exactly one changed record, got %d" % len(changed)
+    target = before.index(rec)
+    assert changed[0] == target, "changed the wrong record"
+    assert after[target]["status"] == "published" and after[target]["pin_url"] == pin_url
+
     tmp = QUEUE + ".tmp"
     with open(tmp, "wb") as f:
-        f.write(text.encode("utf-8"))
+        f.write(out.encode("utf-8"))
     os.replace(tmp, QUEUE)
+    return target, crlf
 
 
 def due_records(data, limit, today=None):
@@ -287,7 +322,8 @@ def main():
             if href and not args.dry_run:
                 rec["status"] = "published"
                 rec["pin_url"] = href
-                save_queue(data, crlf)
+                pos, crlf2 = mark_published(rec, href)
+                log("record #%d marked published (file keeps its own layout, crlf=%s)" % (pos + 1, crlf2))
                 ok += 1
                 time.sleep(20)
         browser.close()
