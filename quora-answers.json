@@ -93,5 +93,14 @@
     "article": "vertex-distance-pantoscopic-tilt-and-optical-centre-height-three-measurements-that-change-your-prescription.html",
     "question_answer_count": 4,
     "posted_date": "2026-10-23"
+  },
+  {"question": "Where is my pupillary distance on my prescription?",
+    "question_url": "https://www.quora.com/Where-is-my-pupillary-distance-on-my-prescription",
+    "answer_text": "Your eye doctor often does not record it because a prescription describes what your eyes need, while PD describes where the lenses have to sit. That second number belongs to whoever is making the glasses, so it is frequently absent from the printout you are handed, and yes, you generally have to ask for it explicitly.\n\nAsk the optician rather than the doctor. The useful phrasing is \"I need my PD, including monocular PD, for an online order.\" Most will give it. Some charge a small fee or decline to release it, which is a policy choice, not a legal restriction. Monocular PD, one number per eye, is better than a single binocular value because faces are rarely symmetrical.\n\nYou can also measure it yourself, accurately enough for ordinary single-vision orders. Stand about 20 cm from a mirror, hold a millimetre ruler flat against your brow with the zero mark over one pupil, keep your head still, close that eye, and read the mark that lines up with the centre of the other pupil. Do it twice. If the two readings differ by more than a millimetre, take a third and use that one. Most adults land between about 58 and 70 mm, so a result far outside that range usually means the ruler was read from the wrong mark.\n\nWhy the precision matters: each lens has an optical centre that should sit directly in front of the pupil it serves. A few millimetres off and you are looking through the edge of the lens, where prism and aberration live. The symptom is rarely obvious blur. It shows up as eye strain, a pulling ache above the eyes, or a headache that arrives after twenty minutes of reading, which is exactly why a wrong PD goes unnoticed for months.\n\nOne caveat on DIY. A ruler measurement is fine for a low-power single-vision pair. If you wear a high prescription, prism, or a progressive, the tolerance is much tighter and the professional measurement is worth the fee.\n\nThe full method, including the two-person check and the dual-PD case: https://teenyoun.com/articles/how-to-measure-pupillary-distance-at-home-3-easy-methods.html",
+    "linked_article": "how-to-measure-pupillary-distance-at-home-3-easy-methods.html",
+    "status": "published",
+    "answer_url": "https://www.quora.com/Where-is-my-pupillary-distance-on-my-prescription/answer/Taylor-Aurora-3",
+    "question_answer_count": 3,
+    "posted_date": "2026-10-28"
   }
 ]
