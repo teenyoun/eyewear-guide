@@ -1,0 +1,170 @@
+[
+ {
+  "idx": 1,
+  "image": "pin-301-rimless-crack.png",
+  "headline_on_image": "Rimless Lenses Crack Here",
+  "slug": "why-rimless-lenses-crack-at-the-drill-holes",
+  "link": "https://teenyoun.com/articles/why-rimless-lenses-crack-at-the-drill-holes",
+  "status": "image_ready"
+ },
+ {
+  "idx": 2,
+  "image": "pin-302-heavy-frames.png",
+  "headline_on_image": "Heavy Frames Hurt Your Nose",
+  "slug": "why-heavy-glasses-hurt-mass-lever-arm-and-nose-load",
+  "link": "https://teenyoun.com/articles/why-heavy-glasses-hurt-mass-lever-arm-and-nose-load",
+  "status": "image_ready"
+ },
+ {
+  "idx": 3,
+  "image": "pin-303-uv400.png",
+  "headline_on_image": "What UV400 Really Blocks",
+  "slug": "what-uv400-actually-means-and-why-a-dark-tint-is-not-uv-protection",
+  "link": "https://teenyoun.com/articles/what-uv400-actually-means-and-why-a-dark-tint-is-not-uv-protection",
+  "status": "image_ready"
+ },
+ {
+  "idx": 4,
+  "image": "pin-304-tear-film.png",
+  "headline_on_image": "Your Tear Film Is Seven Microns",
+  "slug": "the-tear-film-the-optical-surface-you-never-chose",
+  "link": "https://teenyoun.com/articles/the-tear-film-the-optical-surface-you-never-chose",
+  "status": "image_ready"
+ },
+ {
+  "idx": 5,
+  "image": "pin-305-thinner-not-lighter.png",
+  "headline_on_image": "Thinner Is Not Lighter",
+  "slug": "why-a-thinner-lens-isn-t-always-a-lighter-one",
+  "link": "https://teenyoun.com/articles/why-a-thinner-lens-isn-t-always-a-lighter-one",
+  "status": "image_ready"
+ },
+ {
+  "idx": 6,
+  "image": "pin-306-fogging.png",
+  "headline_on_image": "Why Your Lenses Fog",
+  "slug": "why-lenses-fog-and-how-anti-fog-coatings-actually-work",
+  "link": "https://teenyoun.com/articles/why-lenses-fog-and-how-anti-fog-coatings-actually-work",
+  "status": "image_ready"
+ },
+ {
+  "idx": 7,
+  "image": "pin-307-dioptre.png",
+  "headline_on_image": "What a Dioptre Actually Measures",
+  "slug": "what-a-dioptre-actually-measures-focal-length-vergence-and-why-two-lenses-do-not-simply-add",
+  "link": "https://teenyoun.com/articles/what-a-dioptre-actually-measures-focal-length-vergence-and-why-two-lenses-do-not-simply-add",
+  "status": "image_ready"
+ },
+ {
+  "idx": 8,
+  "image": "pin-308-headache.png",
+  "headline_on_image": "Why Your Glasses Give You a Headache",
+  "slug": "why-do-my-glasses-give-me-a-headache-8-common-causes-and-fixes",
+  "link": "https://teenyoun.com/articles/why-do-my-glasses-give-me-a-headache-8-common-causes-and-fixes",
+  "status": "image_ready"
+ },
+ {
+  "idx": 9,
+  "image": "pin-309-wavefront.png",
+  "headline_on_image": "Your Eye Is Not a Perfect Lens",
+  "slug": "wavefront-aberrations-why-two-people-with-the-same-prescription-see-differently",
+  "link": "https://teenyoun.com/articles/wavefront-aberrations-why-two-people-with-the-same-prescription-see-differently",
+  "status": "image_ready"
+ },
+ {
+  "idx": 10,
+  "image": "pin-310-materials.png",
+  "headline_on_image": "Titanium, Acetate, TR90",
+  "slug": "titanium-vs-acetate-vs-tr90-glasses-frames-material-guide",
+  "link": "https://teenyoun.com/articles/titanium-vs-acetate-vs-tr90-glasses-frames-material-guide",
+  "status": "image_ready"
+ },
+ {
+  "idx": 11,
+  "image": "pin-311-vertical-imbalance.png",
+  "headline_on_image": "When One Eye Sees Differently",
+  "slug": "vertical-imbalance-and-slab-off-when-each-lens-gives-a-different-prism",
+  "link": "https://teenyoun.com/articles/vertical-imbalance-and-slab-off-when-each-lens-gives-a-different-prism",
+  "status": "image_ready"
+ },
+ {
+  "idx": 12,
+  "image": "pin-312-vertex-tilt.png",
+  "headline_on_image": "Three Numbers Nobody Measures",
+  "slug": "vertex-distance-pantoscopic-tilt-and-optical-centre-height-three-measurements-that-change-your-prescription",
+  "link": "https://teenyoun.com/articles/vertex-distance-pantoscopic-tilt-and-optical-centre-height-three-measurements-that-change-your-prescription",
+  "status": "image_ready"
+ },
+ {
+  "idx": 13,
+  "image": "pin-313-ultrasonic.png",
+  "headline_on_image": "Do Ultrasonic Cleaners Work",
+  "slug": "ultrasonic-cleaners-for-glasses-what-cavitation-does-to-your-lenses",
+  "link": "https://teenyoun.com/articles/ultrasonic-cleaners-for-glasses-what-cavitation-does-to-your-lenses",
+  "status": "image_ready"
+ },
+ {
+  "idx": 14,
+  "image": "pin-314-toric.png",
+  "headline_on_image": "Why Astigmatism Needs a Different Lens",
+  "slug": "toric-lenses-why-a-rotating-contact-lens-still-holds-your-axis",
+  "link": "https://teenyoun.com/articles/toric-lenses-why-a-rotating-contact-lens-still-holds-your-axis",
+  "status": "image_ready"
+ },
+ {
+  "idx": 15,
+  "image": "pin-315-photochromic.png",
+  "headline_on_image": "Photochromic Lenses, Tested",
+  "slug": "transition-lenses-review-2026-are-gen-8-worth-the-upgrade-",
+  "link": "https://teenyoun.com/articles/transition-lenses-review-2026-are-gen-8-worth-the-upgrade-",
+  "status": "image_ready"
+ },
+ {
+  "idx": 16,
+  "image": "pin-316-trifocal.png",
+  "headline_on_image": "Who Actually Needs Trifocals",
+  "slug": "trifocal-lenses-why-the-third-zone-exists-and-when-it-helps",
+  "link": "https://teenyoun.com/articles/trifocal-lenses-why-the-third-zone-exists-and-when-it-helps",
+  "status": "image_ready"
+ },
+ {
+  "idx": 17,
+  "image": "pin-317-squinting.png",
+  "headline_on_image": "Why Squinting Sharpens Your Vision",
+  "slug": "why-squinting-sharpens-your-vision-depth-of-field-and-the-pinhole-effect",
+  "link": "https://teenyoun.com/articles/why-squinting-sharpens-your-vision-depth-of-field-and-the-pinhole-effect",
+  "status": "image_ready"
+ },
+ {
+  "idx": 18,
+  "image": "pin-318-coatings.png",
+  "headline_on_image": "What Is Actually On Your Lens",
+  "slug": "what-is-actually-on-the-front-of-your-lens-hard-coats-and-scratch-resistance",
+  "link": "https://teenyoun.com/articles/what-is-actually-on-the-front-of-your-lens-hard-coats-and-scratch-resistance",
+  "status": "image_ready"
+ },
+ {
+  "idx": 19,
+  "image": "pin-319-crazing.png",
+  "headline_on_image": "Why Coatings Craze",
+  "slug": "why-coatings-craze-thermal-stress-and-the-hot-car",
+  "link": "https://teenyoun.com/articles/why-coatings-craze-thermal-stress-and-the-hot-car",
+  "status": "image_ready"
+ },
+ {
+  "idx": 20,
+  "image": "pin-320-magnification.png",
+  "headline_on_image": "Your Glasses Change Object Size",
+  "slug": "why-your-glasses-change-the-size-of-the-world-spectacle-magnification-explained",
+  "link": "https://teenyoun.com/articles/why-your-glasses-change-the-size-of-the-world-spectacle-magnification-explained",
+  "status": "image_ready"
+ },
+ {
+  "idx": 21,
+  "image": "pin-321-blurry.png",
+  "headline_on_image": "Why New Glasses Feel Blurry",
+  "slug": "why-are-my-new-glasses-blurry-adjustment-period-wrong-prescription-or-defect",
+  "link": "https://teenyoun.com/articles/why-are-my-new-glasses-blurry-adjustment-period-wrong-prescription-or-defect",
+  "status": "image_ready"
+ }
+]
