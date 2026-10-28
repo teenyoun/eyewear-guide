@@ -76,7 +76,12 @@ def mark_published(rec, pin_url):
     assert len(before) == len(after)
     changed = [i for i in range(len(before)) if before[i] != after[i]]
     assert len(changed) == 1, "expected exactly one changed record, got %d" % len(changed)
-    target = before.index(rec)
+    # Locate by the unique image path, not by dict equality: main() already
+    # mutated rec's status/pin_url before calling us, so rec no longer equals
+    # the still-pending object parsed out of the file.
+    matches = [i for i, r in enumerate(before) if r.get("image") == rec["image"]]
+    assert len(matches) == 1, "image anchor is not unique: %s" % rec["image"]
+    target = matches[0]
     assert changed[0] == target, "changed the wrong record"
     assert after[target]["status"] == "published" and after[target]["pin_url"] == pin_url
 
