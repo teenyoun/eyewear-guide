@@ -202,7 +202,17 @@ def publish_one(ctx, rec, dry_run):
             return None, "file input never appeared (hydration)"
         page.set_input_files("input[type=file]", img)
         log("uploaded " + os.path.basename(img))
-        page.wait_for_timeout(12000)
+        # Pinterest keeps the title/link fields disabled until the image has been
+        # processed. A fixed sleep is not enough: wait for the field to unlock.
+        try:
+            page.wait_for_function(
+                "() => { const el = document.querySelector('input[placeholder*=\"\u7b80\u8981\u63cf\u8ff0\"]');"
+                " return !!el && !el.disabled && !el.readOnly; }",
+                timeout=150000)
+            log("title input enabled")
+        except Exception:
+            return None, "title input stayed disabled (image processing stalled)"
+        page.wait_for_timeout(1500)
 
         try:
             page.get_by_text("知道了", exact=True).first.click(timeout=4000)
@@ -210,7 +220,7 @@ def publish_one(ctx, rec, dry_run):
             pass
 
         title_box = page.locator('input[placeholder*="简要描述"], input[placeholder*="title" i]').first
-        title_box.fill(rec["title"])
+        title_box.fill(rec["title"], timeout=20000)
 
         desc = rec.get("description") or ""
         if desc:
@@ -320,9 +330,15 @@ def main():
             browser.close()
             return 3
 
+        RETRYABLE = ("title input stayed disabled", "file input never appeared",
+                     "publish button not found or disabled", "image missing")
         for rec in todo:
             log("publishing: " + rec["title"][:60])
             href, note = publish_one(ctx, rec, args.dry_run)
+            if href is None and any(k in note for k in RETRYABLE) and not args.dry_run:
+                log("retrying once after: " + note)
+                time.sleep(15)
+                href, note = publish_one(ctx, rec, args.dry_run)
             log("result: %s | %s" % (href or "-", note))
             if href and not args.dry_run:
                 rec["status"] = "published"
