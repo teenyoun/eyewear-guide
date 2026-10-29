@@ -922,3 +922,13 @@
 [2026-10-28 08:00:03] SEO check: All internal links OK.
 [2026-10-28 08:00:03] Maintenance complete. 3 new articles published.
 [2026-10-28 08:00:03] ==================================================
+[2026-10-29 08:00:03] ==================================================
+[2026-10-29 08:00:03] Daily maintenance starting...
+[2026-10-29 08:00:03] Found 9 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-29 08:00:03]   Published: image-jump-why-a-bifocal-line-makes-the-world-leap.html
+[2026-10-29 08:00:03]   Published: face-form-angle-why-wrapped-sunglasses-need-a-compensated-prescription.html
+[2026-10-29 08:00:03]   Published: axis-tolerance-how-many-degrees-off-can-your-cylinder-be-.html
+[2026-10-29 08:00:03] Sitemap rebuilt (158 URLs). Homepage refreshed (153 articles).
+[2026-10-29 08:00:03] SEO check: All internal links OK.
+[2026-10-29 08:00:03] Maintenance complete. 3 new articles published.
+[2026-10-29 08:00:03] ==================================================
