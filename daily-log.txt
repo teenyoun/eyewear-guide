@@ -932,3 +932,13 @@
 [2026-10-29 08:00:03] SEO check: All internal links OK.
 [2026-10-29 08:00:03] Maintenance complete. 3 new articles published.
 [2026-10-29 08:00:03] ==================================================
+[2026-10-30 08:00:03] ==================================================
+[2026-10-30 08:00:03] Daily maintenance starting...
+[2026-10-30 08:00:03] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-30 08:00:03]   Published: tac-vs-nylon-sunglass-lenses-what-the-material-actually-changes.html
+[2026-10-30 08:00:03]   Published: segment-inset-why-the-reading-zone-sits-closer-together-than-your-pupils.html
+[2026-10-30 08:00:03]   Published: polycarbonate-vs-trivex-for-children-s-glasses-toughness-optics-and-the-trade-off.html
+[2026-10-30 08:00:03] Sitemap rebuilt (161 URLs). Homepage refreshed (156 articles).
+[2026-10-30 08:00:03] SEO check: All internal links OK.
+[2026-10-30 08:00:03] Maintenance complete. 3 new articles published.
+[2026-10-30 08:00:03] ==================================================
