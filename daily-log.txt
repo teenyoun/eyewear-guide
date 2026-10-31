@@ -942,3 +942,13 @@
 [2026-10-30 08:00:03] SEO check: All internal links OK.
 [2026-10-30 08:00:03] Maintenance complete. 3 new articles published.
 [2026-10-30 08:00:03] ==================================================
+[2026-10-31 08:00:03] ==================================================
+[2026-10-31 08:00:03] Daily maintenance starting...
+[2026-10-31 08:00:03] Found 9 pending article(s) in queue. Publishing up to 3 today.
+[2026-10-31 08:00:03]   Published: hinge-screws-thread-pitch-clamp-force-and-why-tightening-feels-like-it-works.html
+[2026-10-31 08:00:03]   Published: visual-field-testing-what-perimetry-measures-and-why-the-grid-spacing-matters.html
+[2026-10-31 08:00:03]   Published: contrast-tints-for-ball-sports-spectral-transmittance-not-colour-preference.html
+[2026-10-31 08:00:03] Sitemap rebuilt (164 URLs). Homepage refreshed (159 articles).
+[2026-10-31 08:00:03] SEO check: All internal links OK.
+[2026-10-31 08:00:03] Maintenance complete. 3 new articles published.
+[2026-10-31 08:00:03] ==================================================
