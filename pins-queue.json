@@ -1425,5 +1425,32 @@
     "date": "2026-11-03",
     "pin_url": "",
     "description": "Three explanations, in order: an adjustment period of days to two weeks, a prescription wrong in sphere, cylinder or axis, or a lens made to the wrong optical centre. Here is how to tell them apart before going back to the shop."
+  },
+  {
+    "title": "Why Strong Lenses Shrink Your Field of View",
+    "image": "pins-batch/pin-322-ring-scotoma.jpg",
+    "link": "https://teenyoun.com/articles/ring-scotoma-why-strong-minus-lenses-shrink-your-field-of-view.html",
+    "status": "pending",
+    "date": "2026-11-04",
+    "pin_url": "",
+    "description": "A high minus lens makes the world smaller and narrows what the edge of the lens can deliver. Beyond the rim the eye looks past the lens entirely, and the gap between the two is the ring scotoma you notice on the first walk outside."
+  },
+  {
+    "title": "The Bifocal Line Makes the Floor Jump",
+    "image": "pins-batch/pin-323-image-jump.jpg",
+    "link": "https://teenyoun.com/articles/image-jump-why-a-bifocal-line-makes-the-world-leap.html",
+    "status": "pending",
+    "date": "2026-11-04",
+    "pin_url": "",
+    "description": "Cross the segment line and the image of the step below your foot shifts sideways for a moment. Image jump is a prism effect at the top edge of the reading zone, and its size is set by the base curve and the add, not by how well the pair was fitted."
+  },
+  {
+    "title": "Why Glasses Screws Keep Coming Loose",
+    "image": "pins-batch/pin-324-hinge-screws.jpg",
+    "link": "https://teenyoun.com/articles/hinge-screws-thread-pitch-clamp-force-and-why-tightening-feels-like-it-works.html",
+    "status": "pending",
+    "date": "2026-11-04",
+    "pin_url": "",
+    "description": "A hinge screw is held by clamp force and thread friction, not by glue. Vibration walks it out a fraction at a time, which is why tightening feels like a fix for a week and why thread pitch and a drop of locker matter more than torque."
   }
 ]
