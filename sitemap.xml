@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/the-autorefractor-what-the-machine-measures-before-you-answer-a-question.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/ansi-z80-3-what-the-us-sunglass-standard-actually-requires.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/en-iso-12870-what-a-spectacle-frame-is-actually-tested-for.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/contrast-tints-for-ball-sports-spectral-transmittance-not-colour-preference.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/visual-field-testing-what-perimetry-measures-and-why-the-grid-spacing-matters.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/hinge-screws-thread-pitch-clamp-force-and-why-tightening-feels-like-it-works.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>

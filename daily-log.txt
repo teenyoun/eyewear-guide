@@ -952,3 +952,13 @@
 [2026-10-31 08:00:03] SEO check: All internal links OK.
 [2026-10-31 08:00:03] Maintenance complete. 3 new articles published.
 [2026-10-31 08:00:03] ==================================================
+[2026-11-01 08:00:03] ==================================================
+[2026-11-01 08:00:03] Daily maintenance starting...
+[2026-11-01 08:00:03] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-01 08:00:03]   Published: ansi-z80-3-what-the-us-sunglass-standard-actually-requires.html
+[2026-11-01 08:00:03]   Published: en-iso-12870-what-a-spectacle-frame-is-actually-tested-for.html
+[2026-11-01 08:00:03]   Published: the-autorefractor-what-the-machine-measures-before-you-answer-a-question.html
+[2026-11-01 08:00:03] Sitemap rebuilt (167 URLs). Homepage refreshed (162 articles).
+[2026-11-01 08:00:03] SEO check: All internal links OK.
+[2026-11-01 08:00:03] Maintenance complete. 3 new articles published.
+[2026-11-01 08:00:03] ==================================================
