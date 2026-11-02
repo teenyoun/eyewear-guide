@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://teenyoun.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://teenyoun.com/articles/night-myopia-why-your-focus-drifts-when-the-light-drops.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/who-pays-for-the-eye-test-what-dse-rules-require-for-screen-work.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://teenyoun.com/articles/bevel-geometry-how-a-lens-edge-is-cut-and-why-it-decides-the-fit.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/the-autorefractor-what-the-machine-measures-before-you-answer-a-question.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/ansi-z80-3-what-the-us-sunglass-standard-actually-requires.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://teenyoun.com/articles/en-iso-12870-what-a-spectacle-frame-is-actually-tested-for.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>

@@ -962,3 +962,13 @@
 [2026-11-01 08:00:03] SEO check: All internal links OK.
 [2026-11-01 08:00:03] Maintenance complete. 3 new articles published.
 [2026-11-01 08:00:03] ==================================================
+[2026-11-02 08:00:04] ==================================================
+[2026-11-02 08:00:04] Daily maintenance starting...
+[2026-11-02 08:00:04] Found 9 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-02 08:00:04]   Published: bevel-geometry-how-a-lens-edge-is-cut-and-why-it-decides-the-fit.html
+[2026-11-02 08:00:04]   Published: night-myopia-why-your-focus-drifts-when-the-light-drops.html
+[2026-11-02 08:00:04]   Published: who-pays-for-the-eye-test-what-dse-rules-require-for-screen-work.html
+[2026-11-02 08:00:04] Sitemap rebuilt (170 URLs). Homepage refreshed (165 articles).
+[2026-11-02 08:00:04] SEO check: All internal links OK.
+[2026-11-02 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-02 08:00:04] ==================================================
