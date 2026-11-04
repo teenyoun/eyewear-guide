@@ -982,3 +982,13 @@
 [2026-11-03 08:00:04] SEO check: All internal links OK.
 [2026-11-03 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-03 08:00:04] ==================================================
+[2026-11-04 08:00:04] ==================================================
+[2026-11-04 08:00:04] Daily maintenance starting...
+[2026-11-04 08:00:04] Found 9 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-04 08:00:04]   Published: snellen-vs-logmar-why-20-20-does-not-travel-between-charts.html
+[2026-11-04 08:00:04]   Published: blue-light-hazard-and-circadian-light-two-weighting-curves-one-word.html
+[2026-11-04 08:00:04]   Published: why-over-the-counter-readers-cannot-correct-astigmatism.html
+[2026-11-04 08:00:04] Sitemap rebuilt (176 URLs). Homepage refreshed (171 articles).
+[2026-11-04 08:00:04] SEO check: All internal links OK.
+[2026-11-04 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-04 08:00:04] ==================================================
