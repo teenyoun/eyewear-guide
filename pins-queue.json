@@ -1506,5 +1506,86 @@
     "date": "2026-11-06",
     "pin_url": "",
     "description": "A lensmeter collimates a mire, passes it through the lens and finds the focal point with a telescope. It reports back vertex power, because a prescription is a statement about the back surface, and the back surface is where the eye actually sits."
+  },
+  {
+    "title": "Why Your Astigmatism Axis Changes With Age",
+    "image": "pins-batch/pin-331-astigmatism-axis.jpg",
+    "link": "https://teenyoun.com/articles/with-the-rule-and-against-the-rule-astigmatism-why-the-axis-changes-with-age.html",
+    "status": "pending",
+    "date": "2026-11-07",
+    "pin_url": "",
+    "description": "A minus cylinder with its axis near 180 corrects the eye that is too strong vertically; near 90 it corrects the opposite. The axis of most eyes drifts toward against-the-rule over decades as lid load and the crystalline lens reshape the optics, so the same cylinder power can stop working without changing at all."
+  },
+  {
+    "title": "Striae, Orange Peel and Colour Bands: Which Coating Fault Is Which",
+    "image": "pins-batch/pin-332-coating-striae.jpg",
+    "link": "https://teenyoun.com/articles/striae-orange-peel-and-colour-bands-reading-a-coating-defect.html",
+    "status": "pending",
+    "date": "2026-11-07",
+    "pin_url": "",
+    "description": "Striae are interference fringes from a layer laid down unevenly, almost always cosmetic and never propagating. Orange peel is roughness on a sub-micron scale, and colour bands are a thickness gradient. Three different faults in the same thin film, with three different answers."
+  },
+  {
+    "title": "Why Drugstore Readers Cannot Fix Astigmatism",
+    "image": "pins-batch/pin-333-otc-readers.jpg",
+    "link": "https://teenyoun.com/articles/why-over-the-counter-readers-cannot-correct-astigmatism.html",
+    "status": "pending",
+    "date": "2026-11-07",
+    "pin_url": "",
+    "description": "A reader is one spherical plus power with no cylinder and no axis. An astigmatic eye focuses a point into two focal lines at different distances, and a spherical lens shifts both by the same amount, so the separation between them survives untouched whatever the power."
+  },
+  {
+    "title": "Snellen vs logMAR: Why 20/20 Does Not Travel Between Charts",
+    "image": "pins-batch/pin-334-eye-charts.jpg",
+    "link": "https://teenyoun.com/articles/snellen-vs-logmar-why-20-20-does-not-travel-between-charts.html",
+    "status": "pending",
+    "date": "2026-11-08",
+    "pin_url": "",
+    "description": "Snellen steps letter size by irregular amounts and scores a whole line at a time, so one guessed letter moves the result. logMAR spaces lines in equal logarithmic steps and scores letter by letter. Same eye, two charts, two numbers, and neither is a measure of anything but angular resolution."
+  },
+  {
+    "title": "Blue Light: Two Weighting Curves, One Word",
+    "image": "pins-batch/pin-335-blue-light-night.jpg",
+    "link": "https://teenyoun.com/articles/blue-light-hazard-and-circadian-light-two-weighting-curves-one-word.html",
+    "status": "pending",
+    "date": "2026-11-08",
+    "pin_url": "",
+    "description": "The blue-light hazard peaks around 435 to 440 nm and weights retinal risk. Melanopic sensitivity peaks nearer 480 nm and sets circadian timing. Same lamp, two action spectra, two different doses, and a filter that shortens one does not automatically shorten the other."
+  },
+  {
+    "title": "Who Pays for the Eye Test Under DSE Rules",
+    "image": "pins-batch/pin-336-dse-eye-test.jpg",
+    "link": "https://teenyoun.com/articles/who-pays-for-the-eye-test-what-dse-rules-require-for-screen-work.html",
+    "status": "pending",
+    "date": "2026-11-08",
+    "pin_url": "",
+    "description": "The UK Display Screen Equipment Regulations put the duty in regulation 6: an eye and eyesight test on request, paid for by the employer, and special corrective appliances where the work needs them. The trigger is the request, not a diagnosis, which is why it applies to normal eyes too."
+  },
+  {
+    "title": "What the Autorefractor Measures Before You Answer",
+    "image": "pins-batch/pin-337-autorefractor.jpg",
+    "link": "https://teenyoun.com/articles/the-autorefractor-what-the-machine-measures-before-you-answer-a-question.html",
+    "status": "pending",
+    "date": "2026-11-09",
+    "pin_url": "",
+    "description": "The instrument finds the plane where the retinal image is sharp, meridian by meridian, then reduces the returning wavefront to sphere, cylinder and axis. Because it never asks you anything, it cannot know whether you will tolerate that number on your face."
+  },
+  {
+    "title": "What a Spectacle Frame Is Actually Tested For",
+    "image": "pins-batch/pin-338-frame-standard.jpg",
+    "link": "https://teenyoun.com/articles/en-iso-12870-what-a-spectacle-frame-is-actually-tested-for.html",
+    "status": "pending",
+    "date": "2026-11-09",
+    "pin_url": "",
+    "description": "EN ISO 12870 tests a frame for deformation under heat, resistance to sweat and sebum, and the safety of edges and coatings. A frame that creeps out of shape in a hot car has failed a real requirement, because a temple that loses its bend changes vertex distance and tilt."
+  },
+  {
+    "title": "What the US Sunglass Standard Actually Requires",
+    "image": "pins-batch/pin-339-sunglass-standard.jpg",
+    "link": "https://teenyoun.com/articles/ansi-z80-3-what-the-us-sunglass-standard-actually-requires.html",
+    "status": "pending",
+    "date": "2026-11-09",
+    "pin_url": "",
+    "description": "ANSI Z80.3 limits UV with the pupil in the calculation, sorts lenses into use categories by visible transmittance, and caps how far a tint may shift the colour of a brake light. The label is a claim about a specific set of measurements, not a quality grade."
   }
 ]
