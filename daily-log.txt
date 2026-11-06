@@ -1002,3 +1002,13 @@
 [2026-11-05 08:00:04] SEO check: All internal links OK.
 [2026-11-05 08:00:04] Maintenance complete. 2 new articles published.
 [2026-11-05 08:00:04] ==================================================
+[2026-11-06 08:00:04] ==================================================
+[2026-11-06 08:00:04] Daily maintenance starting...
+[2026-11-06 08:00:04] Found 10 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-06 08:00:04]   Published: mesopic-vision-why-dusk-is-harder-to-see-in-than-full-darkness.html
+[2026-11-06 08:00:04]   Published: the-duochrome-test-why-red-and-green-reveal-your-focus.html
+[2026-11-06 08:00:04]   Published: nose-pad-contact-mechanics-why-marks-appear-and-what-actually-relieves-them.html
+[2026-11-06 08:00:04] Sitemap rebuilt (181 URLs). Homepage refreshed (176 articles).
+[2026-11-06 08:00:04] SEO check: All internal links OK.
+[2026-11-06 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-06 08:00:04] ==================================================
