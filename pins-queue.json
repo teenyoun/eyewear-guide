@@ -1587,5 +1587,86 @@
     "date": "2026-11-09",
     "pin_url": "",
     "description": "ANSI Z80.3 limits UV with the pupil in the calculation, sorts lenses into use categories by visible transmittance, and caps how far a tint may shift the colour of a brake light. The label is a claim about a specific set of measurements, not a quality grade."
+  },
+  {
+    "title": "Laser Safety Glasses: What an OD Number Actually Promises",
+    "image": "pins-batch/pin-340-laser-safety.jpg",
+    "link": "https://teenyoun.com/articles/laser-safety-glasses-what-an-optical-density-number-actually-promises.html",
+    "status": "pending",
+    "date": "2026-11-10",
+    "pin_url": "",
+    "description": "Optical density is a logarithm, not a score. OD 3 means one thousandth of the beam gets through, and the number says nothing until you name the wavelength it was measured at. EN 207 certifies a filter against both."
+  },
+  {
+    "title": "Photokeratitis: Why Snow Blindness Arrives Hours Late",
+    "image": "pins-batch/pin-341-snow-blindness.jpg",
+    "link": "https://teenyoun.com/articles/photokeratitis-why-snow-blindness-is-a-sunburn-on-the-front-of-the-eye.html",
+    "status": "pending",
+    "date": "2026-11-10",
+    "pin_url": "",
+    "description": "Ultraviolet burn of the cornea, and the pain shows up long after the exposure. Snow and thin cloud both raise the dose, and a dark tint without a UV claim changes nothing about it."
+  },
+  {
+    "title": "The Lens Clock: Curvature Is Not Power",
+    "image": "pins-batch/pin-346-lens-clock.jpg",
+    "link": "https://teenyoun.com/articles/the-lens-clock-measuring-curvature-without-measuring-power.html",
+    "status": "pending",
+    "date": "2026-11-10",
+    "pin_url": "",
+    "description": "A lens clock reads surface curvature on a dial calibrated for one refractive index, so on a 1.74 lens it is reporting another material's geometry. What the reading is genuinely good for."
+  },
+  {
+    "title": "Welding Shade Numbers: Transmission, Not UV Protection",
+    "image": "pins-batch/pin-343-welding-shade.jpg",
+    "link": "https://teenyoun.com/articles/welding-shade-numbers-what-the-shade-scale-actually-measures.html",
+    "status": "pending",
+    "date": "2026-11-11",
+    "pin_url": "",
+    "description": "The shade scale labels visible light transmission on a logarithmic step. Arc welding sits at 10 to 14 for the brightness of the arc, and a darker lens is not automatically a safer one."
+  },
+  {
+    "title": "Why a Clear Lens Turns Yellow",
+    "image": "pins-batch/pin-344-yellowed-lens.jpg",
+    "link": "https://teenyoun.com/articles/why-a-clear-lens-turns-yellow-hard-coat-ageing-and-the-yellowness-index.html",
+    "status": "pending",
+    "date": "2026-11-11",
+    "pin_url": "",
+    "description": "Yellowing is photo-oxidation inside the hard coat, not dirt on the surface. The yellowness index measures the shift, and once it has moved far enough the lens is replaced rather than cleaned."
+  },
+  {
+    "title": "Perimetry: Why the Grid Spacing Decides What Is Missed",
+    "image": "pins-batch/pin-345-visual-field.jpg",
+    "link": "https://teenyoun.com/articles/visual-field-testing-what-perimetry-measures-and-why-the-grid-spacing-matters.html",
+    "status": "pending",
+    "date": "2026-11-11",
+    "pin_url": "",
+    "description": "A 24-2 test samples the central field every six degrees, so a defect narrower than that can sit between two points and never be recorded. A 10-2 pattern halves the spacing and gives up area to do it."
+  },
+  {
+    "title": "The Amsler Grid: What a Normal Result Does Not Prove",
+    "image": "pins-batch/pin-342-amsler-grid.jpg",
+    "link": "https://teenyoun.com/articles/the-amsler-grid-what-it-screens-for-and-what-a-normal-result-does-not-prove.html",
+    "status": "pending",
+    "date": "2026-11-12",
+    "pin_url": "",
+    "description": "Straight lines that look bent are the macula reporting distorted geometry, often while acuity is still normal. A clean grid on one particular day is not an all-clear for the rest of the eye."
+  },
+  {
+    "title": "Nose Pads: Why Marks Appear Even on Light Frames",
+    "image": "pins-batch/pin-347-nose-pads.jpg",
+    "link": "https://teenyoun.com/articles/nose-pad-contact-mechanics-why-marks-appear-and-what-actually-relieves-them.html",
+    "status": "pending",
+    "date": "2026-11-12",
+    "pin_url": "",
+    "description": "The pad carries the frame's load through a contact area of a few square millimetres, so pressure is a geometry problem before it is a materials one. Metal pads also have a nickel release limit to meet."
+  },
+  {
+    "title": "Mesopic Vision: Why Dusk Is Harder Than Full Darkness",
+    "image": "pins-batch/pin-348-dusk-driving.jpg",
+    "link": "https://teenyoun.com/articles/mesopic-vision-why-dusk-is-harder-to-see-in-than-full-darkness.html",
+    "status": "pending",
+    "date": "2026-11-12",
+    "pin_url": "",
+    "description": "Dusk is the most awkward light for the eye, not the dimmest. Rods and cones hand over unevenly, colour fades at different rates, and a tint chosen for daylight can cost contrast exactly then."
   }
 ]
