@@ -1042,3 +1042,13 @@
 [2026-11-09 08:00:04] SEO check: All internal links OK.
 [2026-11-09 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-09 08:00:04] ==================================================
+[2026-11-10 08:00:04] ==================================================
+[2026-11-10 08:00:04] Daily maintenance starting...
+[2026-11-10 08:00:04] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-10 08:00:04]   Published: ski-goggles-what-iso-18527-1-tests-and-why-altitude-changes-the-sum.html
+[2026-11-10 08:00:04]   Published: straylight-why-headlights-bloom-even-with-the-right-prescription.html
+[2026-11-10 08:00:04]   Published: goldmann-tonometry-why-corneal-thickness-moves-the-eye-pressure-reading.html
+[2026-11-10 08:00:04] Sitemap rebuilt (193 URLs). Homepage refreshed (188 articles).
+[2026-11-10 08:00:04] SEO check: All internal links OK.
+[2026-11-10 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-10 08:00:04] ==================================================
