@@ -1,0 +1,19 @@
+# GitHub Pages / Jekyll build configuration.
+#
+# The published site is fully static: index.html, articles/, guides/, picks-*.html,
+# lens-thickness-calculator.html, css/, and the image assets referenced by those pages.
+# Everything listed under `exclude` is build material or working data that no page
+# references. It used to be copied into every Pages artifact, which pushed each
+# deployment to ~330 MB and made the deploy step stall until its 10 minute timeout.
+exclude:
+  - pins-batch
+  - pins-batch-week-1028
+  - "*.py"
+  - "*.md"
+  - daily-log.txt
+  - content-queue.json
+  - pins-queue.json
+  - quora-answers.json
+  - picks_batch1.json
+  - articles_new.json
+  - __pycache__
