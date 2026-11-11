@@ -1695,5 +1695,32 @@
     "date": "2026-11-13",
     "pin_url": "",
     "description": "Both materials fail by deforming instead of fragmenting, so the safety argument does not separate them. Polycarbonate is thinner and cheaper and the sensible default for a full rim; Trivex resists cracking at rimless mountings and holds colour better when the prescription is climbing."
+  },
+  {
+    "title": "Orthokeratology: What an Overnight Lens Actually Changes",
+    "image": "pins-batch/pin-352-ortho-k.jpg",
+    "link": "https://teenyoun.com/articles/orthokeratology-why-an-overnight-lens-changes-the-cornea-by-microns.html",
+    "status": "pending",
+    "date": "2026-11-14",
+    "pin_url": "",
+    "description": "A reverse-geometry lens flattens the central cornea by about half a millimetre of radius, worth roughly 3 dioptres, and the tissue movement behind it is only about 40 µm. Central epithelium thins, the mid-periphery thickens, and the effect reverses within days of stopping."
+  },
+  {
+    "title": "Peroxide or Multipurpose: What Lens Solutions Actually Do",
+    "image": "pins-batch/pin-353-peroxide-solution.jpg",
+    "link": "https://teenyoun.com/articles/peroxide-or-multipurpose-what-contact-lens-solutions-actually-do.html",
+    "status": "pending",
+    "date": "2026-11-14",
+    "pin_url": "",
+    "description": "A 3 percent peroxide solution is 30,000 parts per million of biocide, so the case with its catalase disc is the actual product and six hours is the safety mechanism. Multipurpose solutions hold PHMB at around one part per million. Different chemistries, different failure modes."
+  },
+  {
+    "title": "Straylight: Why Headlights Bloom Even With the Right Prescription",
+    "image": "pins-batch/pin-354-night-glare.jpg",
+    "link": "https://teenyoun.com/articles/straylight-why-headlights-bloom-even-with-the-right-prescription.html",
+    "status": "pending",
+    "date": "2026-11-14",
+    "pin_url": "",
+    "description": "Two eyes with the same prescription can see a headlight completely differently. Straylight is scatter rather than blur: a dim veil around a sharp core, roughly doubling between youth and the mid-sixties while acuity still reads 6/6."
   }
 ]
