@@ -1052,3 +1052,13 @@
 [2026-11-10 08:00:04] SEO check: All internal links OK.
 [2026-11-10 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-10 08:00:04] ==================================================
+[2026-11-11 08:00:04] ==================================================
+[2026-11-11 08:00:04] Daily maintenance starting...
+[2026-11-11 08:00:04] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-11 08:00:04]   Published: solar-eclipse-glasses-what-iso-12312-2-actually-certifies.html
+[2026-11-11 08:00:04]   Published: prism-thinning-the-base-down-prism-built-into-a-progressive-lens.html
+[2026-11-11 08:00:04]   Published: what-52-18-145-actually-measures-on-a-pair-of-glasses.html
+[2026-11-11 08:00:04] Sitemap rebuilt (196 URLs). Homepage refreshed (191 articles).
+[2026-11-11 08:00:04] SEO check: All internal links OK.
+[2026-11-11 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-11 08:00:04] ==================================================
