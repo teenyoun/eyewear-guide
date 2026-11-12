@@ -1722,5 +1722,32 @@
     "date": "2026-11-14",
     "pin_url": "",
     "description": "Two eyes with the same prescription can see a headlight completely differently. Straylight is scatter rather than blur: a dim veil around a sharp core, roughly doubling between youth and the mid-sixties while acuity still reads 6/6."
+  },
+  {
+    "title": "Prentice's Rule: Why a Lens Shift Adds Prism You Never Ordered",
+    "image": "pins-batch/pin-355-prentice-prism.jpg",
+    "link": "https://teenyoun.com/articles/prentice-s-rule-why-a-lens-shift-adds-prism-you-never-ordered.html",
+    "status": "pending",
+    "date": "2026-11-15",
+    "pin_url": "",
+    "description": "One prism dioptre moves an image 1 cm at 1 m. Prentice's rule is P = D × d ÷ 10, so a −6.00 lens sitting 3 mm off the pupil carries 1.8Δ nobody ordered. In a minus lens the base points away from the optical centre, and the world edges pull inward."
+  },
+  {
+    "title": "ANSI Z80.1: How Wrong Is Your Lens Allowed to Be?",
+    "image": "pins-batch/pin-356-lens-tolerance.jpg",
+    "link": "https://teenyoun.com/articles/ansi-z80-1-how-wrong-is-your-lens-allowed-to-be-.html",
+    "status": "pending",
+    "date": "2026-11-15",
+    "pin_url": "",
+    "description": "ANSI Z80.1 does not describe a perfect lens; it says how far off it may sit and still be sold as that prescription. The tightest quoted power tolerance is ±0.13 D on low-power spheres, and cylinder axis carries its own tolerance in degrees, because a cylinder can be the right strength and point the wrong way."
+  },
+  {
+    "title": "The FDA Drop-Ball Test: What 21 CFR 801.410 Asks of Every Lens",
+    "image": "pins-batch/pin-357-drop-ball.jpg",
+    "link": "https://teenyoun.com/articles/the-fda-drop-ball-test-what-21-cfr-801-410-asks-of-every-lens.html",
+    "status": "pending",
+    "date": "2026-11-15",
+    "pin_url": "",
+    "description": "A 5/8-inch steel ball weighing about 16 grams, dropped from 50 inches onto the centre of the lens: roughly 0.2 joule concentrated on a circle the size of a fingertip. That is the reference test in 21 CFR 801.410, and it certifies impact resistance, not invulnerability."
   }
 ]
