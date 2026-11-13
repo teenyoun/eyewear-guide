@@ -1749,5 +1749,32 @@
     "date": "2026-11-15",
     "pin_url": "",
     "description": "A 5/8-inch steel ball weighing about 16 grams, dropped from 50 inches onto the centre of the lens: roughly 0.2 joule concentrated on a circle the size of a fingertip. That is the reference test in 21 CFR 801.410, and it certifies impact resistance, not invulnerability."
+  },
+  {
+    "title": "Mineral Glass Lenses: Where 1.523 Still Beats Plastic",
+    "image": "pins-batch/pin-358-mineral-glass.jpg",
+    "link": "https://teenyoun.com/articles/mineral-glass-lenses-where-1-523-still-beats-plastic.html",
+    "status": "pending",
+    "date": "2026-11-16",
+    "pin_url": "",
+    "description": "Crown glass sits at a refractive index of 1.523 with an Abbe number near 59, while CR-39 manages 1.498 and 58 at a specific gravity of 1.32 against glass's 2.54. Glass wins on optical quality per millimetre of thickness and loses on mass, because weight is volume times density, not density alone."
+  },
+  {
+    "title": "Spherical Equivalent: Why One Number Stands In for Two",
+    "image": "pins-batch/pin-359-spherical-equivalent.jpg",
+    "link": "https://teenyoun.com/articles/spherical-equivalent-why-one-number-stands-in-for-two.html",
+    "status": "pending",
+    "date": "2026-11-16",
+    "pin_url": "",
+    "description": "Spherical equivalent is sphere plus half the cylinder, and it works because the circle of least confusion sits midway between the two focal lines. That midpoint puts a blur circle on the retina without ever bringing either meridian into focus, which is why a plano SE is not clear vision."
+  },
+  {
+    "title": "Sun Behind You: How Light Reaches Your Eye Around the Lens",
+    "image": "pins-batch/pin-360-back-surface-glare.jpg",
+    "link": "https://teenyoun.com/articles/sun-behind-you-how-light-reaches-your-eye-around-the-lens.html",
+    "status": "pending",
+    "date": "2026-11-16",
+    "pin_url": "",
+    "description": "About 4% of light reflects off each air-to-lens surface in CR-39 and roughly 5% in polycarbonate, so an uncoated lens sends light back toward the eye from the inside. With the sun behind you, the back surface faces the bright world and the wearer is looking straight at its reflection."
   }
 ]
