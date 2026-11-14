@@ -1776,5 +1776,32 @@
     "date": "2026-11-16",
     "pin_url": "",
     "description": "About 4% of light reflects off each air-to-lens surface in CR-39 and roughly 5% in polycarbonate, so an uncoated lens sends light back toward the eye from the inside. With the sun behind you, the back surface faces the bright world and the wearer is looking straight at its reflection."
+  },
+  {
+    "title": "Nickel Allergy: Why Release Rate Beats Alloy Content",
+    "image": "pins-batch/pin-361-nickel-allergy.jpg",
+    "link": "https://teenyoun.com/articles/nickel-allergy-and-glasses-frames-why-metal-temples-itch.html",
+    "status": "pending",
+    "date": "2026-11-17",
+    "pin_url": "",
+    "description": "A nickel reaction on a frame is type IV delayed hypersensitivity, so it appears 24 to 72 hours after contact rather than the same afternoon. The regulated quantity is release rate, 0.5 micrograms per square centimetre per week under REACH entry 27, not the percentage of nickel in the alloy, which is why passivated stainless steel can be fine while a plated zinc frame starts itching once the coating microcracks at the ear bend."
+  },
+  {
+    "title": "Monovision: What the Brain Pays for One Eye Near, One Far",
+    "image": "pins-batch/pin-362-monovision.jpg",
+    "link": "https://teenyoun.com/articles/monovision-one-eye-for-distance-one-for-near-and-what-the-brain-pays-for-it.html",
+    "status": "pending",
+    "date": "2026-11-17",
+    "pin_url": "",
+    "description": "Monovision gives the dominant eye distance and leaves the non-dominant eye with a near add, usually between +1.50 and +2.00 dioptres, so each eye is defocused at one distance. It works through interocular blur suppression, learned over days to weeks, and the price is stereopsis: reported measurements show a marked drop in distance depth judgement once the add reaches about +2.25 dioptres."
+  },
+  {
+    "title": "Your Prescription Changes Because the Lens Inside Your Eye Does",
+    "image": "pins-batch/pin-363-crystalline-lens.jpg",
+    "link": "https://teenyoun.com/articles/why-your-prescription-keeps-changing-the-lens-inside-your-eye-is-an-optical-element-too.html",
+    "status": "pending",
+    "date": "2026-11-17",
+    "pin_url": "",
+    "description": "The cornea supplies about +43 of the eye's roughly +60 dioptres and the crystalline lens most of the rest, near +19 when unaccommodated, with 1 mm of axial length worth some 2.50 to 3.00 dioptres. Nuclear sclerosis raises the refractive index of the lens nucleus and pushes the eye toward myopia, while high blood glucose swells the lens by osmosis and moves refraction within days."
   }
 ]
