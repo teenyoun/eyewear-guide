@@ -1803,5 +1803,32 @@
     "date": "2026-11-17",
     "pin_url": "",
     "description": "The cornea supplies about +43 of the eye's roughly +60 dioptres and the crystalline lens most of the rest, near +19 when unaccommodated, with 1 mm of axial length worth some 2.50 to 3.00 dioptres. Nuclear sclerosis raises the refractive index of the lens nucleus and pushes the eye toward myopia, while high blood glucose swells the lens by osmosis and moves refraction within days."
+  },
+  {
+    "title": "The Clock Dial: Where Your Astigmatism Axis Actually Comes From",
+    "image": "pins-batch/pin-364-clock-dial.jpg",
+    "link": "https://teenyoun.com/articles/the-clock-dial-where-your-astigmatism-axis-actually-comes-from.html",
+    "status": "pending",
+    "date": "2026-11-18",
+    "pin_url": "",
+    "description": "An astigmatic dial does not test how well you see. Twelve or more line orientations are offered at once, and the sharpest one marks a meridian: two focal lines separated by the interval of Sturm leave one direction in focus and the perpendicular one soft. That is why the dial number is a direction to refine rather than the axis itself, and why fogging the target changes the answer."
+  },
+  {
+    "title": "Lens Flexure: Why a Thin Lens Bends in Its Frame",
+    "image": "pins-batch/pin-365-lens-flexure.jpg",
+    "link": "https://teenyoun.com/articles/lens-flexure-why-a-thin-lens-bends-in-its-frame-and-changes-power.html",
+    "status": "pending",
+    "date": "2026-11-18",
+    "pin_url": "",
+    "description": "Surface power is index minus one divided by radius, so curvature is the whole number. In a 1.60 lens a front surface of 100 mm radius contributes 6.00 dioptres, and shortening that radius to 98 mm takes it to 6.12. A lensmeter measures a lens supported by nothing; a lens clamped in a bevel or drilled rim is a plate under load, and the shape it takes is the shape you wear."
+  },
+  {
+    "title": "Six Metres, Twenty Feet: Why Test Distance Is Part of the Result",
+    "image": "pins-batch/pin-366-six-metres.jpg",
+    "link": "https://teenyoun.com/articles/six-metres-twenty-feet-why-test-distance-is-part-of-the-result.html",
+    "status": "pending",
+    "date": "2026-11-18",
+    "pin_url": "",
+    "description": "Vergence is the reciprocal of distance: 1.00 dioptre at one metre, 0.50 at two, 0.17 at six. Optical infinity is conventionally six metres or twenty feet, because 0.17 dioptres is small enough to call the light parallel while still being a real amount of accommodation the eye supplies. The chart is never at infinity, and the room length is therefore part of the prescription."
   }
 ]
