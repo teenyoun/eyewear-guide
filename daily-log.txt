@@ -1112,3 +1112,13 @@
 [2026-11-16 08:00:03] SEO check: All internal links OK.
 [2026-11-16 08:00:03] Maintenance complete. 3 new articles published.
 [2026-11-16 08:00:03] ==================================================
+[2026-11-17 08:00:03] ==================================================
+[2026-11-17 08:00:03] Daily maintenance starting...
+[2026-11-17 08:00:03] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-17 08:00:03]   Published: maximum-plus-maximum-acuity-why-your-eye-is-deliberately-fogged.html
+[2026-11-17 08:00:03]   Published: angle-kappa-why-your-lens-is-not-centred-on-your-pupil.html
+[2026-11-17 08:00:03]   Published: cloudy-lenses-haze-the-percentage-behind-a-milky-look.html
+[2026-11-17 08:00:03] Sitemap rebuilt (214 URLs). Homepage refreshed (209 articles).
+[2026-11-17 08:00:03] SEO check: All internal links OK.
+[2026-11-17 08:00:03] Maintenance complete. 3 new articles published.
+[2026-11-17 08:00:03] ==================================================
