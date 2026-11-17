@@ -1830,5 +1830,59 @@
     "date": "2026-11-18",
     "pin_url": "",
     "description": "Vergence is the reciprocal of distance: 1.00 dioptre at one metre, 0.50 at two, 0.17 at six. Optical infinity is conventionally six metres or twenty feet, because 0.17 dioptres is small enough to call the light parallel while still being a real amount of accommodation the eye supplies. The chart is never at infinity, and the room length is therefore part of the prescription."
+  },
+  {
+    "title": "Infrared: The Half of Sunlight Sunglasses Are Not Required to Block",
+    "image": "pins-batch/pin-367-infrared-heat.jpg",
+    "link": "https://teenyoun.com/articles/infrared-the-half-of-sunlight-sunglasses-are-not-required-to-block.html",
+    "status": "pending",
+    "date": "2026-11-19",
+    "pin_url": "",
+    "description": "A sunglass label describes two bands of sunlight, UV and visible light, and neither of them is infrared. No general sunglass standard requires a manufacturer to limit IR-A from 780 to 1400 nm, which passes the cornea and the lens and is absorbed as heat on the retina. That gap matters at altitude, on snow and on water."
+  },
+  {
+    "title": "EN 14139: What a Pair of Ready-Made Readers Is Actually Required to Meet",
+    "image": "pins-batch/pin-368-en14139-readers.jpg",
+    "link": "https://teenyoun.com/articles/en-14139-what-a-pair-of-ready-made-readers-is-actually-required-to-meet.html",
+    "status": "pending",
+    "date": "2026-11-19",
+    "pin_url": "",
+    "description": "EN 14139:2010 sets the minimum requirements for a complete ready-to-wear spectacle and records that such glasses are not intended for regular use without an eye-care professional's approval. It fixes back vertex power, optical centre and marking, so conformity means the pair matches a written specification, not that it suits your eyes."
+  },
+  {
+    "title": "Brunescence: When the Lens Inside Your Eye Turns Yellow",
+    "image": "pins-batch/pin-369-brunescence.jpg",
+    "link": "https://teenyoun.com/articles/brunescence-when-the-lens-inside-your-eye-turns-yellow.html",
+    "status": "pending",
+    "date": "2026-11-19",
+    "pin_url": "",
+    "description": "Ageing lens proteins aggregate and take on a yellow-brown pigment, and the change sits in the optical density of the nucleus rather than on the surface. It builds over decades, so the visual system recalibrates and nobody notices the filter. Stacking a strong blue blocker onto it at seventy is not the same proposition as at twenty-five."
+  },
+  {
+    "title": "Goldmann Tonometry: Why Corneal Thickness Moves the Eye Pressure Reading",
+    "image": "pins-batch/pin-370-goldmann-tonometer.jpg",
+    "link": "https://teenyoun.com/articles/goldmann-tonometry-why-corneal-thickness-moves-the-eye-pressure-reading.html",
+    "status": "pending",
+    "date": "2026-11-20",
+    "pin_url": "",
+    "description": "The Imbert-Fick law assumes a perfect sphere with an infinitely thin, dry and perfectly elastic wall, and a real cornea is none of those. Bending stiffness pushes the reading up, tear-film surface tension pulls it down, and the instrument was calibrated so the two cancel at one average thickness. Change the thickness and the balance moves."
+  },
+  {
+    "title": "Cycloplegic Refraction: Why Children's Prescriptions Are Measured Through Drops",
+    "image": "pins-batch/pin-371-cycloplegic-drops.jpg",
+    "link": "https://teenyoun.com/articles/cycloplegic-refraction-why-children-s-prescriptions-are-measured-through-drops.html",
+    "status": "pending",
+    "date": "2026-11-20",
+    "pin_url": "",
+    "description": "A hyperopic child accommodates until the blur clears, and the extra plus power it adds hides part of the error, so a refraction taken with a working ciliary muscle reads less than the eye needs. Cycloplegic drops block muscarinic receptors on that muscle and suspend accommodation, which is how latent hyperopia surfaces."
+  },
+  {
+    "title": "Retinoscopy: How a Moving Light Reveals Your Prescription",
+    "image": "pins-batch/pin-372-retinoscopy.jpg",
+    "link": "https://teenyoun.com/articles/retinoscopy-how-a-moving-light-reveals-your-prescription.html",
+    "status": "pending",
+    "date": "2026-11-20",
+    "pin_url": "",
+    "description": "Sweep a streak across the pupil and the reflex travels against it beyond the far point, with it inside that point, and fills the pupil all at once at neutralisation. The distance where it stops moving is the far point, and the arithmetic is the reciprocal: 50 cm is 2.00 D of myopia, 25 cm is 4.00 D."
   }
 ]
