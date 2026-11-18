@@ -1122,3 +1122,13 @@
 [2026-11-17 08:00:03] SEO check: All internal links OK.
 [2026-11-17 08:00:03] Maintenance complete. 3 new articles published.
 [2026-11-17 08:00:03] ==================================================
+[2026-11-18 08:00:04] ==================================================
+[2026-11-18 08:00:04] Daily maintenance starting...
+[2026-11-18 08:00:04] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-18 08:00:04]   Published: driving-with-glasses-what-the-vision-standard-actually-requires.html
+[2026-11-18 08:00:04]   Published: corneal-cylinder-is-not-your-prescription-cylinder.html
+[2026-11-18 08:00:04]   Published: how-a-sunglass-tint-is-actually-made-dye-bath-dip-time-and-vlt.html
+[2026-11-18 08:00:04] Sitemap rebuilt (217 URLs). Homepage refreshed (212 articles).
+[2026-11-18 08:00:04] SEO check: All internal links OK.
+[2026-11-18 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-18 08:00:04] ==================================================
