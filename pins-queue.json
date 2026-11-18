@@ -1884,5 +1884,59 @@
     "date": "2026-11-20",
     "pin_url": "",
     "description": "Sweep a streak across the pupil and the reflex travels against it beyond the far point, with it inside that point, and fills the pupil all at once at neutralisation. The distance where it stops moving is the far point, and the arithmetic is the reciprocal: 50 cm is 2.00 D of myopia, 25 cm is 4.00 D."
+  },
+  {
+    "title": "Solar Eclipse Glasses: What ISO 12312-2 Actually Certifies",
+    "image": "pins-batch/pin-373-solar-eclipse.jpg",
+    "link": "https://teenyoun.com/articles/solar-eclipse-glasses-what-iso-12312-2-actually-certifies.html",
+    "status": "pending",
+    "date": "2026-11-21",
+    "pin_url": "",
+    "description": "ISO 12312-2 caps luminous transmittance at 0.0032 percent, about one part in thirty thousand of visible light, and holds that density across the whole aperture rather than only at the centre. Ordinary sunglasses sit near 10 percent. The gap is not a matter of style, and a counterfeited label is the usual way a filter fails."
+  },
+  {
+    "title": "The Duochrome Test: Why Red and Green Reveal Your Focus",
+    "image": "pins-batch/pin-374-duochrome.jpg",
+    "link": "https://teenyoun.com/articles/the-duochrome-test-why-red-and-green-reveal-your-focus.html",
+    "status": "pending",
+    "date": "2026-11-21",
+    "pin_url": "",
+    "description": "The eye focuses red and green light at slightly different planes, and the duochrome chart turns that chromatic error into an endpoint of about a third of a dioptre. Sharper on green means too much minus, sharper on red means too little. It refines the sphere and says nothing about cylinder or the health of the eye."
+  },
+  {
+    "title": "Prism Thinning: The Base-Down Prism Built Into a Progressive Lens",
+    "image": "pins-batch/pin-375-prism-thinning.jpg",
+    "link": "https://teenyoun.com/articles/prism-thinning-the-base-down-prism-built-into-a-progressive-lens.html",
+    "status": "pending",
+    "date": "2026-11-21",
+    "pin_url": "",
+    "description": "Plus power falls away toward the bottom of a progressive surface, so the blank is ground with base-down prism to stop the lower edge from ballooning. Nobody prescribed that prism, yet a lensmeter reads it at the fitting point. It is a thickness compensation, and it shifts what the corridor asks of the wearer's binocular posture."
+  },
+  {
+    "title": "Scleral Lens Vault: Why the Fit Is Measured in Microns",
+    "image": "pins-batch/pin-376-scleral-vault.jpg",
+    "link": "https://teenyoun.com/articles/scleral-lens-vault-why-the-fit-is-measured-in-microns.html",
+    "status": "pending",
+    "date": "2026-11-22",
+    "pin_url": "",
+    "description": "A scleral lens lands on the conjunctiva over the sclera and vaults clear of the cornea, with the space filled by saline. Clearance is measured in microns, and fifty microns in the wrong direction changes oxygen delivery, the centration of the optic zone, and how far the lens settles across a wearing day."
+  },
+  {
+    "title": "How a Sunglass Tint Is Actually Made: Dye Bath, Dip Time and VLT",
+    "image": "pins-batch/pin-377-dye-bath.jpg",
+    "link": "https://teenyoun.com/articles/how-a-sunglass-tint-is-actually-made-dye-bath-dip-time-and-vlt.html",
+    "status": "pending",
+    "date": "2026-11-22",
+    "pin_url": "",
+    "description": "Colour in a lens is either compounded into the resin before moulding or diffused in from a hot dye bath. Dip time sets how deep the dye penetrates and therefore the visible light transmission, so two lenses from the same bath differ if one stayed in longer. A mirror coating is a separate layer that reflects rather than absorbs."
+  },
+  {
+    "title": "Driving With Glasses: What the Vision Standard Actually Requires",
+    "image": "pins-batch/pin-378-night-driving.jpg",
+    "link": "https://teenyoun.com/articles/driving-with-glasses-what-the-vision-standard-actually-requires.html",
+    "status": "pending",
+    "date": "2026-11-22",
+    "pin_url": "",
+    "description": "Licensing floors are set low: a Snellen fraction and a measured visual field, usually checked in good light. They do not test contrast sensitivity after dark, recovery from oncoming headlights, or how a progressive corridor behaves when the driver glances at a mirror. Passing the test is the start of the argument, not the end of it."
   }
 ]
