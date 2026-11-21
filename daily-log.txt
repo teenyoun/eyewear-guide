@@ -1152,3 +1152,13 @@
 [2026-11-20 08:00:03] SEO check: All internal links OK.
 [2026-11-20 08:00:03] Maintenance complete. 3 new articles published.
 [2026-11-20 08:00:03] ==================================================
+[2026-11-21 08:00:16] ==================================================
+[2026-11-21 08:00:16] Daily maintenance starting...
+[2026-11-21 08:00:16] Found 6 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-21 08:00:16] Queue is thin (6 pending). Throttling to 2 article(s) today instead of 3 to avoid running dry.
+[2026-11-21 08:00:16]   Published: coating-adhesion-how-a-lens-coating-is-tested-and-where-it-actually-fails.html
+[2026-11-21 08:00:16]   Published: why-your-prescription-changes-after-cataract-surgery-and-why-week-one-is-not-the-answer.html
+[2026-11-21 08:00:16] Sitemap rebuilt (225 URLs). Homepage refreshed (220 articles).
+[2026-11-21 08:00:16] SEO check: All internal links OK.
+[2026-11-21 08:00:16] Maintenance complete. 2 new articles published.
+[2026-11-21 08:00:16] ==================================================
