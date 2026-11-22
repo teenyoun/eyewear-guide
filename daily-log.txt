@@ -1162,3 +1162,13 @@
 [2026-11-21 08:00:16] SEO check: All internal links OK.
 [2026-11-21 08:00:16] Maintenance complete. 2 new articles published.
 [2026-11-21 08:00:16] ==================================================
+[2026-11-22 08:00:04] ==================================================
+[2026-11-22 08:00:04] Daily maintenance starting...
+[2026-11-22 08:00:04] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-22 08:00:04]   Published: pterygium-and-pinguecula-what-sunlight-does-at-the-edge-of-your-cornea.html
+[2026-11-22 08:00:04]   Published: blood-sugar-and-your-glasses-why-high-glucose-pulls-your-focus-forward.html
+[2026-11-22 08:00:04]   Published: double-vision-in-one-eye-why-monocular-diplopia-is-an-optics-problem.html
+[2026-11-22 08:00:04] Sitemap rebuilt (228 URLs). Homepage refreshed (223 articles).
+[2026-11-22 08:00:04] SEO check: All internal links OK.
+[2026-11-22 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-22 08:00:04] ==================================================
