@@ -1938,5 +1938,86 @@
     "date": "2026-11-22",
     "pin_url": "",
     "description": "Licensing floors are set low: a Snellen fraction and a measured visual field, usually checked in good light. They do not test contrast sensitivity after dark, recovery from oncoming headlights, or how a progressive corridor behaves when the driver glances at a mirror. Passing the test is the start of the argument, not the end of it."
+  },
+  {
+    "title": "Pterygium and Pinguecula: What Sunlight Does at the Edge of Your Cornea",
+    "image": "pins-batch/pin-379-pterygium.jpg",
+    "link": "https://teenyoun.com/articles/pterygium-and-pinguecula-what-sunlight-does-at-the-edge-of-your-cornea.html",
+    "status": "pending",
+    "date": "2026-11-23",
+    "pin_url": "",
+    "description": "UV-B strikes the limbus, the seam where clear cornea meets vascular conjunctiva and where the stem cells that renew the corneal surface live. Repeated exposure lets tissue grow inward as a pinguecula or a pterygium, and once it crosses onto the cornea it can distort the surface and the vision."
+  },
+  {
+    "title": "Blood Sugar and Your Glasses: Why High Glucose Pulls Your Focus Forward",
+    "image": "pins-batch/pin-380-glucose-focus.jpg",
+    "link": "https://teenyoun.com/articles/blood-sugar-and-your-glasses-why-high-glucose-pulls-your-focus-forward.html",
+    "status": "pending",
+    "date": "2026-11-23",
+    "pin_url": "",
+    "description": "A high glucose reading pulls water into the crystalline lens, which steepens its curves and shifts focus toward minus over a few weeks. Nothing about the length of the eyeball has changed. Refracting during that swing produces glasses that stop working once the sugar settles."
+  },
+  {
+    "title": "Double Vision in One Eye: Why Monocular Diplopia Is an Optics Problem",
+    "image": "pins-batch/pin-381-monocular-diplopia.jpg",
+    "link": "https://teenyoun.com/articles/double-vision-in-one-eye-why-monocular-diplopia-is-an-optics-problem.html",
+    "status": "pending",
+    "date": "2026-11-23",
+    "pin_url": "",
+    "description": "Cover one eye. If the doubling survives with a single eye open, both images come from one optical system, so the cause sits in the lens, the tear film or the cornea rather than in how the eyes point at each other. That one test changes both the urgency and the list of causes."
+  },
+  {
+    "title": "Edge Thickness: Why Your Lens Is Thickest Where the Frame Is Widest",
+    "image": "pins-batch/pin-382-edge-thickness.jpg",
+    "link": "https://teenyoun.com/articles/edge-thickness-why-your-lens-is-thickest-where-the-frame-is-widest.html",
+    "status": "pending",
+    "date": "2026-11-24",
+    "pin_url": "",
+    "description": "Sagitta grows with the square of the distance from the optical centre. At -5.00 D in 1.50 plastic a rim 28 mm out carries 3.92 mm of extra sag, and at 36 mm it carries 6.48 mm on the same prescription. Three millimetres off the eyesize often beats an upgrade in index."
+  },
+  {
+    "title": "Angle Kappa: Why Your Lens Is Not Centred on Your Pupil",
+    "image": "pins-batch/pin-383-angle-kappa.jpg",
+    "link": "https://teenyoun.com/articles/angle-kappa-why-your-lens-is-not-centred-on-your-pupil.html",
+    "status": "pending",
+    "date": "2026-11-24",
+    "pin_url": "",
+    "description": "The optical axis, the pupillary axis and the line of sight do not coincide. Angle kappa is the gap between the last two, so a lens centred on the pupil is not automatically centred on what the eye is actually looking at. That gap is one reason a well-made pair can still feel wrong."
+  },
+  {
+    "title": "Pupil Size: The Aperture You Cannot Stop Down",
+    "image": "pins-batch/pin-384-pupil-size.jpg",
+    "link": "https://teenyoun.com/articles/pupil-size-the-aperture-you-cannot-stop-down.html",
+    "status": "pending",
+    "date": "2026-11-24",
+    "pin_url": "",
+    "description": "Daylight narrows the pupil to about 2 to 4 mm and darkness opens it toward 4 to 8 mm. The wider aperture admits more light and exposes more of the cornea and crystalline lens error at the same time, which is why haloes and starbursts appear only after dark."
+  },
+  {
+    "title": "Colour Fringes at the Edge of Strong Lenses: Lateral Chromatic Aberration",
+    "image": "pins-batch/pin-385-chromatic.jpg",
+    "link": "https://teenyoun.com/articles/colour-fringes-at-the-edge-of-strong-lenses-lateral-chromatic-aberration.html",
+    "status": "pending",
+    "date": "2026-11-25",
+    "pin_url": "",
+    "description": "Blue light is bent more than red, so a strong lens carries a colour fringe along its edge. The material Abbe number sets how much, and the prism power away from the centre sets how visible it becomes. It is dispersion rather than dirt on the lens or a coating that has failed."
+  },
+  {
+    "title": "Sturm's Conoid: The Two Focal Lines Inside an Astigmatic Eye",
+    "image": "pins-batch/pin-386-sturm-conoid.jpg",
+    "link": "https://teenyoun.com/articles/sturm-s-conoid-the-two-focal-lines-inside-an-astigmatic-eye.html",
+    "status": "pending",
+    "date": "2026-11-25",
+    "pin_url": "",
+    "description": "A toric surface has two principal meridians with different powers, so parallel rays focus at two distances and form two line foci instead of one point. The lens-shaped blur between them is Sturm's conoid, and where the retina sits inside it explains why a small axis error bites hardest at one working distance."
+  },
+  {
+    "title": "Cloudy Lenses: Haze, the Percentage Behind a Milky Look",
+    "image": "pins-batch/pin-387-cloudy-lens.jpg",
+    "link": "https://teenyoun.com/articles/cloudy-lenses-haze-the-percentage-behind-a-milky-look.html",
+    "status": "pending",
+    "date": "2026-11-25",
+    "pin_url": "",
+    "description": "Transmittance says how much light gets through and haze says how much of that light arrives scattered in every direction. A lens can pass most of the light and still look milky, because much of it no longer carries a picture. Haze is the percentage that quantifies the difference."
   }
 ]
