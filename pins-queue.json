@@ -2019,5 +2019,86 @@
     "date": "2026-11-25",
     "pin_url": "",
     "description": "Transmittance says how much light gets through and haze says how much of that light arrives scattered in every direction. A lens can pass most of the light and still look milky, because much of it no longer carries a picture. Haze is the percentage that quantifies the difference."
+  },
+  {
+    "title": "Why Your Vision Is Worst in the Morning: Overnight Corneal Swelling",
+    "image": "pins-batch/pin-388-morning-vision.jpg",
+    "link": "https://teenyoun.com/articles/why-your-vision-is-worst-in-the-morning-overnight-corneal-swelling.html",
+    "status": "pending",
+    "date": "2026-11-26",
+    "pin_url": "",
+    "description": "With the lids closed, evaporation stops and corneal oxygen falls, so the stroma takes on a couple of per cent of water overnight. Fibril spacing opens, forward transmission drops, and the image reads as a veil rather than the simple defocus of a wrong prescription."
+  },
+  {
+    "title": "ISO 21987: Why Finished Glasses Get Looser Tolerances Than Lenses",
+    "image": "pins-batch/pin-389-iso-21987.jpg",
+    "link": "https://teenyoun.com/articles/iso-21987-why-finished-glasses-are-judged-by-looser-numbers-than-the-lens.html",
+    "status": "pending",
+    "date": "2026-11-26",
+    "pin_url": "",
+    "description": "A mounted lens is allowed more power, axis and prism error than the same lens before edging, because glazing stress and lens flexing add error after the laboratory ships it. The gap between the two sets of limits is where most real complaints live."
+  },
+  {
+    "title": "After LASIK: Why the Refraction Keeps Moving and What Glasses Fix",
+    "image": "pins-batch/pin-390-post-lasik.jpg",
+    "link": "https://teenyoun.com/articles/after-lasik-why-the-refraction-keeps-moving-and-what-glasses-can-still-do.html",
+    "status": "pending",
+    "date": "2026-11-26",
+    "pin_url": "",
+    "description": "Laser surgery flattens the central cornea into an oblate shape, which adds aberration a plano refraction cannot describe. The refraction also drifts for months while the epithelium remodels, so an early reading is a snapshot of a moving target, not a prescription."
+  },
+  {
+    "title": "Why Your Prescription Changes After Cataract Surgery",
+    "image": "pins-batch/pin-391-cataract-iol.jpg",
+    "link": "https://teenyoun.com/articles/why-your-prescription-changes-after-cataract-surgery-and-why-week-one-is-not-the-answer.html",
+    "status": "pending",
+    "date": "2026-11-27",
+    "pin_url": "",
+    "description": "Surgery removes roughly 20 dioptres of the eye's own optical power and replaces it with a fixed implant. Wound healing, capsular contraction and the tear film keep shifting the refraction for weeks, which is why a week-one measurement is a checkpoint and not the final number."
+  },
+  {
+    "title": "Coating Adhesion: How It Is Tested and Where It Really Fails",
+    "image": "pins-batch/pin-392-coating-adhesion.jpg",
+    "link": "https://teenyoun.com/articles/coating-adhesion-how-a-lens-coating-is-tested-and-where-it-actually-fails.html",
+    "status": "pending",
+    "date": "2026-11-27",
+    "pin_url": "",
+    "description": "ISO 9211-4 checks adhesion with a tape pull and an abrasion run, both on flat witness pieces. Real lenses fail at the bevel and the rim, where the stack is thinnest and the mechanical stress is highest, and a flat test never sees that region."
+  },
+  {
+    "title": "Hard Water, Salt and Sunscreen: What Actually Attacks an AR Coating",
+    "image": "pins-batch/pin-393-hard-water.jpg",
+    "link": "https://teenyoun.com/articles/hard-water-salt-and-sunscreen-what-actually-attacks-an-ar-coating.html",
+    "status": "pending",
+    "date": "2026-11-27",
+    "pin_url": "",
+    "description": "An anti-reflective stack is a few micrometres thick and chemically narrow. Hard water leaves calcium spots, salt crystallises inside the pores, and sunscreen carries solvents that creep under the top layer, so the damage arrives layer by layer instead of all at once."
+  },
+  {
+    "title": "Why You Cannot Focus Underwater: The Cornea Loses 43 Dioptres",
+    "image": "pins-batch/pin-394-underwater.jpg",
+    "link": "https://teenyoun.com/articles/why-you-cannot-focus-underwater-the-cornea-loses-43-dioptres-at-the-waterline.html",
+    "status": "pending",
+    "date": "2026-11-28",
+    "pin_url": "",
+    "description": "Water replaces the air in front of the cornea and takes away about 43 dioptres of the eye's power, which is why nothing underwater is in focus. Goggles restore the air layer and make objects look a third larger, because refraction now happens at a flat window."
+  },
+  {
+    "title": "Corneal Cylinder Is Not Your Prescription Cylinder",
+    "image": "pins-batch/pin-395-corneal-cylinder.jpg",
+    "link": "https://teenyoun.com/articles/corneal-cylinder-is-not-your-prescription-cylinder.html",
+    "status": "pending",
+    "date": "2026-11-28",
+    "pin_url": "",
+    "description": "A topographer can report 2.00 D of corneal astigmatism while the glasses carry 0.50 D. The missing cylinder sits in the crystalline lens, which can partly cancel the corneal error, and the same split is why a soft lens fit behaves differently from a spectacle prescription."
+  },
+  {
+    "title": "Maximum Plus, Maximum Acuity: Why Your Eye Is Deliberately Fogged",
+    "image": "pins-batch/pin-396-max-plus.jpg",
+    "link": "https://teenyoun.com/articles/maximum-plus-maximum-acuity-why-your-eye-is-deliberately-fogged.html",
+    "status": "pending",
+    "date": "2026-11-28",
+    "pin_url": "",
+    "description": "The prescription is the most plus lens that still reads the line, not the sharpest one you can be handed. Fogging removes the patient's ability to accommodate over a wrong endpoint, and the 0.25 D steps that follow separate a comfortable pair from an over-minused one."
   }
 ]
