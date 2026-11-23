@@ -1172,3 +1172,13 @@
 [2026-11-22 08:00:04] SEO check: All internal links OK.
 [2026-11-22 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-22 08:00:04] ==================================================
+[2026-11-23 08:00:04] ==================================================
+[2026-11-23 08:00:04] Daily maintenance starting...
+[2026-11-23 08:00:04] Found 9 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-23 08:00:04]   Published: why-your-vision-is-worst-in-the-morning-overnight-corneal-swelling.html
+[2026-11-23 08:00:04]   Published: iso-21987-why-finished-glasses-are-judged-by-looser-numbers-than-the-lens.html
+[2026-11-23 08:00:04]   Published: after-lasik-why-the-refraction-keeps-moving-and-what-glasses-can-still-do.html
+[2026-11-23 08:00:04] Sitemap rebuilt (231 URLs). Homepage refreshed (226 articles).
+[2026-11-23 08:00:04] SEO check: All internal links OK.
+[2026-11-23 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-23 08:00:04] ==================================================
