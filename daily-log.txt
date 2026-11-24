@@ -1182,3 +1182,13 @@
 [2026-11-23 08:00:04] SEO check: All internal links OK.
 [2026-11-23 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-23 08:00:04] ==================================================
+[2026-11-24 08:00:05] ==================================================
+[2026-11-24 08:00:05] Daily maintenance starting...
+[2026-11-24 08:00:05] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-24 08:00:05]   Published: flicker-you-cannot-see-temporal-light-modulation-and-eye-strain.html
+[2026-11-24 08:00:05]   Published: what-lives-in-your-glasses-case-biofilm-grit-and-micro-abrasion.html
+[2026-11-24 08:00:05]   Published: a-soldered-temple-is-not-a-repair-heat-plating-and-why-the-joint-returns.html
+[2026-11-24 08:00:05] Sitemap rebuilt (234 URLs). Homepage refreshed (229 articles).
+[2026-11-24 08:00:05] SEO check: All internal links OK.
+[2026-11-24 08:00:05] Maintenance complete. 3 new articles published.
+[2026-11-24 08:00:05] ==================================================
