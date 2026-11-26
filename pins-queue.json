@@ -2100,5 +2100,59 @@
     "date": "2026-11-28",
     "pin_url": "",
     "description": "The prescription is the most plus lens that still reads the line, not the sharpest one you can be handed. Fogging removes the patient's ability to accommodate over a wrong endpoint, and the 0.25 D steps that follow separate a comfortable pair from an over-minused one."
+  },
+  {
+    "title": "A Soldered Temple Is Not a Repair: Heat, Plating and Why the Joint Returns",
+    "image": "pins-batch/pin-397-soldered-temple.jpg",
+    "link": "https://teenyoun.com/articles/a-soldered-temple-is-not-a-repair-heat-plating-and-why-the-joint-returns.html",
+    "status": "pending",
+    "date": "2026-11-29",
+    "pin_url": "",
+    "description": "Solder needs 180 to 250 C, which sits well above the glass transition of the acetate and the cure point of a lacquer. The joint comes back because the filler is a different alloy with its own expansion, and the plating around it has already been burnt away."
+  },
+  {
+    "title": "Acanthamoeba Keratitis: Why Water Is the One Thing Contact Lenses Cannot Tolerate",
+    "image": "pins-batch/pin-398-acanthamoeba.jpg",
+    "link": "https://teenyoun.com/articles/acanthamoeba-keratitis-why-water-is-the-one-thing-contact-lenses-cannot-tolerate.html",
+    "status": "pending",
+    "date": "2026-11-29",
+    "pin_url": "",
+    "description": "The organism is common in tap water and survives chlorination inside the cyst form. A lens holds a thin film of that water against the cornea, so a shower or a swim is a sustained exposure rather than a splash, and the resulting keratitis is painful and easy to mistake for herpes."
+  },
+  {
+    "title": "Axis Tolerance: How Many Degrees Off Can Your Cylinder Be?",
+    "image": "pins-batch/pin-399-axis-tolerance.jpg",
+    "link": "https://teenyoun.com/articles/axis-tolerance-how-many-degrees-off-can-your-cylinder-be-.html",
+    "status": "pending",
+    "date": "2026-11-29",
+    "pin_url": "",
+    "description": "Axis error hurts in proportion to the cylinder, not on its own. At 0.50 D a few degrees vanish into blur tolerance, at 2.00 D the same rotation is visible, and ISO 8980-3, ISO 21987 and the FDA lens ruling each allow a different number of degrees."
+  },
+  {
+    "title": "Contrast Tints for Ball Sports: Spectral Transmittance, Not Colour Preference",
+    "image": "pins-batch/pin-400-contrast-tints.jpg",
+    "link": "https://teenyoun.com/articles/contrast-tints-for-ball-sports-spectral-transmittance-not-colour-preference.html",
+    "status": "pending",
+    "date": "2026-11-30",
+    "pin_url": "",
+    "description": "A contrast tint works by removing a band of the spectrum, not by adding colour to the scene. Amber cuts blue and lifts a yellow ball off green turf, but it also shifts every other hue, and the category 2 or 3 transmittance limits decide whether the lens is allowed on court at all."
+  },
+  {
+    "title": "Corneal Topography: Why a Map Answers a Different Question From a K Reading",
+    "image": "pins-batch/pin-401-topography.jpg",
+    "link": "https://teenyoun.com/articles/corneal-topography-why-a-map-answers-a-different-question-from-a-k-reading.html",
+    "status": "pending",
+    "date": "2026-11-30",
+    "pin_url": "",
+    "description": "A keratometer measures four points and describes the cornea as a torus. A topographer samples thousands and shows where the steepening actually sits, which is how a normal K reading hides early ectasia, a decentred apex, or a warp that is still settling after lens wear."
+  },
+  {
+    "title": "Face-Form Angle: Why Wrapped Sunglasses Need a Compensated Prescription",
+    "image": "pins-batch/pin-402-face-form-angle.jpg",
+    "link": "https://teenyoun.com/articles/face-form-angle-why-wrapped-sunglasses-need-a-compensated-prescription.html",
+    "status": "pending",
+    "date": "2026-11-30",
+    "pin_url": "",
+    "description": "A wrapped front tilts the optical axis away from the line of sight, and both off-axis power error and prism grow quickly with wrap angle and prescription strength. Face-form and pantoscopic tilt are fed into the surfacing calculation, so the same Rx is not the same lens in a flat frame."
   }
 ]
