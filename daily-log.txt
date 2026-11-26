@@ -1203,3 +1203,13 @@
 [2026-11-25 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-25 08:00:04] ==================================================
 [2026-11-25 08:00:04] Git error: b'fatal: You are not currently on a branch.\nTo push the history leading to the current (detached HEAD)\nstate now, use\n\n    git push origin HEAD:<name-of-remote-branch>\n\n'
+[2026-11-26 08:00:03] ==================================================
+[2026-11-26 08:00:03] Daily maintenance starting...
+[2026-11-26 08:00:03] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-26 08:00:03]   Published: multifocal-iol-halos-why-the-rings-around-lights-are-built-into-the-design.html
+[2026-11-26 08:00:03]   Published: sunglasses-and-ce-marking-what-the-ppe-regulation-actually-certifies.html
+[2026-11-26 08:00:03]   Published: acanthamoeba-keratitis-why-water-is-the-one-thing-contact-lenses-cannot-tolerate.html
+[2026-11-26 08:00:03] Sitemap rebuilt (240 URLs). Homepage refreshed (235 articles).
+[2026-11-26 08:00:03] SEO check: All internal links OK.
+[2026-11-26 08:00:03] Maintenance complete. 3 new articles published.
+[2026-11-26 08:00:03] ==================================================
