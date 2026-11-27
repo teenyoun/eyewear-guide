@@ -1213,3 +1213,13 @@
 [2026-11-26 08:00:03] SEO check: All internal links OK.
 [2026-11-26 08:00:03] Maintenance complete. 3 new articles published.
 [2026-11-26 08:00:03] ==================================================
+[2026-11-27 08:00:04] ==================================================
+[2026-11-27 08:00:04] Daily maintenance starting...
+[2026-11-27 08:00:04] Found 12 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-27 08:00:04]   Published: progressive-corridor-length-why-11-mm-and-19-mm-lenses-feel-so-different.html
+[2026-11-27 08:00:04]   Published: why-contact-lenses-suddenly-stop-being-comfortable-deposits-papillae-and-the-loop.html
+[2026-11-27 08:00:04]   Published: pattern-glare-why-stripes-feel-uncomfortable-and-what-a-tint-can-change.html
+[2026-11-27 08:00:04] Sitemap rebuilt (243 URLs). Homepage refreshed (238 articles).
+[2026-11-27 08:00:04] SEO check: All internal links OK.
+[2026-11-27 08:00:04] Maintenance complete. 3 new articles published.
+[2026-11-27 08:00:04] ==================================================
