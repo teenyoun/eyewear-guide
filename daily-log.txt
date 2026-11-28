@@ -1223,3 +1223,13 @@
 [2026-11-27 08:00:04] SEO check: All internal links OK.
 [2026-11-27 08:00:04] Maintenance complete. 3 new articles published.
 [2026-11-27 08:00:04] ==================================================
+[2026-11-28 08:00:03] ==================================================
+[2026-11-28 08:00:03] Daily maintenance starting...
+[2026-11-28 08:00:03] Found 9 pending article(s) in queue. Publishing up to 3 today.
+[2026-11-28 08:00:03]   Published: the-q-factor-why-two-equally-dark-sunglasses-are-not-equally-legal-to-drive-in.html
+[2026-11-28 08:00:03]   Published: accommodative-esotropia-why-children-get-the-full-plus-not-a-weaker-pair.html
+[2026-11-28 08:00:03]   Published: iol-biometry-why-axial-length-is-measured-to-a-fraction-of-a-millimetre.html
+[2026-11-28 08:00:03] Sitemap rebuilt (246 URLs). Homepage refreshed (241 articles).
+[2026-11-28 08:00:03] SEO check: All internal links OK.
+[2026-11-28 08:00:03] Maintenance complete. 3 new articles published.
+[2026-11-28 08:00:03] ==================================================
